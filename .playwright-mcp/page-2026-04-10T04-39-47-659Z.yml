@@ -1,0 +1,1394 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - heading "上海开放大学" [level=1] [ref=e7]:
+      - link "上海开放大学" [ref=e8] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e9]:
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - generic [ref=e12]: 马克思主义基本原理
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - link "崔浩 " [ref=e15] [cursor=pointer]:
+            - /url: javascript:;
+            - text: 崔浩
+            - generic [ref=e16]: 
+          - text: 
+        - listitem [ref=e17]:
+          - link "操作指南" [ref=e18] [cursor=pointer]:
+            - /url: /help/default.aspx
+        - listitem [ref=e19]:
+          - link "无障碍通道" [ref=e20] [cursor=pointer]:
+            - /url: javascript:void(0)
+  - generic [ref=e25]:
+    - generic [ref=e26]: 注意：资源学习时不允许多开窗口或浏览器，多开只算最后打开窗口的学习用时，其他窗口用时一律不计。
+    - generic [ref=e27]:
+      - generic [ref=e28] [cursor=pointer]: 本资源设置为不可下载
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - button [ref=e37] [cursor=pointer]:
+            - img [ref=e38]
+          - button [ref=e41] [cursor=pointer]:
+            - img [ref=e43]
+          - generic [ref=e45]: 00:27 / 07:20
+        - generic [ref=e46]:
+          - button "流畅" [ref=e48] [cursor=pointer]
+          - generic [ref=e49]:
+            - button [ref=e50] [cursor=pointer]:
+              - img [ref=e52]
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 速度
+                  - generic:
+                    - img
+                - generic:
+                  - generic: 洗脑循环
+          - button [ref=e55] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59] [cursor=pointer]:
+          - generic: 00:00
+      - generic [ref=e63]:
+        - separator [ref=e64]
+        - generic [ref=e65]:
+          - text: 资源已经上链认证（编号：
+          - link "5318bb2f13c3ec21aae61505279fcffc2ea99a161696c33df06fdaecd00b6dfe" [ref=e66] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - text: ）
+        - generic [ref=e67]:
+          - text: 资源大小：63.8 MB；
+          - text: 资源访问次数：4566 次； 资源访问人数：3208 人；（其中学生数:3207 人； 本课程设置学生数：6086 人；）
+          - text: 资源访问时长：24327 分钟；
+      - generic [ref=e68]:
+        - heading "学生点评（） 编辑标签" [level=1] [ref=e69]:
+          - text: 学生点评（）
+          - button "编辑标签" [ref=e70] [cursor=pointer]
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - text: 大
+            - text: 家
+            - text: 认
+            - text: 为
+          - list
+      - generic [ref=e73]:
+        - generic [ref=e74]: 1.5马克思主义的首次完整、系统阐述修改版_...
+        - generic [ref=e75]:
+          - generic [ref=e76]: "0"
+          - generic [ref=e77]:
+            - img "1" [ref=e78]
+            - img "2" [ref=e79]
+            - img "3" [ref=e80]
+            - img "4" [ref=e81]
+            - img "5" [ref=e82]
+          - text: 感谢您的评价。
+        - textbox "请输入评论内容..." [ref=e86]
+        - button "提交评论" [ref=e89] [cursor=pointer]
+        - generic [ref=e92]:
+          - separator [ref=e93]
+          - generic [ref=e94]:
+            - text: 夏洪盛（20242310260317）：
+            - img "1" [ref=e95]
+            - img "2" [ref=e96]
+            - img "3" [ref=e97]
+            - img "4" [ref=e98]
+            - img "5" [ref=e99]
+            - heading "2026-04-09 19:56:37" [level=5] [ref=e101]
+            - generic [ref=e102]: 已学习
+            - generic [ref=e103]:
+              - text: 
+              - generic [ref=e104] [cursor=pointer]:
+                - generic [ref=e105]: 
+                - text: "0"
+            - separator [ref=e106]
+          - generic [ref=e107]:
+            - text: 吴欣媛（20252310100325）：
+            - img "1" [ref=e108]
+            - img "2" [ref=e109]
+            - img "3" [ref=e110]
+            - img "4" [ref=e111]
+            - img "5" [ref=e112]
+            - heading "2026-04-08 13:24:27" [level=5] [ref=e114]
+            - generic [ref=e115]: 已学习
+            - generic [ref=e116]:
+              - text: 
+              - generic [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]: 
+                - text: "0"
+            - separator [ref=e119]
+          - generic [ref=e120]:
+            - text: 宋娟（20252310120651）：
+            - img "1" [ref=e121]
+            - img "2" [ref=e122]
+            - img "3" [ref=e123]
+            - img "4" [ref=e124]
+            - img "5" [ref=e125]
+            - heading "2026-04-07 21:10:38" [level=5] [ref=e127]
+            - generic [ref=e128]: 已学习
+            - generic [ref=e129]:
+              - text: 
+              - generic [ref=e130] [cursor=pointer]:
+                - generic [ref=e131]: 
+                - text: "0"
+            - separator [ref=e132]
+          - generic [ref=e133]:
+            - text: 陈春娇（20252310700187）：
+            - img "1" [ref=e134]
+            - img "2" [ref=e135]
+            - img "3" [ref=e136]
+            - img "4" [ref=e137]
+            - img "5" [ref=e138]
+            - heading "2026-04-07 16:53:59" [level=5] [ref=e140]
+            - generic [ref=e141]: 已学习
+            - generic [ref=e142]:
+              - text: 
+              - generic [ref=e143] [cursor=pointer]:
+                - generic [ref=e144]: 
+                - text: "0"
+            - separator [ref=e145]
+          - generic [ref=e146]:
+            - text: 张旭堂（20252310040460）：
+            - img "1" [ref=e147]
+            - img "2" [ref=e148]
+            - img "3" [ref=e149]
+            - img "4" [ref=e150]
+            - img "5" [ref=e151]
+            - heading "2026-04-07 08:22:00" [level=5] [ref=e153]
+            - generic [ref=e154]: 已学习
+            - generic [ref=e155]:
+              - text: 
+              - generic [ref=e156] [cursor=pointer]:
+                - generic [ref=e157]: 
+                - text: "0"
+            - separator [ref=e158]
+          - generic [ref=e159]:
+            - text: 汤磊（20252310872336）：
+            - img "1" [ref=e160]
+            - img "2" [ref=e161]
+            - img "3" [ref=e162]
+            - img "4" [ref=e163]
+            - img "5" [ref=e164]
+            - heading "2026-04-06 15:36:35" [level=5] [ref=e166]
+            - generic [ref=e167]: 已学习
+            - generic [ref=e168]:
+              - text: 
+              - generic [ref=e169] [cursor=pointer]:
+                - generic [ref=e170]: 
+                - text: "0"
+            - separator [ref=e171]
+          - generic [ref=e172]:
+            - text: 季润杰（20252310050411）：
+            - img "1" [ref=e173]
+            - img "2" [ref=e174]
+            - img "3" [ref=e175]
+            - img "4" [ref=e176]
+            - img "5" [ref=e177]
+            - heading "2026-04-05 09:15:27" [level=5] [ref=e179]
+            - generic [ref=e180]: 已学习
+            - generic [ref=e181]:
+              - text: 
+              - generic [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]: 
+                - text: "0"
+            - separator [ref=e184]
+          - generic [ref=e185]:
+            - text: 乔沿沿（20252310872045）：
+            - img "1" [ref=e186]
+            - img "2" [ref=e187]
+            - img "3" [ref=e188]
+            - img "4" [ref=e189]
+            - img "5" [ref=e190]
+            - heading "2026-04-04 23:13:43" [level=5] [ref=e192]
+            - generic [ref=e193]: 已学习
+            - generic [ref=e194]:
+              - text: 
+              - generic [ref=e195] [cursor=pointer]:
+                - generic [ref=e196]: 
+                - text: "0"
+            - separator [ref=e197]
+          - generic [ref=e198]:
+            - text: 罗柏林（20252310070354）：
+            - img "1" [ref=e199]
+            - img "2" [ref=e200]
+            - img "3" [ref=e201]
+            - img "4" [ref=e202]
+            - img "5" [ref=e203]
+            - heading "2026-04-04 23:02:14" [level=5] [ref=e205]
+            - generic [ref=e206]: 已学习
+            - generic [ref=e207]:
+              - text: 
+              - generic [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]: 
+                - text: "0"
+            - separator [ref=e210]
+          - generic [ref=e211]:
+            - text: 朱青（20252310872347）：
+            - img "1" [ref=e212]
+            - img "2" [ref=e213]
+            - img "3" [ref=e214]
+            - img "4" [ref=e215]
+            - img "5" [ref=e216]
+            - heading "2026-04-04 22:13:45" [level=5] [ref=e218]
+            - generic [ref=e219]: 已学习
+            - generic [ref=e220]:
+              - text: 
+              - generic [ref=e221] [cursor=pointer]:
+                - generic [ref=e222]: 
+                - text: "0"
+            - separator [ref=e223]
+          - generic [ref=e224]:
+            - text: 包法珠（20252310872025）：
+            - img "1" [ref=e225]
+            - img "2" [ref=e226]
+            - img "3" [ref=e227]
+            - img "4" [ref=e228]
+            - img "5" [ref=e229]
+            - heading "2026-04-04 12:52:09" [level=5] [ref=e231]
+            - generic [ref=e232]: 已学习
+            - generic [ref=e233]:
+              - text: 
+              - generic [ref=e234] [cursor=pointer]:
+                - generic [ref=e235]: 
+                - text: "0"
+            - separator [ref=e236]
+          - generic [ref=e237]:
+            - text: 羊锦明（20262310010006）：
+            - img "1" [ref=e238]
+            - img "2" [ref=e239]
+            - img "3" [ref=e240]
+            - img "4" [ref=e241]
+            - img "5" [ref=e242]
+            - heading "2026-04-04 11:51:47" [level=5] [ref=e244]
+            - generic [ref=e245]: 已学习
+            - generic [ref=e246]:
+              - text: 
+              - generic [ref=e247] [cursor=pointer]:
+                - generic [ref=e248]: 
+                - text: "0"
+            - separator [ref=e249]
+          - generic [ref=e250]:
+            - text: 储靖文（20252310040371）：
+            - img "1" [ref=e251]
+            - img "2" [ref=e252]
+            - img "3" [ref=e253]
+            - img "4" [ref=e254]
+            - img "5" [ref=e255]
+            - heading "2026-04-02 14:30:25" [level=5] [ref=e257]
+            - generic [ref=e258]: 已学习
+            - generic [ref=e259]:
+              - text: 
+              - generic [ref=e260] [cursor=pointer]:
+                - generic [ref=e261]: 
+                - text: "0"
+            - separator [ref=e262]
+          - generic [ref=e263]:
+            - text: 温喜玲（20252310920467）：
+            - img "1" [ref=e264]
+            - img "2" [ref=e265]
+            - img "3" [ref=e266]
+            - img "4" [ref=e267]
+            - img "5" [ref=e268]
+            - heading "2026-04-01 21:57:11" [level=5] [ref=e270]
+            - generic [ref=e271]: 已学习
+            - generic [ref=e272]:
+              - text: 
+              - generic [ref=e273] [cursor=pointer]:
+                - generic [ref=e274]: 
+                - text: "0"
+            - separator [ref=e275]
+          - generic [ref=e276]:
+            - text: 刘小飞（20252310080348）：
+            - img "1" [ref=e277]
+            - img "2" [ref=e278]
+            - img "3" [ref=e279]
+            - img "4" [ref=e280]
+            - img "5" [ref=e281]
+            - heading "2026-04-01 21:07:17" [level=5] [ref=e283]
+            - generic [ref=e284]: 已学习
+            - generic [ref=e285]:
+              - text: 
+              - generic [ref=e286] [cursor=pointer]:
+                - generic [ref=e287]: 
+                - text: "0"
+            - separator [ref=e288]
+          - generic [ref=e289]:
+            - text: 王帅（20252310690180）：
+            - img "1" [ref=e290]
+            - img "2" [ref=e291]
+            - img "3" [ref=e292]
+            - img "4" [ref=e293]
+            - img "5" [ref=e294]
+            - heading "2026-04-01 18:59:08" [level=5] [ref=e296]
+            - generic [ref=e297]: 已学习
+            - generic [ref=e298]:
+              - text: 
+              - generic [ref=e299] [cursor=pointer]:
+                - generic [ref=e300]: 
+                - text: "0"
+            - separator [ref=e301]
+          - generic [ref=e302]:
+            - text: 张存哲（20252310310275）：
+            - img "1" [ref=e303]
+            - img "2" [ref=e304]
+            - img "3" [ref=e305]
+            - img "4" [ref=e306]
+            - img "5" [ref=e307]
+            - heading "2026-04-01 13:45:06" [level=5] [ref=e309]
+            - generic [ref=e310]: 已学习
+            - generic [ref=e311]:
+              - text: 
+              - generic [ref=e312] [cursor=pointer]:
+                - generic [ref=e313]: 
+                - text: "0"
+            - separator [ref=e314]
+          - generic [ref=e315]:
+            - text: 罗泱（20252310930302）：
+            - img "1" [ref=e316]
+            - img "2" [ref=e317]
+            - img "3" [ref=e318]
+            - img "4" [ref=e319]
+            - img "5" [ref=e320]
+            - heading "2026-03-31 16:38:51" [level=5] [ref=e322]
+            - generic [ref=e323]: 已学习
+            - generic [ref=e324]:
+              - text: 
+              - generic [ref=e325] [cursor=pointer]:
+                - generic [ref=e326]: 
+                - text: "0"
+            - separator [ref=e327]
+          - generic [ref=e328]:
+            - text: 吴慧英（20252310120529）：
+            - img "1" [ref=e329]
+            - img "2" [ref=e330]
+            - img "3" [ref=e331]
+            - img "4" [ref=e332]
+            - img "5" [ref=e333]
+            - heading "2026-03-31 13:30:15" [level=5] [ref=e335]
+            - generic [ref=e336]:
+              - text: 
+              - generic [ref=e337] [cursor=pointer]:
+                - generic [ref=e338]: 
+                - text: "0"
+            - separator [ref=e339]
+          - generic [ref=e340]:
+            - text: 钟健（20252310120784）：
+            - img "1" [ref=e341]
+            - img "2" [ref=e342]
+            - img "3" [ref=e343]
+            - img "4" [ref=e344]
+            - img "5" [ref=e345]
+            - heading "2026-03-31 12:53:05" [level=5] [ref=e347]
+            - generic [ref=e348]: 已学习
+            - generic [ref=e349]:
+              - text: 
+              - generic [ref=e350] [cursor=pointer]:
+                - generic [ref=e351]: 
+                - text: "0"
+            - separator [ref=e352]
+          - generic [ref=e353]:
+            - text: 乔子琼（20252310120860）：
+            - img "1" [ref=e354]
+            - img "2" [ref=e355]
+            - img "3" [ref=e356]
+            - img "4" [ref=e357]
+            - img "5" [ref=e358]
+            - heading "2026-03-31 11:36:32" [level=5] [ref=e360]
+            - generic [ref=e361]: 已学习
+            - generic [ref=e362]:
+              - text: 
+              - generic [ref=e363] [cursor=pointer]:
+                - generic [ref=e364]: 
+                - text: "0"
+            - separator [ref=e365]
+          - generic [ref=e366]:
+            - text: 崔立国（20252310070329）：
+            - img "1" [ref=e367]
+            - img "2" [ref=e368]
+            - img "3" [ref=e369]
+            - img "4" [ref=e370]
+            - img "5" [ref=e371]
+            - heading "2026-03-30 17:11:46" [level=5] [ref=e373]
+            - generic [ref=e374]: 已学习
+            - generic [ref=e375]:
+              - text: 
+              - generic [ref=e376] [cursor=pointer]:
+                - generic [ref=e377]: 
+                - text: "0"
+            - separator [ref=e378]
+          - generic [ref=e379]:
+            - text: 卢小猛（20252310871798）：
+            - img "1" [ref=e380]
+            - img "2" [ref=e381]
+            - img "3" [ref=e382]
+            - img "4" [ref=e383]
+            - img "5" [ref=e384]
+            - heading "2026-03-30 16:05:29" [level=5] [ref=e386]
+            - generic [ref=e387]: 已学习
+            - generic [ref=e388]:
+              - text: 
+              - generic [ref=e389] [cursor=pointer]:
+                - generic [ref=e390]: 
+                - text: "0"
+            - separator [ref=e391]
+          - generic [ref=e392]:
+            - text: 陈莹（20252310320111）：
+            - img "1" [ref=e393]
+            - img "2" [ref=e394]
+            - img "3" [ref=e395]
+            - img "4" [ref=e396]
+            - img "5" [ref=e397]
+            - heading "2026-03-30 15:58:37" [level=5] [ref=e399]
+            - generic [ref=e400]: 已学习
+            - generic [ref=e401]:
+              - text: 
+              - generic [ref=e402] [cursor=pointer]:
+                - generic [ref=e403]: 
+                - text: "0"
+            - separator [ref=e404]
+          - generic [ref=e405]:
+            - text: 赖有超（20252310872069）：
+            - img "1" [ref=e406]
+            - img "2" [ref=e407]
+            - img "3" [ref=e408]
+            - img "4" [ref=e409]
+            - img "5" [ref=e410]
+            - heading "2026-03-30 08:25:22" [level=5] [ref=e412]
+            - generic [ref=e413]: 已学习
+            - generic [ref=e414]:
+              - text: 
+              - generic [ref=e415] [cursor=pointer]:
+                - generic [ref=e416]: 
+                - text: "0"
+            - separator [ref=e417]
+          - generic [ref=e418]:
+            - text: 潘文巧（20252310930253）：
+            - img "1" [ref=e419]
+            - img "2" [ref=e420]
+            - img "3" [ref=e421]
+            - img "4" [ref=e422]
+            - img "5" [ref=e423]
+            - heading "2026-03-29 19:12:05" [level=5] [ref=e425]
+            - generic [ref=e426]: 已学习
+            - generic [ref=e427]:
+              - text: 
+              - generic [ref=e428] [cursor=pointer]:
+                - generic [ref=e429]: 
+                - text: "0"
+            - separator [ref=e430]
+          - generic [ref=e431]:
+            - text: 何思芸（20252310060192）：
+            - img "1" [ref=e432]
+            - img "2" [ref=e433]
+            - img "3" [ref=e434]
+            - img "4" [ref=e435]
+            - img "5" [ref=e436]
+            - heading "2026-03-29 13:44:47" [level=5] [ref=e438]
+            - generic [ref=e439]: 已学习
+            - generic [ref=e440]:
+              - text: 
+              - generic [ref=e441] [cursor=pointer]:
+                - generic [ref=e442]: 
+                - text: "0"
+            - separator [ref=e443]
+          - generic [ref=e444]:
+            - text: 罗大伟（20252310750518）：
+            - img "1" [ref=e445]
+            - img "2" [ref=e446]
+            - img "3" [ref=e447]
+            - img "4" [ref=e448]
+            - img "5" [ref=e449]
+            - heading "2026-03-29 12:38:05" [level=5] [ref=e451]
+            - generic [ref=e452]: 已学习
+            - generic [ref=e453]:
+              - text: 
+              - generic [ref=e454] [cursor=pointer]:
+                - generic [ref=e455]: 
+                - text: "0"
+            - separator [ref=e456]
+          - generic [ref=e457]:
+            - text: 张娜娜（20252310040547）：
+            - img "1" [ref=e458]
+            - img "2" [ref=e459]
+            - img "3" [ref=e460]
+            - img "4" [ref=e461]
+            - img "5" [ref=e462]
+            - heading "2026-03-27 21:36:55" [level=5] [ref=e464]
+            - generic [ref=e465]:
+              - text: 
+              - generic [ref=e466] [cursor=pointer]:
+                - generic [ref=e467]: 
+                - text: "0"
+            - separator [ref=e468]
+          - generic [ref=e469]:
+            - text: 李淼（20252310920409）：
+            - img "1" [ref=e470]
+            - img "2" [ref=e471]
+            - img "3" [ref=e472]
+            - img "4" [ref=e473]
+            - img "5" [ref=e474]
+            - heading "2026-03-27 16:22:38" [level=5] [ref=e476]
+            - generic [ref=e477]: 已学习
+            - generic [ref=e478]:
+              - text: 
+              - generic [ref=e479] [cursor=pointer]:
+                - generic [ref=e480]: 
+                - text: "0"
+            - separator [ref=e481]
+          - generic [ref=e482]:
+            - text: 郭志伟（20252310750882）：
+            - img "1" [ref=e483]
+            - img "2" [ref=e484]
+            - img "3" [ref=e485]
+            - img "4" [ref=e486]
+            - img "5" [ref=e487]
+            - heading "2026-03-27 10:54:28" [level=5] [ref=e489]
+            - generic [ref=e490]: 已学习
+            - generic [ref=e491]:
+              - text: 
+              - generic [ref=e492] [cursor=pointer]:
+                - generic [ref=e493]: 
+                - text: "0"
+            - separator [ref=e494]
+          - generic [ref=e495]:
+            - text: 龚宇航（20252310930223）：
+            - img "1" [ref=e496]
+            - img "2" [ref=e497]
+            - img "3" [ref=e498]
+            - img "4" [ref=e499]
+            - img "5" [ref=e500]
+            - heading "2026-03-26 21:29:13" [level=5] [ref=e502]
+            - generic [ref=e503]: 已学习
+            - generic [ref=e504]:
+              - text: 
+              - generic [ref=e505] [cursor=pointer]:
+                - generic [ref=e506]: 
+                - text: "0"
+            - separator [ref=e507]
+          - generic [ref=e508]:
+            - text: 杨云（20252310100251）：
+            - img "1" [ref=e509]
+            - img "2" [ref=e510]
+            - img "3" [ref=e511]
+            - img "4" [ref=e512]
+            - img "5" [ref=e513]
+            - heading "2026-03-26 13:34:47" [level=5] [ref=e515]
+            - generic [ref=e516]: 已学习
+            - generic [ref=e517]:
+              - text: 
+              - generic [ref=e518] [cursor=pointer]:
+                - generic [ref=e519]: 
+                - text: "0"
+            - separator [ref=e520]
+          - generic [ref=e521]:
+            - text: 施宏伟（20252310090419）：
+            - img "1" [ref=e522]
+            - img "2" [ref=e523]
+            - img "3" [ref=e524]
+            - img "4" [ref=e525]
+            - img "5" [ref=e526]
+            - heading "2026-03-26 13:10:39" [level=5] [ref=e528]
+            - generic [ref=e529]: 已学习
+            - generic [ref=e530]:
+              - text: 
+              - generic [ref=e531] [cursor=pointer]:
+                - generic [ref=e532]: 
+                - text: "0"
+            - separator [ref=e533]
+          - generic [ref=e534]:
+            - text: 谢园园（20252310120652）：
+            - img "1" [ref=e535]
+            - img "2" [ref=e536]
+            - img "3" [ref=e537]
+            - img "4" [ref=e538]
+            - img "5" [ref=e539]
+            - heading "2026-03-26 11:26:32" [level=5] [ref=e541]
+            - generic [ref=e542]: 已学习
+            - generic [ref=e543]:
+              - text: 
+              - generic [ref=e544] [cursor=pointer]:
+                - generic [ref=e545]: 
+                - text: "0"
+            - separator [ref=e546]
+          - generic [ref=e547]:
+            - text: 刘丽敏（20252310872230）：
+            - img "1" [ref=e548]
+            - img "2" [ref=e549]
+            - img "3" [ref=e550]
+            - img "4" [ref=e551]
+            - img "5" [ref=e552]
+            - heading "2026-03-26 11:15:32" [level=5] [ref=e554]
+            - generic [ref=e555]: 已学习
+            - generic [ref=e556]:
+              - text: 
+              - generic [ref=e557] [cursor=pointer]:
+                - generic [ref=e558]: 
+                - text: "0"
+            - separator [ref=e559]
+          - generic [ref=e560]:
+            - text: 王珊珊（20252310060104）：
+            - img "1" [ref=e561]
+            - img "2" [ref=e562]
+            - img "3" [ref=e563]
+            - img "4" [ref=e564]
+            - img "5" [ref=e565]
+            - heading "2026-03-26 09:59:43" [level=5] [ref=e567]
+            - generic [ref=e568]: 已学习
+            - generic [ref=e569]:
+              - text: 
+              - generic [ref=e570] [cursor=pointer]:
+                - generic [ref=e571]: 
+                - text: "0"
+            - separator [ref=e572]
+          - generic [ref=e573]:
+            - text: 梁甲新（20252310930289）：
+            - img "1" [ref=e574]
+            - img "2" [ref=e575]
+            - img "3" [ref=e576]
+            - img "4" [ref=e577]
+            - img "5" [ref=e578]
+            - heading "2026-03-26 08:55:35" [level=5] [ref=e580]
+            - generic [ref=e581]: 已学习
+            - generic [ref=e582]:
+              - text: 
+              - generic [ref=e583] [cursor=pointer]:
+                - generic [ref=e584]: 
+                - text: "0"
+            - separator [ref=e585]
+          - generic [ref=e586]:
+            - text: 金多义（20252310080419）：
+            - img "1" [ref=e587]
+            - img "2" [ref=e588]
+            - img "3" [ref=e589]
+            - img "4" [ref=e590]
+            - img "5" [ref=e591]
+            - heading "2026-03-25 22:20:04" [level=5] [ref=e593]
+            - generic [ref=e594]: 已学习
+            - generic [ref=e595]:
+              - text: 
+              - generic [ref=e596] [cursor=pointer]:
+                - generic [ref=e597]: 
+                - text: "0"
+            - separator [ref=e598]
+          - generic [ref=e599]:
+            - text: 王君（20252310570453）：
+            - img "1" [ref=e600]
+            - img "2" [ref=e601]
+            - img "3" [ref=e602]
+            - img "4" [ref=e603]
+            - img "5" [ref=e604]
+            - heading "2026-03-25 16:26:16" [level=5] [ref=e606]
+            - generic [ref=e607]: 已学习
+            - generic [ref=e608]:
+              - text: 
+              - generic [ref=e609] [cursor=pointer]:
+                - generic [ref=e610]: 
+                - text: "0"
+            - separator [ref=e611]
+          - generic [ref=e612]:
+            - text: 程千红（20252310050500）：
+            - img "1" [ref=e613]
+            - img "2" [ref=e614]
+            - img "3" [ref=e615]
+            - img "4" [ref=e616]
+            - img "5" [ref=e617]
+            - heading "2026-03-25 11:40:28" [level=5] [ref=e619]
+            - generic [ref=e620]:
+              - text: 
+              - generic [ref=e621] [cursor=pointer]:
+                - generic [ref=e622]: 
+                - text: "0"
+            - separator [ref=e623]
+          - generic [ref=e624]:
+            - text: 许天亦（20252310100195）：
+            - img "1" [ref=e625]
+            - img "2" [ref=e626]
+            - img "3" [ref=e627]
+            - img "4" [ref=e628]
+            - img "5" [ref=e629]
+            - heading "2026-03-25 11:16:42" [level=5] [ref=e631]
+            - generic [ref=e632]: 已学习
+            - generic [ref=e633]:
+              - text: 
+              - generic [ref=e634] [cursor=pointer]:
+                - generic [ref=e635]: 
+                - text: "0"
+            - separator [ref=e636]
+          - generic [ref=e637]:
+            - text: 叶会民（20252310920209）：
+            - img "1" [ref=e638]
+            - img "2" [ref=e639]
+            - img "3" [ref=e640]
+            - img "4" [ref=e641]
+            - img "5" [ref=e642]
+            - heading "2026-03-24 21:54:56" [level=5] [ref=e644]
+            - generic [ref=e645]:
+              - text: 
+              - generic [ref=e646] [cursor=pointer]:
+                - generic [ref=e647]: 
+                - text: "0"
+            - separator [ref=e648]
+          - generic [ref=e649]:
+            - text: 姜月（20252310690212）：
+            - img "1" [ref=e650]
+            - img "2" [ref=e651]
+            - img "3" [ref=e652]
+            - img "4" [ref=e653]
+            - img "5" [ref=e654]
+            - heading "2026-03-24 16:27:41" [level=5] [ref=e656]
+            - generic [ref=e657]: 已学习
+            - generic [ref=e658]:
+              - text: 
+              - generic [ref=e659] [cursor=pointer]:
+                - generic [ref=e660]: 
+                - text: "0"
+            - separator [ref=e661]
+          - generic [ref=e662]:
+            - text: 史士君（20252310040374）：
+            - img "1" [ref=e663]
+            - img "2" [ref=e664]
+            - img "3" [ref=e665]
+            - img "4" [ref=e666]
+            - img "5" [ref=e667]
+            - heading "2026-03-24 13:01:42" [level=5] [ref=e669]
+            - generic [ref=e670]: 已学习
+            - generic [ref=e671]:
+              - text: 
+              - generic [ref=e672] [cursor=pointer]:
+                - generic [ref=e673]: 
+                - text: "0"
+            - separator [ref=e674]
+          - generic [ref=e675]:
+            - text: 戴雪莲（20252310310305）：
+            - img "1" [ref=e676]
+            - img "2" [ref=e677]
+            - img "3" [ref=e678]
+            - img "4" [ref=e679]
+            - img "5" [ref=e680]
+            - heading "2026-03-24 05:21:08" [level=5] [ref=e682]
+            - generic [ref=e683]: 已学习
+            - generic [ref=e684]:
+              - text: 
+              - generic [ref=e685] [cursor=pointer]:
+                - generic [ref=e686]: 
+                - text: "0"
+            - separator [ref=e687]
+          - generic [ref=e688]:
+            - text: 杜俊茜（20252310120491）：
+            - img "1" [ref=e689]
+            - img "2" [ref=e690]
+            - img "3" [ref=e691]
+            - img "4" [ref=e692]
+            - img "5" [ref=e693]
+            - heading "2026-03-23 17:04:31" [level=5] [ref=e695]
+            - generic [ref=e696]: 已学习
+            - generic [ref=e697]:
+              - text: 
+              - generic [ref=e698] [cursor=pointer]:
+                - generic [ref=e699]: 
+                - text: "0"
+            - separator [ref=e700]
+          - generic [ref=e701]:
+            - text: 龚艳敏（20252310872418）：
+            - img "1" [ref=e702]
+            - img "2" [ref=e703]
+            - img "3" [ref=e704]
+            - img "4" [ref=e705]
+            - img "5" [ref=e706]
+            - heading "2026-03-23 16:13:51" [level=5] [ref=e708]
+            - generic [ref=e709]: 已学习
+            - generic [ref=e710]:
+              - text: 
+              - generic [ref=e711] [cursor=pointer]:
+                - generic [ref=e712]: 
+                - text: "0"
+            - separator [ref=e713]
+          - generic [ref=e714]:
+            - text: 杨旭梅（20252310750822）：
+            - img "1" [ref=e715]
+            - img "2" [ref=e716]
+            - img "3" [ref=e717]
+            - img "4" [ref=e718]
+            - img "5" [ref=e719]
+            - heading "2026-03-23 15:42:32" [level=5] [ref=e721]
+            - generic [ref=e722]: 已学习
+            - generic [ref=e723]:
+              - text: 
+              - generic [ref=e724] [cursor=pointer]:
+                - generic [ref=e725]: 
+                - text: "0"
+            - separator [ref=e726]
+          - generic [ref=e727]:
+            - text: 孟丽萍（20252310090263）：
+            - img "1" [ref=e728]
+            - img "2" [ref=e729]
+            - img "3" [ref=e730]
+            - img "4" [ref=e731]
+            - img "5" [ref=e732]
+            - heading "2026-03-23 12:53:59" [level=5] [ref=e734]
+            - generic [ref=e735]: 已学习
+            - generic [ref=e736]:
+              - text: 
+              - generic [ref=e737] [cursor=pointer]:
+                - generic [ref=e738]: 
+                - text: "0"
+            - separator [ref=e739]
+          - generic [ref=e741]:
+            - text: "1"
+            - link "2" [ref=e742] [cursor=pointer]:
+              - /url: "#"
+            - link "3" [ref=e743] [cursor=pointer]:
+              - /url: "#"
+            - link "4" [ref=e744] [cursor=pointer]:
+              - /url: "#"
+            - link "下一页" [ref=e745] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e746]:
+        - generic [ref=e748]:
+          - generic [ref=e749]:
+            - list:
+              - listitem [ref=e750] [cursor=pointer]: 课程目录
+          - generic [ref=e753]:
+            - generic [ref=e754]:
+              - generic [ref=e755]: 一
+              - generic "导学" [ref=e756]
+            - table [ref=e759]:
+              - rowgroup [ref=e760]:
+                - row "1   学习指南" [ref=e761]:
+                  - cell "1" [ref=e762]:
+                    - generic [ref=e763]: "1"
+                  - cell "" [ref=e764]:
+                    - generic [ref=e765]: 
+                  - cell " 学习指南" [ref=e766]:
+                    - generic [ref=e767] [cursor=pointer]:
+                      - generic [ref=e768]: 
+                      - text: 学习指南
+                - row "2   导学" [ref=e769]:
+                  - cell "2" [ref=e770]:
+                    - generic [ref=e771]: "2"
+                  - cell "" [ref=e772]:
+                    - generic [ref=e773]: 
+                  - cell " 导学" [ref=e774]:
+                    - generic [ref=e775] [cursor=pointer]:
+                      - generic [ref=e776]: 
+                      - text: 导学
+            - generic [ref=e777]:
+              - generic [ref=e778]: 二
+              - generic "专题一 马克思主义的产生" [ref=e779]: 专题一 马克思主...
+            - table [ref=e782]:
+              - rowgroup [ref=e783]:
+                - row "1   课程1：马克思主义产生的社会..." [ref=e784]:
+                  - cell "1" [ref=e785]:
+                    - generic [ref=e786]: "1"
+                  - cell "" [ref=e787]:
+                    - generic [ref=e788]: 
+                  - cell " 课程1：马克思主义产生的社会..." [ref=e789]:
+                    - generic [ref=e790] [cursor=pointer]:
+                      - generic [ref=e791]: 
+                      - text: 课程1：马克思主义产生的社会...
+                - row "2   课程2：马克思主义的思想来源" [ref=e792]:
+                  - cell "2" [ref=e793]:
+                    - generic [ref=e794]: "2"
+                  - cell "" [ref=e795]:
+                    - generic [ref=e796]: 
+                  - cell " 课程2：马克思主义的思想来源" [ref=e797]:
+                    - generic [ref=e798] [cursor=pointer]:
+                      - generic [ref=e799]: 
+                      - text: 课程2：马克思主义的思想来源
+                - row "3   课程3：马克思、恩格斯对新世..." [ref=e800]:
+                  - cell "3" [ref=e801]:
+                    - generic [ref=e802]: "3"
+                  - cell "" [ref=e803]:
+                    - generic [ref=e804]: 
+                  - cell " 课程3：马克思、恩格斯对新世..." [ref=e805]:
+                    - generic [ref=e806] [cursor=pointer]:
+                      - generic [ref=e807]: 
+                      - text: 课程3：马克思、恩格斯对新世...
+                - row "4   课程4：《共产党宣言》的诞生" [ref=e808]:
+                  - cell "4" [ref=e809]:
+                    - generic [ref=e810]: "4"
+                  - cell "" [ref=e811]:
+                    - generic [ref=e812]: 
+                  - cell " 课程4：《共产党宣言》的诞生" [ref=e813]:
+                    - generic [ref=e814] [cursor=pointer]:
+                      - generic [ref=e815]: 
+                      - text: 课程4：《共产党宣言》的诞生
+                - row "5   课程5：马克思主义的首次完整... 1.5马克思主义的首次完整、系统阐述修改版_720p ( 视频 ) 1.5马克思主义的首次完整、系统阐述(修改版)_720p.docx ( office文档 )" [ref=e816]:
+                  - cell "5" [ref=e817]:
+                    - generic [ref=e818]: "5"
+                  - cell "" [ref=e819]:
+                    - generic [ref=e820]: 
+                  - cell " 课程5：马克思主义的首次完整... 1.5马克思主义的首次完整、系统阐述修改版_720p ( 视频 ) 1.5马克思主义的首次完整、系统阐述(修改版)_720p.docx ( office文档 )" [ref=e821]:
+                    - generic [ref=e822] [cursor=pointer]:
+                      - generic [ref=e823]: 
+                      - text: 课程5：马克思主义的首次完整...
+                    - generic [ref=e824]:
+                      - list:
+                        - listitem [ref=e825]:
+                          - link "1.5马克思主义的首次完整、系统阐述修改版_720p ( 视频 )" [ref=e826] [cursor=pointer]:
+                            - /url: /study/directory.aspx?cellId=h4anaewz-z9pyl1zt0h0yq&courseopenid=op4baewzb5rlb2cp7bkl5g&minorCourseOpenId=op4baewzb5rlb2cp7bkl5g
+                            - text: 1.5马克思主义的首次完整、系统阐述修改版_720p
+                            - generic [ref=e827]: ( 视频 )
+                        - listitem [ref=e828]:
+                          - link "1.5马克思主义的首次完整、系统阐述(修改版)_720p.docx ( office文档 )" [ref=e829] [cursor=pointer]:
+                            - /url: /study/directory.aspx?cellId=iianaewz45dbsurg07uyoa&courseopenid=op4baewzb5rlb2cp7bkl5g&minorCourseOpenId=op4baewzb5rlb2cp7bkl5g
+                            - text: 1.5马克思主义的首次完整、系统阐述(修改版)_720p.docx
+                            - generic [ref=e830]: ( office文档 )
+            - generic [ref=e831]:
+              - generic [ref=e832]: 三
+              - generic "专题二 世界的物质性及发展规律" [ref=e833]: 专题二 世界的物...
+            - table [ref=e836]:
+              - rowgroup [ref=e837]:
+                - row "1   课程1：物质及其存在形态" [ref=e838]:
+                  - cell "1" [ref=e839]:
+                    - generic [ref=e840]: "1"
+                  - cell "" [ref=e841]:
+                    - generic [ref=e842]: 
+                  - cell " 课程1：物质及其存在形态" [ref=e843]:
+                    - generic [ref=e844] [cursor=pointer]:
+                      - generic [ref=e845]: 
+                      - text: 课程1：物质及其存在形态
+                - row "2   课程2：世界的物质统一性" [ref=e846]:
+                  - cell "2" [ref=e847]:
+                    - generic [ref=e848]: "2"
+                  - cell "" [ref=e849]:
+                    - generic [ref=e850]: 
+                  - cell " 课程2：世界的物质统一性" [ref=e851]:
+                    - generic [ref=e852] [cursor=pointer]:
+                      - generic [ref=e853]: 
+                      - text: 课程2：世界的物质统一性
+                - row "3   课程3：事物的普遍联系和永恒..." [ref=e854]:
+                  - cell "3" [ref=e855]:
+                    - generic [ref=e856]: "3"
+                  - cell "" [ref=e857]:
+                    - generic [ref=e858]: 
+                  - cell " 课程3：事物的普遍联系和永恒..." [ref=e859]:
+                    - generic [ref=e860] [cursor=pointer]:
+                      - generic [ref=e861]: 
+                      - text: 课程3：事物的普遍联系和永恒...
+                - row "4   课程4：联系和发展的基本环节..." [ref=e862]:
+                  - cell "4" [ref=e863]:
+                    - generic [ref=e864]: "4"
+                  - cell "" [ref=e865]:
+                    - generic [ref=e866]: 
+                  - cell " 课程4：联系和发展的基本环节..." [ref=e867]:
+                    - generic [ref=e868] [cursor=pointer]:
+                      - generic [ref=e869]: 
+                      - text: 课程4：联系和发展的基本环节...
+                - row "5   课程5：联系和发展的基本环节..." [ref=e870]:
+                  - cell "5" [ref=e871]:
+                    - generic [ref=e872]: "5"
+                  - cell "" [ref=e873]:
+                    - generic [ref=e874]: 
+                  - cell " 课程5：联系和发展的基本环节..." [ref=e875]:
+                    - generic [ref=e876] [cursor=pointer]:
+                      - generic [ref=e877]: 
+                      - text: 课程5：联系和发展的基本环节...
+                - row "6   课程6：对立统一规律" [ref=e878]:
+                  - cell "6" [ref=e879]:
+                    - generic [ref=e880]: "6"
+                  - cell "" [ref=e881]:
+                    - generic [ref=e882]: 
+                  - cell " 课程6：对立统一规律" [ref=e883]:
+                    - generic [ref=e884] [cursor=pointer]:
+                      - generic [ref=e885]: 
+                      - text: 课程6：对立统一规律
+                - row "7   课程7：质量互变规律" [ref=e886]:
+                  - cell "7" [ref=e887]:
+                    - generic [ref=e888]: "7"
+                  - cell "" [ref=e889]:
+                    - generic [ref=e890]: 
+                  - cell " 课程7：质量互变规律" [ref=e891]:
+                    - generic [ref=e892] [cursor=pointer]:
+                      - generic [ref=e893]: 
+                      - text: 课程7：质量互变规律
+                - row "8   课程8：否定之否定规律" [ref=e894]:
+                  - cell "8" [ref=e895]:
+                    - generic [ref=e896]: "8"
+                  - cell "" [ref=e897]:
+                    - generic [ref=e898]: 
+                  - cell " 课程8：否定之否定规律" [ref=e899]:
+                    - generic [ref=e900] [cursor=pointer]:
+                      - generic [ref=e901]: 
+                      - text: 课程8：否定之否定规律
+            - generic [ref=e902]:
+              - generic [ref=e903]: 四
+              - generic "专题三 实践与认识及其发展规律" [ref=e904]: 专题三 实践与认...
+            - table [ref=e907]:
+              - rowgroup [ref=e908]:
+                - row "1   课程1：实践及其基本结构" [ref=e909]:
+                  - cell "1" [ref=e910]:
+                    - generic [ref=e911]: "1"
+                  - cell "" [ref=e912]:
+                    - generic [ref=e913]: 
+                  - cell " 课程1：实践及其基本结构" [ref=e914]:
+                    - generic [ref=e915] [cursor=pointer]:
+                      - generic [ref=e916]: 
+                      - text: 课程1：实践及其基本结构
+                - row "2   课程2：实践对认识的决定作用" [ref=e917]:
+                  - cell "2" [ref=e918]:
+                    - generic [ref=e919]: "2"
+                  - cell "" [ref=e920]:
+                    - generic [ref=e921]: 
+                  - cell " 课程2：实践对认识的决定作用" [ref=e922]:
+                    - generic [ref=e923] [cursor=pointer]:
+                      - generic [ref=e924]: 
+                      - text: 课程2：实践对认识的决定作用
+                - row "3   课程3：认识的过程" [ref=e925]:
+                  - cell "3" [ref=e926]:
+                    - generic [ref=e927]: "3"
+                  - cell "" [ref=e928]:
+                    - generic [ref=e929]: 
+                  - cell " 课程3：认识的过程" [ref=e930]:
+                    - generic [ref=e931] [cursor=pointer]:
+                      - generic [ref=e932]: 
+                      - text: 课程3：认识的过程
+                - row "4   课程4：真理及其检验标准" [ref=e933]:
+                  - cell "4" [ref=e934]:
+                    - generic [ref=e935]: "4"
+                  - cell "" [ref=e936]:
+                    - generic [ref=e937]: 
+                  - cell " 课程4：真理及其检验标准" [ref=e938]:
+                    - generic [ref=e939] [cursor=pointer]:
+                      - generic [ref=e940]: 
+                      - text: 课程4：真理及其检验标准
+                - row "5   课程5：价值及价值观" [ref=e941]:
+                  - cell "5" [ref=e942]:
+                    - generic [ref=e943]: "5"
+                  - cell "" [ref=e944]:
+                    - generic [ref=e945]: 
+                  - cell " 课程5：价值及价值观" [ref=e946]:
+                    - generic [ref=e947] [cursor=pointer]:
+                      - generic [ref=e948]: 
+                      - text: 课程5：价值及价值观
+                - row "6   课程6：实事求是的思想路线" [ref=e949]:
+                  - cell "6" [ref=e950]:
+                    - generic [ref=e951]: "6"
+                  - cell "" [ref=e952]:
+                    - generic [ref=e953]: 
+                  - cell " 课程6：实事求是的思想路线" [ref=e954]:
+                    - generic [ref=e955] [cursor=pointer]:
+                      - generic [ref=e956]: 
+                      - text: 课程6：实事求是的思想路线
+            - generic [ref=e957]:
+              - generic [ref=e958]: 五
+              - generic "专题四 人类社会及其发展规律" [ref=e959]: 专题四 人类社会...
+            - table [ref=e962]:
+              - rowgroup [ref=e963]:
+                - row "1   课程1：五种社会形态的演进变..." [ref=e964]:
+                  - cell "1" [ref=e965]:
+                    - generic [ref=e966]: "1"
+                  - cell "" [ref=e967]:
+                    - generic [ref=e968]: 
+                  - cell " 课程1：五种社会形态的演进变..." [ref=e969]:
+                    - generic [ref=e970] [cursor=pointer]:
+                      - generic [ref=e971]: 
+                      - text: 课程1：五种社会形态的演进变...
+                - row "2   课程2：社会基本矛盾是社会发..." [ref=e972]:
+                  - cell "2" [ref=e973]:
+                    - generic [ref=e974]: "2"
+                  - cell "" [ref=e975]:
+                    - generic [ref=e976]: 
+                  - cell " 课程2：社会基本矛盾是社会发..." [ref=e977]:
+                    - generic [ref=e978] [cursor=pointer]:
+                      - generic [ref=e979]: 
+                      - text: 课程2：社会基本矛盾是社会发...
+                - row "3   课程3：阶级斗争、社会革命和..." [ref=e980]:
+                  - cell "3" [ref=e981]:
+                    - generic [ref=e982]: "3"
+                  - cell "" [ref=e983]:
+                    - generic [ref=e984]: 
+                  - cell " 课程3：阶级斗争、社会革命和..." [ref=e985]:
+                    - generic [ref=e986] [cursor=pointer]:
+                      - generic [ref=e987]: 
+                      - text: 课程3：阶级斗争、社会革命和...
+                - row "4   课程4：人民群众在历史中的作..." [ref=e988]:
+                  - cell "4" [ref=e989]:
+                    - generic [ref=e990]: "4"
+                  - cell "" [ref=e991]:
+                    - generic [ref=e992]: 
+                  - cell " 课程4：人民群众在历史中的作..." [ref=e993]:
+                    - generic [ref=e994] [cursor=pointer]:
+                      - generic [ref=e995]: 
+                      - text: 课程4：人民群众在历史中的作...
+                - row "5   课程5：群众史观与英雄史观的..." [ref=e996]:
+                  - cell "5" [ref=e997]:
+                    - generic [ref=e998]: "5"
+                  - cell "" [ref=e999]:
+                    - generic [ref=e1000]: 
+                  - cell " 课程5：群众史观与英雄史观的..." [ref=e1001]:
+                    - generic [ref=e1002] [cursor=pointer]:
+                      - generic [ref=e1003]: 
+                      - text: 课程5：群众史观与英雄史观的...
+            - generic [ref=e1004]:
+              - generic [ref=e1005]: 六
+              - generic "专题五 资本主义的本质及其规律" [ref=e1006]: 专题五 资本主义...
+            - table [ref=e1009]:
+              - rowgroup [ref=e1010]:
+                - row "1   课程1：商品的二因素与劳动的..." [ref=e1011]:
+                  - cell "1" [ref=e1012]:
+                    - generic [ref=e1013]: "1"
+                  - cell "" [ref=e1014]:
+                    - generic [ref=e1015]: 
+                  - cell " 课程1：商品的二因素与劳动的..." [ref=e1016]:
+                    - generic [ref=e1017] [cursor=pointer]:
+                      - generic [ref=e1018]: 
+                      - text: 课程1：商品的二因素与劳动的...
+                - row "2   课程2：价值规律理论" [ref=e1019]:
+                  - cell "2" [ref=e1020]:
+                    - generic [ref=e1021]: "2"
+                  - cell "" [ref=e1022]:
+                    - generic [ref=e1023]: 
+                  - cell " 课程2：价值规律理论" [ref=e1024]:
+                    - generic [ref=e1025] [cursor=pointer]:
+                      - generic [ref=e1026]: 
+                      - text: 课程2：价值规律理论
+                - row "3   课程3：以私有制为基础的商品..." [ref=e1027]:
+                  - cell "3" [ref=e1028]:
+                    - generic [ref=e1029]: "3"
+                  - cell "" [ref=e1030]:
+                    - generic [ref=e1031]: 
+                  - cell " 课程3：以私有制为基础的商品..." [ref=e1032]:
+                    - generic [ref=e1033] [cursor=pointer]:
+                      - generic [ref=e1034]: 
+                      - text: 课程3：以私有制为基础的商品...
+                - row "4   课程4：商品拜物教" [ref=e1035]:
+                  - cell "4" [ref=e1036]:
+                    - generic [ref=e1037]: "4"
+                  - cell "" [ref=e1038]:
+                    - generic [ref=e1039]: 
+                  - cell " 课程4：商品拜物教" [ref=e1040]:
+                    - generic [ref=e1041] [cursor=pointer]:
+                      - generic [ref=e1042]: 
+                      - text: 课程4：商品拜物教
+                - row "5   课程5：资本原始积累" [ref=e1043]:
+                  - cell "5" [ref=e1044]:
+                    - generic [ref=e1045]: "5"
+                  - cell "" [ref=e1046]:
+                    - generic [ref=e1047]: 
+                  - cell " 课程5：资本原始积累" [ref=e1048]:
+                    - generic [ref=e1049] [cursor=pointer]:
+                      - generic [ref=e1050]: 
+                      - text: 课程5：资本原始积累
+                - row "6   课程6：剩余价值产生及转化" [ref=e1051]:
+                  - cell "6" [ref=e1052]:
+                    - generic [ref=e1053]: "6"
+                  - cell "" [ref=e1054]:
+                    - generic [ref=e1055]: 
+                  - cell " 课程6：剩余价值产生及转化" [ref=e1056]:
+                    - generic [ref=e1057] [cursor=pointer]:
+                      - generic [ref=e1058]: 
+                      - text: 课程6：剩余价值产生及转化
+                - row "7   课程7：生产剩余价值的方法" [ref=e1059]:
+                  - cell "7" [ref=e1060]:
+                    - generic [ref=e1061]: "7"
+                  - cell "" [ref=e1062]:
+                    - generic [ref=e1063]: 
+                  - cell " 课程7：生产剩余价值的方法" [ref=e1064]:
+                    - generic [ref=e1065] [cursor=pointer]:
+                      - generic [ref=e1066]: 
+                      - text: 课程7：生产剩余价值的方法
+                - row "8   课程8：资本积累" [ref=e1067]:
+                  - cell "8" [ref=e1068]:
+                    - generic [ref=e1069]: "8"
+                  - cell "" [ref=e1070]:
+                    - generic [ref=e1071]: 
+                  - cell " 课程8：资本积累" [ref=e1072]:
+                    - generic [ref=e1073] [cursor=pointer]:
+                      - generic [ref=e1074]: 
+                      - text: 课程8：资本积累
+                - row "9   课程9：资本主义基本矛盾与经..." [ref=e1075]:
+                  - cell "9" [ref=e1076]:
+                    - generic [ref=e1077]: "9"
+                  - cell "" [ref=e1078]:
+                    - generic [ref=e1079]: 
+                  - cell " 课程9：资本主义基本矛盾与经..." [ref=e1080]:
+                    - generic [ref=e1081] [cursor=pointer]:
+                      - generic [ref=e1082]: 
+                      - text: 课程9：资本主义基本矛盾与经...
+                - row "10   课程10：资本主义民主制度的..." [ref=e1083]:
+                  - cell "10" [ref=e1084]:
+                    - generic [ref=e1085]: "10"
+                  - cell "" [ref=e1086]:
+                    - generic [ref=e1087]: 
+                  - cell " 课程10：资本主义民主制度的..." [ref=e1088]:
+                    - generic [ref=e1089] [cursor=pointer]:
+                      - generic [ref=e1090]: 
+                      - text: 课程10：资本主义民主制度的...
+                - row "11   课程11：资本主义意识形态及..." [ref=e1091]:
+                  - cell "11" [ref=e1092]:
+                    - generic [ref=e1093]: "11"
+                  - cell "" [ref=e1094]:
+                    - generic [ref=e1095]: 
+                  - cell " 课程11：资本主义意识形态及..." [ref=e1096]:
+                    - generic [ref=e1097] [cursor=pointer]:
+                      - generic [ref=e1098]: 
+                      - text: 课程11：资本主义意识形态及...
+            - generic [ref=e1099]:
+              - generic [ref=e1100]: 七
+              - generic "专题六 资本主义的发展及其趋势" [ref=e1101]: 专题六 资本主义...
+            - table [ref=e1104]:
+              - rowgroup [ref=e1105]:
+                - row "1   课程1：资本主义从自由到垄断" [ref=e1106]:
+                  - cell "1" [ref=e1107]:
+                    - generic [ref=e1108]: "1"
+                  - cell "" [ref=e1109]:
+                    - generic [ref=e1110]: 
+                  - cell " 课程1：资本主义从自由到垄断" [ref=e1111]:
+                    - generic [ref=e1112] [cursor=pointer]:
+                      - generic [ref=e1113]: 
+                      - text: 课程1：资本主义从自由到垄断
+                - row "2   课程2：垄断资本主义的发展" [ref=e1114]:
+                  - cell "2" [ref=e1115]:
+                    - generic [ref=e1116]: "2"
+                  - cell "" [ref=e1117]:
+                    - generic [ref=e1118]: 
+                  - cell " 课程2：垄断资本主义的发展" [ref=e1119]:
+                    - generic [ref=e1120] [cursor=pointer]:
+                      - generic [ref=e1121]: 
+                      - text: 课程2：垄断资本主义的发展
+                - row "3   课程3：经济全球化及其影响" [ref=e1122]:
+                  - cell "3" [ref=e1123]:
+                    - generic [ref=e1124]: "3"
+                  - cell "" [ref=e1125]:
+                    - generic [ref=e1126]: 
+                  - cell " 课程3：经济全球化及其影响" [ref=e1127]:
+                    - generic [ref=e1128] [cursor=pointer]:
+                      - generic [ref=e1129]: 
+                      - text: 课程3：经济全球化及其影响
+                - row "4   课程4：第二次世界大战后资本..." [ref=e1130]:
+                  - cell "4" [ref=e1131]:
+                    - generic [ref=e1132]: "4"
+                  - cell "" [ref=e1133]:
+                    - generic [ref=e1134]: 
+                  - cell " 课程4：第二次世界大战后资本..." [ref=e1135]:
+                    - generic [ref=e1136] [cursor=pointer]:
+                      - generic [ref=e1137]: 
+                      - text: 课程4：第二次世界大战后资本...
+                - row "5   课程5：国际金融危机以来资本..." [ref=e1138]:
+                  - cell "5" [ref=e1139]:
+                    - generic [ref=e1140]: "5"
+                  - cell "" [ref=e1141]:
+                    - generic [ref=e1142]: 
+                  - cell " 课程5：国际金融危机以来资本..." [ref=e1143]:
+                    - generic [ref=e1144] [cursor=pointer]:
+                      - generic [ref=e1145]: 
+                      - text: 课程5：国际金融危机以来资本...
+                - row "6   课程6：资本主义的历史地位和..." [ref=e1146]:
+                  - cell "6" [ref=e1147]:
+                    - generic [ref=e1148]: "6"
+                  - cell "" [ref=e1149]:
+                    - generic [ref=e1150]: 
+                  - cell " 课程6：资本主义的历史地位和..." [ref=e1151]:
+                    - generic [ref=e1152] [cursor=pointer]:
+                      - generic [ref=e1153]: 
+                      - text: 课程6：资本主义的历史地位和...
+            - generic [ref=e1154]:
+              - generic [ref=e1155]: 八
+              - generic "专题七 社会主义的发展及其规律" [ref=e1156]: 专题七 社会主义...
+            - table [ref=e1159]:
+              - rowgroup [ref=e1160]:
+                - row "1   课程1：十月革命的胜利——社..." [ref=e1161]:
+                  - cell "1" [ref=e1162]:
+                    - generic [ref=e1163]: "1"
+                  - cell "" [ref=e1164]:
+                    - generic [ref=e1165]: 
+                  - cell " 课程1：十月革命的胜利——社..." [ref=e1166]:
+                    - generic [ref=e1167] [cursor=pointer]:
+                      - generic [ref=e1168]: 
+                      - text: 课程1：十月革命的胜利——社...
+                - row "2   课程2：苏俄新生政权的“内忧..." [ref=e1169]:
+                  - cell "2" [ref=e1170]:
+                    - generic [ref=e1171]: "2"
+                  - cell "" [ref=e1172]:
+                    - generic [ref=e1173]: 
+                  - cell " 课程2：苏俄新生政权的“内忧..." [ref=e1174]:
+                    - generic [ref=e1175] [cursor=pointer]:
+                      - generic [ref=e1176]: 
+                      - text: 课程2：苏俄新生政权的“内忧...
+                - row "3   课程3：社会主义在苏联一国的..." [ref=e1177]:
+                  - cell "3" [ref=e1178]:
+                    - generic [ref=e1179]: "3"
+                  - cell "" [ref=e1180]:
+                    - generic [ref=e1181]: 
+                  - cell " 课程3：社会主义在苏联一国的..." [ref=e1182]:
+                    - generic [ref=e1183] [cursor=pointer]:
+                      - generic [ref=e1184]: 
+                      - text: 课程3：社会主义在苏联一国的...
+                - row "4   课程4：社会主义在苏联一国的..." [ref=e1185]:
+                  - cell "4" [ref=e1186]:
+                    - generic [ref=e1187]: "4"
+                  - cell "" [ref=e1188]:
+                    - generic [ref=e1189]: 
+                  - cell " 课程4：社会主义在苏联一国的..." [ref=e1190]:
+                    - generic [ref=e1191] [cursor=pointer]:
+                      - generic [ref=e1192]: 
+                      - text: 课程4：社会主义在苏联一国的...
+                - row "5   课程5：苏联社会主义建设的奇..." [ref=e1193]:
+                  - cell "5" [ref=e1194]:
+                    - generic [ref=e1195]: "5"
+                  - cell "" [ref=e1196]:
+                    - generic [ref=e1197]: 
+                  - cell " 课程5：苏联社会主义建设的奇..." [ref=e1198]:
+                    - generic [ref=e1199] [cursor=pointer]:
+                      - generic [ref=e1200]: 
+                      - text: 课程5：苏联社会主义建设的奇...
+                - row "6   课程6：社会主义建设的长期性..." [ref=e1201]:
+                  - cell "6" [ref=e1202]:
+                    - generic [ref=e1203]: "6"
+                  - cell "" [ref=e1204]:
+                    - generic [ref=e1205]: 
+                  - cell " 课程6：社会主义建设的长期性..." [ref=e1206]:
+                    - generic [ref=e1207] [cursor=pointer]:
+                      - generic [ref=e1208]: 
+                      - text: 课程6：社会主义建设的长期性...
+                - row "7   课程7：科学社会主义一般原则..." [ref=e1209]:
+                  - cell "7" [ref=e1210]:
+                    - generic [ref=e1211]: "7"
+                  - cell "" [ref=e1212]:
+                    - generic [ref=e1213]: 
+                  - cell " 课程7：科学社会主义一般原则..." [ref=e1214]:
+                    - generic [ref=e1215] [cursor=pointer]:
+                      - generic [ref=e1216]: 
+                      - text: 课程7：科学社会主义一般原则...
+                - row "8   课程8：科学社会主义一般原则..." [ref=e1217]:
+                  - cell "8" [ref=e1218]:
+                    - generic [ref=e1219]: "8"
+                  - cell "" [ref=e1220]:
+                    - generic [ref=e1221]: 
+                  - cell " 课程8：科学社会主义一般原则..." [ref=e1222]:
+                    - generic [ref=e1223] [cursor=pointer]:
+                      - generic [ref=e1224]: 
+                      - text: 课程8：科学社会主义一般原则...
+            - generic [ref=e1225]:
+              - generic [ref=e1226]: 九
+              - generic "专题八 共产主义的崇高理想" [ref=e1227]: 专题八 共产主义...
+            - table [ref=e1230]:
+              - rowgroup [ref=e1231]:
+                - row "1   课程1：预见未来社会的科学方..." [ref=e1232]:
+                  - cell "1" [ref=e1233]:
+                    - generic [ref=e1234]: "1"
+                  - cell "" [ref=e1235]:
+                    - generic [ref=e1236]: 
+                  - cell " 课程1：预见未来社会的科学方..." [ref=e1237]:
+                    - generic [ref=e1238] [cursor=pointer]:
+                      - generic [ref=e1239]: 
+                      - text: 课程1：预见未来社会的科学方...
+                - row "2   课程2：共产主义社会的基本特..." [ref=e1240]:
+                  - cell "2" [ref=e1241]:
+                    - generic [ref=e1242]: "2"
+                  - cell "" [ref=e1243]:
+                    - generic [ref=e1244]: 
+                  - cell " 课程2：共产主义社会的基本特..." [ref=e1245]:
+                    - generic [ref=e1246] [cursor=pointer]:
+                      - generic [ref=e1247]: 
+                      - text: 课程2：共产主义社会的基本特...
+                - row "3   课程3：实现共产主义的必然性..." [ref=e1248]:
+                  - cell "3" [ref=e1249]:
+                    - generic [ref=e1250]: "3"
+                  - cell "" [ref=e1251]:
+                    - generic [ref=e1252]: 
+                  - cell " 课程3：实现共产主义的必然性..." [ref=e1253]:
+                    - generic [ref=e1254] [cursor=pointer]:
+                      - generic [ref=e1255]: 
+                      - text: 课程3：实现共产主义的必然性...
+        - text:    
+    - img [ref=e1257] [cursor=pointer]

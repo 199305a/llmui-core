@@ -237,7 +237,8 @@ class LLMUIApp {
         this.isProcessing = true;
         this.updateUI();
         
-        const messageDiv = this.addMessage('llmui', this.i18n.t('processing_consensus'), []);
+        // Type « assistant » : même spinner que le mode simple (type « llmui » n’affiche pas l’indicateur)
+        const messageDiv = this.addMessage('assistant', this.i18n.t('processing_consensus'), []);
         
         let fullPrompt = prompt;
         
@@ -265,9 +266,10 @@ class LLMUIApp {
             const response = await fetch('/api/consensus-generate', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
+                credentials: 'same-origin',
                 body: JSON.stringify({
-                    workers: selectedWorkers,
-                    merger: merger,
+                    worker_models: selectedWorkers,
+                    merger_model: merger,
                     prompt: fullPrompt,
                     session_id: this.sessionId,
                     timeout_level: this.currentTimeoutLevel,
@@ -276,7 +278,12 @@ class LLMUIApp {
             });
             
             if (!response.ok) {
-                throw new Error('HTTP ' + response.status);
+                let detail = response.statusText || '';
+                try {
+                    const errBody = await response.json();
+                    if (errBody.detail) detail = typeof errBody.detail === 'string' ? errBody.detail : JSON.stringify(errBody.detail);
+                } catch (_) { /* ignore */ }
+                throw new Error('HTTP ' + response.status + (detail ? ': ' + detail : ''));
             }
             
             const data = await response.json();
@@ -291,7 +298,10 @@ class LLMUIApp {
         } catch (error) {
             console.error('Error in sendConsensus:', error);
             this.updateMessage(messageDiv, '❌ Erreur: ' + error.message, 'consensus');
-            showNotification('Problème de connexion au serveur', 'error');
+            const note = error.message && error.message.length < 120
+                ? error.message
+                : 'Erreur consensus / réseau';
+            showNotification(note, 'error');
             
         } finally {
             this.isProcessing = false;
@@ -378,6 +388,7 @@ class LLMUIApp {
                 // Créer la checkbox
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
+                checkbox.className = 'worker-checkbox';
                 checkbox.value = model;
                 checkbox.name = 'worker-model';
                 checkbox.id = `worker-${index}`;

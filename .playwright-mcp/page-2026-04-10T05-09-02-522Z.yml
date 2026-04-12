@@ -1,0 +1,145 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - text: 学历教育在线学习
+      - link "一站式AI应用空间" [ref=e9] [cursor=pointer]:
+        - /url: https://aispaces.cc/#/index/home
+      - link "学位英语" [ref=e11] [cursor=pointer]:
+        - /url: https://ldoc2.shou.org.cn/doc/a@53F1FA910D23BF6017962F7C5FE8CA5A.pdf
+    - generic [ref=e12]:
+      - list [ref=e14]:
+        - listitem [ref=e15] [cursor=pointer]:
+          - link "操作指南" [ref=e16]:
+            - /url: https://l.shou.org.cn/help/default.aspx
+        - listitem [ref=e17] [cursor=pointer]: 微门户
+        - listitem [ref=e18] [cursor=pointer]:
+          - link "学情分析" [ref=e19]:
+            - /url: https://mp.shou.org.cn/user/login
+        - listitem [ref=e20] [cursor=pointer]:
+          - link "AI助教 | 在线客服" [ref=e21]:
+            - /url: javascript:void(0)
+      - generic [ref=e22]: user
+      - button "崔浩" [ref=e24] [cursor=pointer]:
+        - text: 崔浩
+        - img [ref=e26]
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - img [ref=e34]
+          - paragraph [ref=e35]: 姓名:崔浩
+          - paragraph [ref=e36]: 学号:20252310040388
+          - paragraph [ref=e37]: 专业:市场营销
+          - paragraph [ref=e38]: 班级:25秋川沙本科市场营销
+          - paragraph [ref=e39]: 学校:浦东东校(学习点)
+          - paragraph [ref=e40]: 毕业学分:76
+          - paragraph [ref=e41]: 已修学分:0
+        - generic [ref=e42]:
+          - generic [ref=e43]: 必修课程学分 0
+          - generic [ref=e44]: 必修课程数量 0
+          - generic [ref=e45]: 必修课程学时 0
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e49]:
+            - heading "当日教学活动" [level=3] [ref=e50]
+            - generic [ref=e54]:
+              - img [ref=e57]
+              - combobox "请选择日期" [ref=e59]: 2026-04-10
+            - paragraph [ref=e61] [cursor=pointer]: 今日暂无教学活动
+          - generic [ref=e63]:
+            - heading "我的消息" [level=3] [ref=e64]
+            - generic [ref=e65]:
+              - generic [ref=e66]: 调查
+              - link "统一学习门户满意度调查" [ref=e68] [cursor=pointer]:
+                - /url: https://www.wjx.cn/vm/wujkc9G.aspx?xh=20252310040388
+                - paragraph [ref=e69]: 统一学习门户满意度调查
+            - generic [ref=e70]:
+              - generic [ref=e71]: 活动
+              - link "浦东东校市场调研与分析第二次课 活动将于2026-04-11 08:30开始，请关注！" [ref=e73] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/activity-preview.aspx?activityId=S782153054933125&courseOpenId=mqadaewzzy5eslkbv6nwpg
+                - paragraph [ref=e74]: 浦东东校市场调研与分析第二次课 活动将于2026-04-11 08:30开始，请关注！
+            - generic [ref=e75]:
+              - generic [ref=e76]: 课评
+              - link "市场调研与分析 课程评价未完成,请关注！" [ref=e78] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=mqadaewzzy5eslkbv6nwpg&minorCourseOpenId=mqadaewzzy5eslkbv6nwpg
+                - paragraph [ref=e79]: 市场调研与分析 课程评价未完成,请关注！
+            - generic [ref=e80]:
+              - generic [ref=e81]: 课评
+              - link "形势与政策（2） 课程评价未完成,请关注！" [ref=e83] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=d3kbaewz641idnlonkjeza&minorCourseOpenId=d3kbaewz641idnlonkjeza
+                - paragraph [ref=e84]: 形势与政策（2） 课程评价未完成,请关注！
+            - generic [ref=e85]:
+              - generic [ref=e86]: 课评
+              - link "顾客消费心理与行为 课程评价未完成,请关注！" [ref=e88] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=9p4yaewzq7tjwlrm5s0shq&minorCourseOpenId=9p4yaewzq7tjwlrm5s0shq
+                - paragraph [ref=e89]: 顾客消费心理与行为 课程评价未完成,请关注！
+            - generic [ref=e90]:
+              - generic [ref=e91]: 课评
+              - link "大学英语（4） 课程评价未完成,请关注！" [ref=e93] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=xw0aaewz955bogyzxgqpjw&minorCourseOpenId=xw0aaewz955bogyzxgqpjw
+                - paragraph [ref=e94]: 大学英语（4） 课程评价未完成,请关注！
+            - generic [ref=e95]:
+              - generic [ref=e96]: 课评
+              - link "习近平新时代中国特色社会主义思想概论 课程评价未完成,请关注！" [ref=e98] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=jjofaewzjibljzesuvwm7w&minorCourseOpenId=jjofaewzjibljzesuvwm7w
+                - paragraph [ref=e99]: 习近平新时代中国特色社会主义思想概论 课程评价未完成,请关注！
+            - generic [ref=e100]:
+              - generic [ref=e101]: 课评
+              - link "马克思主义基本原理 课程评价未完成,请关注！" [ref=e103] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorCourseOpenId=op4baewzb5rlb2cp7bkl5g
+                - paragraph [ref=e104]: 马克思主义基本原理 课程评价未完成,请关注！
+        - generic [ref=e108]:
+          - tablist [ref=e112]:
+            - tab "我的课程" [selected] [ref=e114]
+            - tab "收藏课程" [ref=e115]
+          - generic:
+            - tabpanel "我的课程"
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - heading "招" [level=3] [ref=e118]
+          - generic [ref=e121]:
+            - paragraph [ref=e124] [cursor=pointer]: 新生问卷调查
+            - paragraph [ref=e127] [cursor=pointer]: 选课缴费
+            - paragraph [ref=e130] [cursor=pointer]: 已选课程
+            - paragraph [ref=e133] [cursor=pointer]: 购买教材
+            - paragraph [ref=e136] [cursor=pointer]: 学籍查询
+            - paragraph [ref=e139] [cursor=pointer]: 学生信息申请修改
+        - generic [ref=e140]:
+          - heading "教" [level=3] [ref=e141]
+          - generic [ref=e144]:
+            - paragraph [ref=e147] [cursor=pointer]: 班级课表
+            - paragraph [ref=e151] [cursor=pointer]: 形考要求
+            - link "入学水平测试" [ref=e154] [cursor=pointer]:
+              - /url: http://rxtest.sou.edu.cn/
+              - paragraph [ref=e155]: 入学水平测试
+            - link "历史课程" [ref=e158] [cursor=pointer]:
+              - /url: https://l.shou.org.cn/student/termchoiceNew.aspx
+              - paragraph [ref=e159]: 历史课程
+        - generic [ref=e160]:
+          - heading "学" [level=3] [ref=e161]
+          - generic [ref=e164]:
+            - paragraph [ref=e167] [cursor=pointer]: 教学活动
+            - paragraph [ref=e170] [cursor=pointer]: 在线练习
+            - paragraph [ref=e173] [cursor=pointer]: 形考作业
+            - link "社会实践" [ref=e176] [cursor=pointer]:
+              - /url: https://l.shou.org.cn/student/socialSurveySpaceNew.aspx
+              - paragraph [ref=e177]: 社会实践
+            - link "毕业设计" [ref=e180] [cursor=pointer]:
+              - /url: https://graduation.sou.edu.cn/Account/Learning?userName=20252310040388&timeStamp=1775795841&randNum=662&sign=ed8de25587ad35288d4b1ece3212bab0&type=0
+              - paragraph [ref=e181]: 毕业设计
+            - paragraph [ref=e184] [cursor=pointer]: 毕业生登记表
+        - generic [ref=e185]:
+          - heading "测" [level=3] [ref=e186]
+          - generic [ref=e189]:
+            - paragraph [ref=e192] [cursor=pointer]: 考试通知
+            - paragraph [ref=e195] [cursor=pointer]: 学位英语准考证
+        - generic [ref=e198]:
+          - heading "评" [level=3] [ref=e199]
+          - generic [ref=e200]:
+            - paragraph [ref=e203] [cursor=pointer]: 学习积分
+            - paragraph [ref=e206] [cursor=pointer]: 学习报告
+            - paragraph [ref=e209] [cursor=pointer]: 形考成绩
+            - paragraph [ref=e212] [cursor=pointer]: 最终成绩
+    - generic [ref=e216]:
+      - paragraph [ref=e217]: "沪ICP备05052049号-1联系地址: 上海市国顺路288号(200433)联系电话: (021) 25653114"
+      - paragraph [ref=e218]: ©上海开放大学版权所有

@@ -1,0 +1,30 @@
+- generic [active]:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic [ref=e3]:
+            - generic "统一认证平台" [ref=e4]
+            - generic [ref=e5]: 简体中文 / English
+          - generic [ref=e6]:
+            - menubar [ref=e9]:
+              - menuitem "账密" [ref=e10] [cursor=pointer]
+              - menuitem "短信" [ref=e11] [cursor=pointer]
+              - menuitem "扫码" [ref=e12] [cursor=pointer]
+            - generic [ref=e13]:
+              - generic [ref=e15]:
+                - textbox [ref=e16]
+                - textbox [ref=e17]
+                - generic [ref=e20]:
+                  - textbox "请输入工号/学号" [ref=e21]
+                  - img [ref=e23]
+                - generic [ref=e27]:
+                  - textbox "请输入密码" [ref=e28]
+                  - img [ref=e30]
+              - button "立即登录" [disabled] [ref=e32]
+              - generic [ref=e33]:
+                - link "登录说明" [ref=e35] [cursor=pointer]:
+                  - /url: https://wlxx.sou.edu.cn/2020/1127/c8715a70475/page.htm
+                - link "激活/忘记密码" [ref=e37] [cursor=pointer]:
+                  - /url: https://iam.shou.org.cn/uc/#/anonymous/forgetPassword?lck=context_oauth2_7f82b1c41b4c4574a9d2cdd8cd9c8411&theme=c7c789acf56a40fc8ecfe20dc56b2aa8&locale=zh_CN&backUrl=https%3A%2F%2Fiam.shou.org.cn%2Fac%2F%3Flocale%3Dzh_CN%23%2Findex%3Flck%3Dcontext_oauth2_7f82b1c41b4c4574a9d2cdd8cd9c8411%26entityId%3DOT%26theme%3Dc7c789acf56a40fc8ecfe20dc56b2aa8
+          - generic [ref=e39]: 上海开放大学版权所有© 2025 Version：1215SP3

@@ -1,0 +1,2406 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic:
+      - link "学习平台首页： http://learning.shou.org.cn" [ref=e7] [cursor=pointer]:
+        - /url: http://learning.shou.org.cn
+        - text: 学习平台首页：
+        - text: http://learning.shou.org.cn
+      - link [ref=e9] [cursor=pointer]:
+        - /url: http://myportal.shou.org.cn/
+      - generic [ref=e11]:
+        - textbox "课程、教师" [ref=e12]
+        - button "搜索" [ref=e13] [cursor=pointer]
+      - generic [ref=e14]:
+        - link "更多课程" [ref=e15] [cursor=pointer]:
+          - /url: /teacher/searchCourseNew.aspx?search=
+        - link "学位英语" [ref=e16] [cursor=pointer]:
+          - /url: https://ldoc.shou.org.cn/doc/a@53F1FA910D23BF6017962F7C5FE8CA5A.pdf?time=639115215315201585&token=DE71FD82496B4CCBFAA1F6D036B95DAA&xtoken=uwV8HJtDkFI1811XA%2fYxonseSaQNQtNfND5rLql2AcM%3d%7c1775895931
+        - link "操作指南" [ref=e17] [cursor=pointer]:
+          - /url: https://l.shou.org.cn/help/default.aspx
+        - link "无障碍通道" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "在线客服" [ref=e19] [cursor=pointer]:
+          - /url: javascript:void(0)
+  - generic:
+    - generic [ref=e20]:
+      - button " 我的课程 " [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: 
+        - text: 我的课程
+        - generic [ref=e24]: 
+      - link "返回学习空间" [ref=e25] [cursor=pointer]:
+        - /url: /student/LearningSpaceNew.aspx
+      - generic [ref=e26]:
+        - term [ref=e28]: 马克思主义基本原理
+        - link "课程信息" [ref=e30] [cursor=pointer]:
+          - /url: courseInfoNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+          - definition [ref=e31]: 课程信息
+        - link "学习目录" [ref=e32] [cursor=pointer]:
+          - /url: learnCatalogNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+          - definition [ref=e33]: 学习目录
+        - link "形考作业" [ref=e34] [cursor=pointer]:
+          - /url: HomeWorkNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+          - definition [ref=e35]: 形考作业
+        - link "教学活动" [ref=e36] [cursor=pointer]:
+          - /url: activityNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+          - definition [ref=e37]: 教学活动
+        - link "形考查分" [ref=e38] [cursor=pointer]:
+          - /url: viewScoreNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+          - definition [ref=e39]: 形考查分
+        - link "教学日历" [ref=e40] [cursor=pointer]:
+          - /url: calendarNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+          - definition [ref=e41]: 教学日历
+        - link "课程讨论区" [ref=e42] [cursor=pointer]:
+          - /url: bbs.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+          - definition [ref=e43]: 课程讨论区
+        - link "课程评价" [ref=e44] [cursor=pointer]:
+          - /url: evaluationNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+          - definition [ref=e45]: 课程评价
+        - link:
+          - /url: /report/OnlineIndex.aspx?coursename=op4baewzb5rlb2cp7bkl5g&stuid=310_20252310040388
+    - generic [ref=e47]:
+      - generic [ref=e53]:
+        - img [ref=e55]
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - heading "“马克思主义基本原理” (260003771)" [level=2] [ref=e58]
+            - heading "我的形考成绩：16" [level=3] [ref=e59]
+            - heading "课程简介： 无" [level=3] [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: 主持教师：
+              - generic [ref=e66]: 李清聚
+              - generic [ref=e67]: 辅导教师：
+              - generic [ref=e69]: 徐敏
+              - generic [ref=e70]: 辅导员：
+              - generic [ref=e72]: 吴云龙
+            - generic [ref=e74]:
+              - generic [ref=e75]: 班名/QQ群：
+              - generic [ref=e77]: 川沙-25秋市场本
+            - generic [ref=e79]:
+              - generic [ref=e80]: 联系方式：
+              - link "点击查看" [ref=e83] [cursor=pointer]:
+                - /url: /study/contactwayNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+          - img "扫描二维码，加入课程学习" [ref=e85]
+      - generic [ref=e86]:
+        - generic [ref=e88]:
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - link " 学习目录" [ref=e91]:
+                - /url: "[data-tab-panel-0]"
+                - generic [ref=e92]: 
+                - text: 学习目录
+            - listitem [ref=e93]:
+              - link " 本校辅导教师补充材料" [ref=e94] [cursor=pointer]:
+                - /url: "[data-tab-panel-1]"
+                - generic [ref=e95]: 
+                - text: 本校辅导教师补充材料
+            - listitem [ref=e96]:
+              - link " 其他分校辅导教师补充材料" [ref=e97] [cursor=pointer]:
+                - /url: "[data-tab-panel-2]"
+                - generic [ref=e98]: 
+                - text: 其他分校辅导教师补充材料
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]: 一
+              - generic "导学" [ref=e105]
+            - table [ref=e108]:
+              - rowgroup [ref=e109]:
+                - row "名称 教学周 资源 活动 作业 进度" [ref=e110]:
+                  - columnheader [ref=e111]
+                  - columnheader [ref=e112]
+                  - columnheader "名称 教学周 资源 活动 作业 进度" [ref=e113]:
+                    - table [ref=e114]:
+                      - rowgroup [ref=e115]:
+                        - row "名称 教学周 资源 活动 作业 进度" [ref=e116]:
+                          - cell "名称" [ref=e117]
+                          - cell "教学周" [ref=e118]
+                          - cell "资源" [ref=e119]
+                          - cell "活动" [ref=e120]
+                          - cell "作业" [ref=e121]
+                          - cell "进度" [ref=e122]
+                - row "1   学习指南 (必看) 1 1个 0次 0次 已完成 课程考核要求.docx ( office文档 ) (必看) 已完成" [ref=e123]:
+                  - cell "1" [ref=e124]
+                  - cell "" [ref=e125]:
+                    - generic [ref=e126]: 
+                  - cell " 学习指南 (必看) 1 1个 0次 0次 已完成 课程考核要求.docx ( office文档 ) (必看) 已完成" [ref=e127]:
+                    - table [ref=e128]:
+                      - rowgroup [ref=e129]:
+                        - row " 学习指南 (必看) 1 1个 0次 0次 已完成" [ref=e130]:
+                          - cell " 学习指南 (必看)" [ref=e131]:
+                            - generic [ref=e132] [cursor=pointer]: 
+                            - link "学习指南" [ref=e133] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "1" [ref=e134]
+                          - cell "1个" [ref=e135]
+                          - cell "0次" [ref=e136]
+                          - cell "0次" [ref=e137]
+                          - cell "已完成" [ref=e138]:
+                            - img "已完成" [ref=e139]
+                    - table [ref=e141]:
+                      - rowgroup [ref=e142]:
+                        - row "课程考核要求.docx ( office文档 ) (必看) 已完成" [ref=e143]:
+                          - cell "课程考核要求.docx ( office文档 ) (必看) 已完成" [ref=e144]:
+                            - generic [ref=e147]:
+                              - link "课程考核要求.docx" [ref=e148] [cursor=pointer]:
+                                - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=pwimaf2zwzbco3dvye4xbq
+                              - generic [ref=e149]: ( office文档 )
+                              - generic [ref=e150]: (必看)
+                              - img "已完成" [ref=e151]
+                - row "2   导学 1 2个 0次 0次 已完成 学习指导答案解析.pptx ( ppt文档 ) 已完成 26春马克思主义基本原理（上开本科）课程教学实施安排.doc ( office文档 ) 已完成" [ref=e152]:
+                  - cell "2" [ref=e153]
+                  - cell "" [ref=e154]:
+                    - generic [ref=e155]: 
+                  - cell " 导学 1 2个 0次 0次 已完成 学习指导答案解析.pptx ( ppt文档 ) 已完成 26春马克思主义基本原理（上开本科）课程教学实施安排.doc ( office文档 ) 已完成" [ref=e156]:
+                    - table [ref=e157]:
+                      - rowgroup [ref=e158]:
+                        - row " 导学 1 2个 0次 0次 已完成" [ref=e159]:
+                          - cell " 导学" [ref=e160]:
+                            - generic [ref=e161] [cursor=pointer]: 
+                            - link "导学" [ref=e162] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - cell "1" [ref=e163]
+                          - cell "2个" [ref=e164]
+                          - cell "0次" [ref=e165]
+                          - cell "0次" [ref=e166]
+                          - cell "已完成" [ref=e167]:
+                            - img "已完成" [ref=e168]
+                    - table [ref=e170]:
+                      - rowgroup [ref=e171]:
+                        - row "学习指导答案解析.pptx ( ppt文档 ) 已完成 26春马克思主义基本原理（上开本科）课程教学实施安排.doc ( office文档 ) 已完成" [ref=e172]:
+                          - cell "学习指导答案解析.pptx ( ppt文档 ) 已完成 26春马克思主义基本原理（上开本科）课程教学实施安排.doc ( office文档 ) 已完成" [ref=e173]:
+                            - generic [ref=e174]:
+                              - generic [ref=e176]:
+                                - link "学习指导答案解析.pptx" [ref=e177] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=goanaewzjz9ilu7udazxca
+                                - generic [ref=e178]: ( ppt文档 )
+                                - img "已完成" [ref=e179]
+                              - generic [ref=e181]:
+                                - link "26春马克思主义基本原理（上开本科）课程教学实施安排.doc" [ref=e182] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=atgkaf2z7y1dgzxp6ehcja
+                                - generic [ref=e183]: ( office文档 )
+                                - img "已完成" [ref=e184]
+            - generic [ref=e185]:
+              - generic [ref=e186]: 二
+              - generic "专题一 马克思主义的产生" [ref=e187]
+            - table [ref=e190]:
+              - rowgroup [ref=e191]:
+                - row "名称 教学周 资源 活动 作业 进度" [ref=e192]:
+                  - columnheader [ref=e193]
+                  - columnheader [ref=e194]
+                  - columnheader "名称 教学周 资源 活动 作业 进度" [ref=e195]:
+                    - table [ref=e196]:
+                      - rowgroup [ref=e197]:
+                        - row "名称 教学周 资源 活动 作业 进度" [ref=e198]:
+                          - cell "名称" [ref=e199]
+                          - cell "教学周" [ref=e200]
+                          - cell "资源" [ref=e201]
+                          - cell "活动" [ref=e202]
+                          - cell "作业" [ref=e203]
+                          - cell "进度" [ref=e204]
+                - row "1   课程1：马克思主义产生的社会根源... (必看) 1 2个 0次 0次 已完成 1.1马克思主义产生的社会根源和阶级基础_720p ( 视频 ) (必看) 已完成 1.1马克思主义产生的社会根源和阶级基础_720p.docx ( office文档 ) 已完成" [ref=e205]:
+                  - cell "1" [ref=e206]
+                  - cell "" [ref=e207]:
+                    - generic [ref=e208]: 
+                  - cell " 课程1：马克思主义产生的社会根源... (必看) 1 2个 0次 0次 已完成 1.1马克思主义产生的社会根源和阶级基础_720p ( 视频 ) (必看) 已完成 1.1马克思主义产生的社会根源和阶级基础_720p.docx ( office文档 ) 已完成" [ref=e209]:
+                    - table [ref=e210]:
+                      - rowgroup [ref=e211]:
+                        - row " 课程1：马克思主义产生的社会根源... (必看) 1 2个 0次 0次 已完成" [ref=e212]:
+                          - cell " 课程1：马克思主义产生的社会根源... (必看)" [ref=e213]:
+                            - generic [ref=e214] [cursor=pointer]: 
+                            - link "课程1：马克思主义产生的社会根源..." [ref=e215] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "1" [ref=e216]
+                          - cell "2个" [ref=e217]
+                          - cell "0次" [ref=e218]
+                          - cell "0次" [ref=e219]
+                          - cell "已完成" [ref=e220]:
+                            - img "已完成" [ref=e221]
+                    - table [ref=e223]:
+                      - rowgroup [ref=e224]:
+                        - row "1.1马克思主义产生的社会根源和阶级基础_720p ( 视频 ) (必看) 已完成 1.1马克思主义产生的社会根源和阶级基础_720p.docx ( office文档 ) 已完成" [ref=e225]:
+                          - cell "1.1马克思主义产生的社会根源和阶级基础_720p ( 视频 ) (必看) 已完成 1.1马克思主义产生的社会根源和阶级基础_720p.docx ( office文档 ) 已完成" [ref=e226]:
+                            - generic [ref=e227]:
+                              - generic [ref=e229]:
+                                - link "1.1马克思主义产生的社会根源和阶级基础_720p" [ref=e230] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=h4anaewz2ozoc0vyfguhga
+                                - generic [ref=e231]: ( 视频 )
+                                - generic [ref=e232]: (必看)
+                                - img "已完成" [ref=e233]
+                              - generic [ref=e235]:
+                                - link "1.1马克思主义产生的社会根源和阶级基础_720p.docx" [ref=e236] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=hoanaewz8bnlvqvjghds7a
+                                - generic [ref=e237]: ( office文档 )
+                                - img "已完成" [ref=e238]
+                - row "2   课程2：马克思主义的思想来源 (必看) 1 2个 0次 0次 已完成 1.2马克思主义的思想来源_720P ( 视频 ) (必看) 已完成 1.2马克思主义的思想来源_720P.docx ( office文档 ) 已完成" [ref=e239]:
+                  - cell "2" [ref=e240]
+                  - cell "" [ref=e241]:
+                    - generic [ref=e242]: 
+                  - cell " 课程2：马克思主义的思想来源 (必看) 1 2个 0次 0次 已完成 1.2马克思主义的思想来源_720P ( 视频 ) (必看) 已完成 1.2马克思主义的思想来源_720P.docx ( office文档 ) 已完成" [ref=e243]:
+                    - table [ref=e244]:
+                      - rowgroup [ref=e245]:
+                        - row " 课程2：马克思主义的思想来源 (必看) 1 2个 0次 0次 已完成" [ref=e246]:
+                          - cell " 课程2：马克思主义的思想来源 (必看)" [ref=e247]:
+                            - generic [ref=e248] [cursor=pointer]: 
+                            - link "课程2：马克思主义的思想来源" [ref=e249] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "1" [ref=e250]
+                          - cell "2个" [ref=e251]
+                          - cell "0次" [ref=e252]
+                          - cell "0次" [ref=e253]
+                          - cell "已完成" [ref=e254]:
+                            - img "已完成" [ref=e255]
+                    - table [ref=e257]:
+                      - rowgroup [ref=e258]:
+                        - row "1.2马克思主义的思想来源_720P ( 视频 ) (必看) 已完成 1.2马克思主义的思想来源_720P.docx ( office文档 ) 已完成" [ref=e259]:
+                          - cell "1.2马克思主义的思想来源_720P ( 视频 ) (必看) 已完成 1.2马克思主义的思想来源_720P.docx ( office文档 ) 已完成" [ref=e260]:
+                            - generic [ref=e261]:
+                              - generic [ref=e263]:
+                                - link "1.2马克思主义的思想来源_720P" [ref=e264] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=hyanaewzyadhcgktnzmssq
+                                - generic [ref=e265]: ( 视频 )
+                                - generic [ref=e266]: (必看)
+                                - img "已完成" [ref=e267]
+                              - generic [ref=e269]:
+                                - link "1.2马克思主义的思想来源_720P.docx" [ref=e270] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=hyanaewzkjleuyu6nyvpka
+                                - generic [ref=e271]: ( office文档 )
+                                - img "已完成" [ref=e272]
+                - row "3   课程3：马克思、恩格斯对新世界观... (必看) 1 2个 0次 0次 已完成 1.3马克思恩格斯对新世界观的探_720p ( 视频 ) (必看) 已完成 1.3马克思恩格斯对新世界观的探_720p.docx ( office文档 ) 已完成" [ref=e273]:
+                  - cell "3" [ref=e274]
+                  - cell "" [ref=e275]:
+                    - generic [ref=e276]: 
+                  - cell " 课程3：马克思、恩格斯对新世界观... (必看) 1 2个 0次 0次 已完成 1.3马克思恩格斯对新世界观的探_720p ( 视频 ) (必看) 已完成 1.3马克思恩格斯对新世界观的探_720p.docx ( office文档 ) 已完成" [ref=e277]:
+                    - table [ref=e278]:
+                      - rowgroup [ref=e279]:
+                        - row " 课程3：马克思、恩格斯对新世界观... (必看) 1 2个 0次 0次 已完成" [ref=e280]:
+                          - cell " 课程3：马克思、恩格斯对新世界观... (必看)" [ref=e281]:
+                            - generic [ref=e282] [cursor=pointer]: 
+                            - link "课程3：马克思、恩格斯对新世界观..." [ref=e283] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "1" [ref=e284]
+                          - cell "2个" [ref=e285]
+                          - cell "0次" [ref=e286]
+                          - cell "0次" [ref=e287]
+                          - cell "已完成" [ref=e288]:
+                            - img "已完成" [ref=e289]
+                    - table [ref=e291]:
+                      - rowgroup [ref=e292]:
+                        - row "1.3马克思恩格斯对新世界观的探_720p ( 视频 ) (必看) 已完成 1.3马克思恩格斯对新世界观的探_720p.docx ( office文档 ) 已完成" [ref=e293]:
+                          - cell "1.3马克思恩格斯对新世界观的探_720p ( 视频 ) (必看) 已完成 1.3马克思恩格斯对新世界观的探_720p.docx ( office文档 ) 已完成" [ref=e294]:
+                            - generic [ref=e295]:
+                              - generic [ref=e297]:
+                                - link "1.3马克思恩格斯对新世界观的探_720p" [ref=e298] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=jianaewzw69h5dik7pijua
+                                - generic [ref=e299]: ( 视频 )
+                                - generic [ref=e300]: (必看)
+                                - img "已完成" [ref=e301]
+                              - generic [ref=e303]:
+                                - link "1.3马克思恩格斯对新世界观的探_720p.docx" [ref=e304] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=iianaewzslxdnqe55mlfza
+                                - generic [ref=e305]: ( office文档 )
+                                - img "已完成" [ref=e306]
+                - row "4   课程4：《共产党宣言》的诞生 (必看) 1 2个 0次 0次 已完成 1.4《共产党宣言》的诞生_老师版__720p ( 视频 ) (必看) 已完成 1.4《共产党宣言》的诞生_老师版__720p.docx ( office文档 ) 已完成" [ref=e307]:
+                  - cell "4" [ref=e308]
+                  - cell "" [ref=e309]:
+                    - generic [ref=e310]: 
+                  - cell " 课程4：《共产党宣言》的诞生 (必看) 1 2个 0次 0次 已完成 1.4《共产党宣言》的诞生_老师版__720p ( 视频 ) (必看) 已完成 1.4《共产党宣言》的诞生_老师版__720p.docx ( office文档 ) 已完成" [ref=e311]:
+                    - table [ref=e312]:
+                      - rowgroup [ref=e313]:
+                        - row " 课程4：《共产党宣言》的诞生 (必看) 1 2个 0次 0次 已完成" [ref=e314]:
+                          - cell " 课程4：《共产党宣言》的诞生 (必看)" [ref=e315]:
+                            - generic [ref=e316] [cursor=pointer]: 
+                            - link "课程4：《共产党宣言》的诞生" [ref=e317] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "1" [ref=e318]
+                          - cell "2个" [ref=e319]
+                          - cell "0次" [ref=e320]
+                          - cell "0次" [ref=e321]
+                          - cell "已完成" [ref=e322]:
+                            - img "已完成" [ref=e323]
+                    - table [ref=e325]:
+                      - rowgroup [ref=e326]:
+                        - row "1.4《共产党宣言》的诞生_老师版__720p ( 视频 ) (必看) 已完成 1.4《共产党宣言》的诞生_老师版__720p.docx ( office文档 ) 已完成" [ref=e327]:
+                          - cell "1.4《共产党宣言》的诞生_老师版__720p ( 视频 ) (必看) 已完成 1.4《共产党宣言》的诞生_老师版__720p.docx ( office文档 ) 已完成" [ref=e328]:
+                            - generic [ref=e329]:
+                              - generic [ref=e331]:
+                                - link "1.4《共产党宣言》的诞生_老师版__720p" [ref=e332] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=hianaewzpjbf1-ke6i63ha
+                                - generic [ref=e333]: ( 视频 )
+                                - generic [ref=e334]: (必看)
+                                - img "已完成" [ref=e335]
+                              - generic [ref=e337]:
+                                - link "1.4《共产党宣言》的诞生_老师版__720p.docx" [ref=e338] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=hianaewze4vmid7e9xnsow
+                                - generic [ref=e339]: ( office文档 )
+                                - img "已完成" [ref=e340]
+                - row "5   课程5：马克思主义的首次完整、系... (必看) 1 2个 0次 0次 已完成 1.5马克思主义的首次完整、系统阐述修改版_720p ( 视频 ) (必看) 已完成 1.5马克思主义的首次完整、系统阐述(修改版)_720p.docx ( office文档 ) 已完成" [ref=e341]:
+                  - cell "5" [ref=e342]
+                  - cell "" [ref=e343]:
+                    - generic [ref=e344]: 
+                  - cell " 课程5：马克思主义的首次完整、系... (必看) 1 2个 0次 0次 已完成 1.5马克思主义的首次完整、系统阐述修改版_720p ( 视频 ) (必看) 已完成 1.5马克思主义的首次完整、系统阐述(修改版)_720p.docx ( office文档 ) 已完成" [ref=e345]:
+                    - table [ref=e346]:
+                      - rowgroup [ref=e347]:
+                        - row " 课程5：马克思主义的首次完整、系... (必看) 1 2个 0次 0次 已完成" [ref=e348]:
+                          - cell " 课程5：马克思主义的首次完整、系... (必看)" [ref=e349]:
+                            - generic [ref=e350] [cursor=pointer]: 
+                            - link "课程5：马克思主义的首次完整、系..." [ref=e351] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "1" [ref=e352]
+                          - cell "2个" [ref=e353]
+                          - cell "0次" [ref=e354]
+                          - cell "0次" [ref=e355]
+                          - cell "已完成" [ref=e356]:
+                            - img "已完成" [ref=e357]
+                    - table [ref=e359]:
+                      - rowgroup [ref=e360]:
+                        - row "1.5马克思主义的首次完整、系统阐述修改版_720p ( 视频 ) (必看) 已完成 1.5马克思主义的首次完整、系统阐述(修改版)_720p.docx ( office文档 ) 已完成" [ref=e361]:
+                          - cell "1.5马克思主义的首次完整、系统阐述修改版_720p ( 视频 ) (必看) 已完成 1.5马克思主义的首次完整、系统阐述(修改版)_720p.docx ( office文档 ) 已完成" [ref=e362]:
+                            - generic [ref=e363]:
+                              - generic [ref=e365]:
+                                - link "1.5马克思主义的首次完整、系统阐述修改版_720p" [ref=e366] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=h4anaewz-z9pyl1zt0h0yq
+                                - generic [ref=e367]: ( 视频 )
+                                - generic [ref=e368]: (必看)
+                                - img "已完成" [ref=e369]
+                              - generic [ref=e371]:
+                                - link "1.5马克思主义的首次完整、系统阐述(修改版)_720p.docx" [ref=e372] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=iianaewz45dbsurg07uyoa
+                                - generic [ref=e373]: ( office文档 )
+                                - img "已完成" [ref=e374]
+            - generic [ref=e375]:
+              - generic [ref=e376]: 三
+              - generic "专题二 世界的物质性及发展规律" [ref=e377]
+            - table [ref=e380]:
+              - rowgroup [ref=e381]:
+                - row "名称 教学周 资源 活动 作业 进度" [ref=e382]:
+                  - columnheader [ref=e383]
+                  - columnheader [ref=e384]
+                  - columnheader "名称 教学周 资源 活动 作业 进度" [ref=e385]:
+                    - table [ref=e386]:
+                      - rowgroup [ref=e387]:
+                        - row "名称 教学周 资源 活动 作业 进度" [ref=e388]:
+                          - cell "名称" [ref=e389]
+                          - cell "教学周" [ref=e390]
+                          - cell "资源" [ref=e391]
+                          - cell "活动" [ref=e392]
+                          - cell "作业" [ref=e393]
+                          - cell "进度" [ref=e394]
+                - row "1   课程1：物质及其存在形态 (必看) 3 2个 0次 0次 已完成 2.1物质及其存在形态_720p ( 视频 ) (必看) 已完成 2.1物质及其存在形态_720p.docx ( office文档 ) 已完成" [ref=e395]:
+                  - cell "1" [ref=e396]
+                  - cell "" [ref=e397]:
+                    - generic [ref=e398]: 
+                  - cell " 课程1：物质及其存在形态 (必看) 3 2个 0次 0次 已完成 2.1物质及其存在形态_720p ( 视频 ) (必看) 已完成 2.1物质及其存在形态_720p.docx ( office文档 ) 已完成" [ref=e399]:
+                    - table [ref=e400]:
+                      - rowgroup [ref=e401]:
+                        - row " 课程1：物质及其存在形态 (必看) 3 2个 0次 0次 已完成" [ref=e402]:
+                          - cell " 课程1：物质及其存在形态 (必看)" [ref=e403]:
+                            - generic [ref=e404] [cursor=pointer]: 
+                            - link "课程1：物质及其存在形态" [ref=e405] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "3" [ref=e406]
+                          - cell "2个" [ref=e407]
+                          - cell "0次" [ref=e408]
+                          - cell "0次" [ref=e409]
+                          - cell "已完成" [ref=e410]:
+                            - img "已完成" [ref=e411]
+                    - table [ref=e413]:
+                      - rowgroup [ref=e414]:
+                        - row "2.1物质及其存在形态_720p ( 视频 ) (必看) 已完成 2.1物质及其存在形态_720p.docx ( office文档 ) 已完成" [ref=e415]:
+                          - cell "2.1物质及其存在形态_720p ( 视频 ) (必看) 已完成 2.1物质及其存在形态_720p.docx ( office文档 ) 已完成" [ref=e416]:
+                            - generic [ref=e417]:
+                              - generic [ref=e419]:
+                                - link "2.1物质及其存在形态_720p" [ref=e420] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=nianaewzo5ld17ad1mv-rg
+                                - generic [ref=e421]: ( 视频 )
+                                - generic [ref=e422]: (必看)
+                                - img "已完成" [ref=e423]
+                              - generic [ref=e425]:
+                                - link "2.1物质及其存在形态_720p.docx" [ref=e426] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=nianaewzvile1kspvg5sug
+                                - generic [ref=e427]: ( office文档 )
+                                - img "已完成" [ref=e428]
+                - row "2   课程2：世界的物质统一性 (必看) 3 2个 0次 0次 已完成 2.2世界的统一性_720p ( 视频 ) (必看) 已完成 2.2世界的统一性_720p.docx ( office文档 ) 已完成" [ref=e429]:
+                  - cell "2" [ref=e430]
+                  - cell "" [ref=e431]:
+                    - generic [ref=e432]: 
+                  - cell " 课程2：世界的物质统一性 (必看) 3 2个 0次 0次 已完成 2.2世界的统一性_720p ( 视频 ) (必看) 已完成 2.2世界的统一性_720p.docx ( office文档 ) 已完成" [ref=e433]:
+                    - table [ref=e434]:
+                      - rowgroup [ref=e435]:
+                        - row " 课程2：世界的物质统一性 (必看) 3 2个 0次 0次 已完成" [ref=e436]:
+                          - cell " 课程2：世界的物质统一性 (必看)" [ref=e437]:
+                            - generic [ref=e438] [cursor=pointer]: 
+                            - link "课程2：世界的物质统一性" [ref=e439] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "3" [ref=e440]
+                          - cell "2个" [ref=e441]
+                          - cell "0次" [ref=e442]
+                          - cell "0次" [ref=e443]
+                          - cell "已完成" [ref=e444]:
+                            - img "已完成" [ref=e445]
+                    - table [ref=e447]:
+                      - rowgroup [ref=e448]:
+                        - row "2.2世界的统一性_720p ( 视频 ) (必看) 已完成 2.2世界的统一性_720p.docx ( office文档 ) 已完成" [ref=e449]:
+                          - cell "2.2世界的统一性_720p ( 视频 ) (必看) 已完成 2.2世界的统一性_720p.docx ( office文档 ) 已完成" [ref=e450]:
+                            - generic [ref=e451]:
+                              - generic [ref=e453]:
+                                - link "2.2世界的统一性_720p" [ref=e454] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=qyanaewzlalj7vmyyglatg
+                                - generic [ref=e455]: ( 视频 )
+                                - generic [ref=e456]: (必看)
+                                - img "已完成" [ref=e457]
+                              - generic [ref=e459]:
+                                - link "2.2世界的统一性_720p.docx" [ref=e460] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=pyanaewzqpjahvoyup-fnw
+                                - generic [ref=e461]: ( office文档 )
+                                - img "已完成" [ref=e462]
+                - row "3   课程3：事物的普遍联系和永恒发展 (必看) 3 2个 0次 0次 已完成 2.3事物的普遍联系与永恒发展_720p ( 视频 ) (必看) 已完成 2.3事物的普遍联系与永恒发展_720p.docx ( office文档 ) 已完成" [ref=e463]:
+                  - cell "3" [ref=e464]
+                  - cell "" [ref=e465]:
+                    - generic [ref=e466]: 
+                  - cell " 课程3：事物的普遍联系和永恒发展 (必看) 3 2个 0次 0次 已完成 2.3事物的普遍联系与永恒发展_720p ( 视频 ) (必看) 已完成 2.3事物的普遍联系与永恒发展_720p.docx ( office文档 ) 已完成" [ref=e467]:
+                    - table [ref=e468]:
+                      - rowgroup [ref=e469]:
+                        - row " 课程3：事物的普遍联系和永恒发展 (必看) 3 2个 0次 0次 已完成" [ref=e470]:
+                          - cell " 课程3：事物的普遍联系和永恒发展 (必看)" [ref=e471]:
+                            - generic [ref=e472] [cursor=pointer]: 
+                            - link "课程3：事物的普遍联系和永恒发展" [ref=e473] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "3" [ref=e474]
+                          - cell "2个" [ref=e475]
+                          - cell "0次" [ref=e476]
+                          - cell "0次" [ref=e477]
+                          - cell "已完成" [ref=e478]:
+                            - img "已完成" [ref=e479]
+                    - table [ref=e481]:
+                      - rowgroup [ref=e482]:
+                        - row "2.3事物的普遍联系与永恒发展_720p ( 视频 ) (必看) 已完成 2.3事物的普遍联系与永恒发展_720p.docx ( office文档 ) 已完成" [ref=e483]:
+                          - cell "2.3事物的普遍联系与永恒发展_720p ( 视频 ) (必看) 已完成 2.3事物的普遍联系与永恒发展_720p.docx ( office文档 ) 已完成" [ref=e484]:
+                            - generic [ref=e485]:
+                              - generic [ref=e487]:
+                                - link "2.3事物的普遍联系与永恒发展_720p" [ref=e488] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=moanaewznr9l5rmvcy6ihw
+                                - generic [ref=e489]: ( 视频 )
+                                - generic [ref=e490]: (必看)
+                                - img "已完成" [ref=e491]
+                              - generic [ref=e493]:
+                                - link "2.3事物的普遍联系与永恒发展_720p.docx" [ref=e494] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=myanaewzf6rgujsgb7j31q
+                                - generic [ref=e495]: ( office文档 )
+                                - img "已完成" [ref=e496]
+                - row "4   课程4：联系和发展的基本环节（一... (必看) 3 2个 0次 0次 已完成 2.4 联系和发展的基本环节（一）_720p ( 视频 ) (必看) 已完成 2.4 联系和发展的基本环节（一）_720p.docx ( office文档 ) 已完成" [ref=e497]:
+                  - cell "4" [ref=e498]
+                  - cell "" [ref=e499]:
+                    - generic [ref=e500]: 
+                  - cell " 课程4：联系和发展的基本环节（一... (必看) 3 2个 0次 0次 已完成 2.4 联系和发展的基本环节（一）_720p ( 视频 ) (必看) 已完成 2.4 联系和发展的基本环节（一）_720p.docx ( office文档 ) 已完成" [ref=e501]:
+                    - table [ref=e502]:
+                      - rowgroup [ref=e503]:
+                        - row " 课程4：联系和发展的基本环节（一... (必看) 3 2个 0次 0次 已完成" [ref=e504]:
+                          - cell " 课程4：联系和发展的基本环节（一... (必看)" [ref=e505]:
+                            - generic [ref=e506] [cursor=pointer]: 
+                            - link "课程4：联系和发展的基本环节（一..." [ref=e507] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "3" [ref=e508]
+                          - cell "2个" [ref=e509]
+                          - cell "0次" [ref=e510]
+                          - cell "0次" [ref=e511]
+                          - cell "已完成" [ref=e512]:
+                            - img "已完成" [ref=e513]
+                    - table [ref=e515]:
+                      - rowgroup [ref=e516]:
+                        - row "2.4 联系和发展的基本环节（一）_720p ( 视频 ) (必看) 已完成 2.4 联系和发展的基本环节（一）_720p.docx ( office文档 ) 已完成" [ref=e517]:
+                          - cell "2.4 联系和发展的基本环节（一）_720p ( 视频 ) (必看) 已完成 2.4 联系和发展的基本环节（一）_720p.docx ( office文档 ) 已完成" [ref=e518]:
+                            - generic [ref=e519]:
+                              - generic [ref=e521]:
+                                - link "2.4 联系和发展的基本环节（一）_720p" [ref=e522] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=oyanaewzxodnvvmnc4vh0q
+                                - generic [ref=e523]: ( 视频 )
+                                - generic [ref=e524]: (必看)
+                                - img "已完成" [ref=e525]
+                              - generic [ref=e527]:
+                                - link "2.4 联系和发展的基本环节（一）_720p.docx" [ref=e528] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=oyanaewzaozhtbu9djfvvg
+                                - generic [ref=e529]: ( office文档 )
+                                - img "已完成" [ref=e530]
+                - row "5   课程5：联系和发展的基本环节（二... (必看) 3 2个 0次 0次 已完成 2.5 联系和发展的基本环节（二）_720p ( 视频 ) (必看) 已完成 2.5 联系和发展的基本环节（二）_720p.docx ( office文档 ) 已完成" [ref=e531]:
+                  - cell "5" [ref=e532]
+                  - cell "" [ref=e533]:
+                    - generic [ref=e534]: 
+                  - cell " 课程5：联系和发展的基本环节（二... (必看) 3 2个 0次 0次 已完成 2.5 联系和发展的基本环节（二）_720p ( 视频 ) (必看) 已完成 2.5 联系和发展的基本环节（二）_720p.docx ( office文档 ) 已完成" [ref=e535]:
+                    - table [ref=e536]:
+                      - rowgroup [ref=e537]:
+                        - row " 课程5：联系和发展的基本环节（二... (必看) 3 2个 0次 0次 已完成" [ref=e538]:
+                          - cell " 课程5：联系和发展的基本环节（二... (必看)" [ref=e539]:
+                            - generic [ref=e540] [cursor=pointer]: 
+                            - link "课程5：联系和发展的基本环节（二..." [ref=e541] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "3" [ref=e542]
+                          - cell "2个" [ref=e543]
+                          - cell "0次" [ref=e544]
+                          - cell "0次" [ref=e545]
+                          - cell "已完成" [ref=e546]:
+                            - img "已完成" [ref=e547]
+                    - table [ref=e549]:
+                      - rowgroup [ref=e550]:
+                        - row "2.5 联系和发展的基本环节（二）_720p ( 视频 ) (必看) 已完成 2.5 联系和发展的基本环节（二）_720p.docx ( office文档 ) 已完成" [ref=e551]:
+                          - cell "2.5 联系和发展的基本环节（二）_720p ( 视频 ) (必看) 已完成 2.5 联系和发展的基本环节（二）_720p.docx ( office文档 ) 已完成" [ref=e552]:
+                            - generic [ref=e553]:
+                              - generic [ref=e555]:
+                                - link "2.5 联系和发展的基本环节（二）_720p" [ref=e556] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=pianaewzebrjlmccwujf3g
+                                - generic [ref=e557]: ( 视频 )
+                                - generic [ref=e558]: (必看)
+                                - img "已完成" [ref=e559]
+                              - generic [ref=e561]:
+                                - link "2.5 联系和发展的基本环节（二）_720p.docx" [ref=e562] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=pianaewzhqrbfthaesavrg
+                                - generic [ref=e563]: ( office文档 )
+                                - img "已完成" [ref=e564]
+                - row "6   课程6：对立统一规律 (必看) 3 2个 0次 0次 已完成 2.6对立统一规律_720p ( 视频 ) (必看) 已完成 2.6对立统一规律_720p.docx ( office文档 ) 已完成" [ref=e565]:
+                  - cell "6" [ref=e566]
+                  - cell "" [ref=e567]:
+                    - generic [ref=e568]: 
+                  - cell " 课程6：对立统一规律 (必看) 3 2个 0次 0次 已完成 2.6对立统一规律_720p ( 视频 ) (必看) 已完成 2.6对立统一规律_720p.docx ( office文档 ) 已完成" [ref=e569]:
+                    - table [ref=e570]:
+                      - rowgroup [ref=e571]:
+                        - row " 课程6：对立统一规律 (必看) 3 2个 0次 0次 已完成" [ref=e572]:
+                          - cell " 课程6：对立统一规律 (必看)" [ref=e573]:
+                            - generic [ref=e574] [cursor=pointer]: 
+                            - link "课程6：对立统一规律" [ref=e575] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "3" [ref=e576]
+                          - cell "2个" [ref=e577]
+                          - cell "0次" [ref=e578]
+                          - cell "0次" [ref=e579]
+                          - cell "已完成" [ref=e580]:
+                            - img "已完成" [ref=e581]
+                    - table [ref=e583]:
+                      - rowgroup [ref=e584]:
+                        - row "2.6对立统一规律_720p ( 视频 ) (必看) 已完成 2.6对立统一规律_720p.docx ( office文档 ) 已完成" [ref=e585]:
+                          - cell "2.6对立统一规律_720p ( 视频 ) (必看) 已完成 2.6对立统一规律_720p.docx ( office文档 ) 已完成" [ref=e586]:
+                            - generic [ref=e587]:
+                              - generic [ref=e589]:
+                                - link "2.6对立统一规律_720p" [ref=e590] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=nyanaewzgbjokboxiglqsg
+                                - generic [ref=e591]: ( 视频 )
+                                - generic [ref=e592]: (必看)
+                                - img "已完成" [ref=e593]
+                              - generic [ref=e595]:
+                                - link "2.6对立统一规律_720p.docx" [ref=e596] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=nyanaewzgprexjh6isvckg
+                                - generic [ref=e597]: ( office文档 )
+                                - img "已完成" [ref=e598]
+                - row "7   课程7：质量互变规律 (必看) 3 2个 0次 0次 已完成 2.7质量互变规律__720p ( 视频 ) (必看) 已完成 2.7质量互变规律__720p.docx ( office文档 ) 已完成" [ref=e599]:
+                  - cell "7" [ref=e600]
+                  - cell "" [ref=e601]:
+                    - generic [ref=e602]: 
+                  - cell " 课程7：质量互变规律 (必看) 3 2个 0次 0次 已完成 2.7质量互变规律__720p ( 视频 ) (必看) 已完成 2.7质量互变规律__720p.docx ( office文档 ) 已完成" [ref=e603]:
+                    - table [ref=e604]:
+                      - rowgroup [ref=e605]:
+                        - row " 课程7：质量互变规律 (必看) 3 2个 0次 0次 已完成" [ref=e606]:
+                          - cell " 课程7：质量互变规律 (必看)" [ref=e607]:
+                            - generic [ref=e608] [cursor=pointer]: 
+                            - link "课程7：质量互变规律" [ref=e609] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "3" [ref=e610]
+                          - cell "2个" [ref=e611]
+                          - cell "0次" [ref=e612]
+                          - cell "0次" [ref=e613]
+                          - cell "已完成" [ref=e614]:
+                            - img "已完成" [ref=e615]
+                    - table [ref=e617]:
+                      - rowgroup [ref=e618]:
+                        - row "2.7质量互变规律__720p ( 视频 ) (必看) 已完成 2.7质量互变规律__720p.docx ( office文档 ) 已完成" [ref=e619]:
+                          - cell "2.7质量互变规律__720p ( 视频 ) (必看) 已完成 2.7质量互变规律__720p.docx ( office文档 ) 已完成" [ref=e620]:
+                            - generic [ref=e621]:
+                              - generic [ref=e623]:
+                                - link "2.7质量互变规律__720p" [ref=e624] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=m4anaewznqvkwl54pji-8w
+                                - generic [ref=e625]: ( 视频 )
+                                - generic [ref=e626]: (必看)
+                                - img "已完成" [ref=e627]
+                              - generic [ref=e629]:
+                                - link "2.7质量互变规律__720p.docx" [ref=e630] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=m4anaewzuafj23y5nrkrvg
+                                - generic [ref=e631]: ( office文档 )
+                                - img "已完成" [ref=e632]
+                - row "8   课程8：否定之否定规律 (必看) 3 2个 0次 0次 已完成 2.8 否定之否定规律_720p ( 视频 ) (必看) 已完成 2.8 否定之否定规律_720p.docx ( office文档 ) 已完成" [ref=e633]:
+                  - cell "8" [ref=e634]
+                  - cell "" [ref=e635]:
+                    - generic [ref=e636]: 
+                  - cell " 课程8：否定之否定规律 (必看) 3 2个 0次 0次 已完成 2.8 否定之否定规律_720p ( 视频 ) (必看) 已完成 2.8 否定之否定规律_720p.docx ( office文档 ) 已完成" [ref=e637]:
+                    - table [ref=e638]:
+                      - rowgroup [ref=e639]:
+                        - row " 课程8：否定之否定规律 (必看) 3 2个 0次 0次 已完成" [ref=e640]:
+                          - cell " 课程8：否定之否定规律 (必看)" [ref=e641]:
+                            - generic [ref=e642] [cursor=pointer]: 
+                            - link "课程8：否定之否定规律" [ref=e643] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "3" [ref=e644]
+                          - cell "2个" [ref=e645]
+                          - cell "0次" [ref=e646]
+                          - cell "0次" [ref=e647]
+                          - cell "已完成" [ref=e648]:
+                            - img "已完成" [ref=e649]
+                    - table [ref=e651]:
+                      - rowgroup [ref=e652]:
+                        - row "2.8 否定之否定规律_720p ( 视频 ) (必看) 已完成 2.8 否定之否定规律_720p.docx ( office文档 ) 已完成" [ref=e653]:
+                          - cell "2.8 否定之否定规律_720p ( 视频 ) (必看) 已完成 2.8 否定之否定规律_720p.docx ( office文档 ) 已完成" [ref=e654]:
+                            - generic [ref=e655]:
+                              - generic [ref=e657]:
+                                - link "2.8 否定之否定规律_720p" [ref=e658] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=ooanaewzzbhndy1t3zaipg
+                                - generic [ref=e659]: ( 视频 )
+                                - generic [ref=e660]: (必看)
+                                - img "已完成" [ref=e661]
+                              - generic [ref=e663]:
+                                - link "2.8 否定之否定规律_720p.docx" [ref=e664] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=o4anaewz0btfq4nkswnwua
+                                - generic [ref=e665]: ( office文档 )
+                                - img "已完成" [ref=e666]
+            - generic [ref=e667]:
+              - generic [ref=e668]: 四
+              - generic "专题三 实践与认识及其发展规律" [ref=e669]
+            - table [ref=e672]:
+              - rowgroup [ref=e673]:
+                - row "名称 教学周 资源 活动 作业 进度" [ref=e674]:
+                  - columnheader [ref=e675]
+                  - columnheader [ref=e676]
+                  - columnheader "名称 教学周 资源 活动 作业 进度" [ref=e677]:
+                    - table [ref=e678]:
+                      - rowgroup [ref=e679]:
+                        - row "名称 教学周 资源 活动 作业 进度" [ref=e680]:
+                          - cell "名称" [ref=e681]
+                          - cell "教学周" [ref=e682]
+                          - cell "资源" [ref=e683]
+                          - cell "活动" [ref=e684]
+                          - cell "作业" [ref=e685]
+                          - cell "进度" [ref=e686]
+                - row "1   课程1：实践及其基本结构 (必看) 5 2个 0次 0次 已完成 3.1实践及其基本结构_720p ( 视频 ) (必看) 已完成 3.1实践及其基本结构_720p.docx ( office文档 ) 已完成" [ref=e687]:
+                  - cell "1" [ref=e688]
+                  - cell "" [ref=e689]:
+                    - generic [ref=e690]: 
+                  - cell " 课程1：实践及其基本结构 (必看) 5 2个 0次 0次 已完成 3.1实践及其基本结构_720p ( 视频 ) (必看) 已完成 3.1实践及其基本结构_720p.docx ( office文档 ) 已完成" [ref=e691]:
+                    - table [ref=e692]:
+                      - rowgroup [ref=e693]:
+                        - row " 课程1：实践及其基本结构 (必看) 5 2个 0次 0次 已完成" [ref=e694]:
+                          - cell " 课程1：实践及其基本结构 (必看)" [ref=e695]:
+                            - generic [ref=e696] [cursor=pointer]: 
+                            - link "课程1：实践及其基本结构" [ref=e697] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "5" [ref=e698]
+                          - cell "2个" [ref=e699]
+                          - cell "0次" [ref=e700]
+                          - cell "0次" [ref=e701]
+                          - cell "已完成" [ref=e702]:
+                            - img "已完成" [ref=e703]
+                    - table [ref=e705]:
+                      - rowgroup [ref=e706]:
+                        - row "3.1实践及其基本结构_720p ( 视频 ) (必看) 已完成 3.1实践及其基本结构_720p.docx ( office文档 ) 已完成" [ref=e707]:
+                          - cell "3.1实践及其基本结构_720p ( 视频 ) (必看) 已完成 3.1实践及其基本结构_720p.docx ( office文档 ) 已完成" [ref=e708]:
+                            - generic [ref=e709]:
+                              - generic [ref=e711]:
+                                - link "3.1实践及其基本结构_720p" [ref=e712] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=rianaewzm4ni1ieus0nfbq
+                                - generic [ref=e713]: ( 视频 )
+                                - generic [ref=e714]: (必看)
+                                - img "已完成" [ref=e715]
+                              - generic [ref=e717]:
+                                - link "3.1实践及其基本结构_720p.docx" [ref=e718] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=rianaewzyirh6s4rfquiga
+                                - generic [ref=e719]: ( office文档 )
+                                - img "已完成" [ref=e720]
+                - row "2   课程2：实践对认识的决定作用 (必看) 5 2个 0次 0次 已完成 3.2实践对认识的决定作用_720p ( 视频 ) (必看) 已完成 3.2实践对认识的决定作用_720p.docx ( office文档 ) 已完成" [ref=e721]:
+                  - cell "2" [ref=e722]
+                  - cell "" [ref=e723]:
+                    - generic [ref=e724]: 
+                  - cell " 课程2：实践对认识的决定作用 (必看) 5 2个 0次 0次 已完成 3.2实践对认识的决定作用_720p ( 视频 ) (必看) 已完成 3.2实践对认识的决定作用_720p.docx ( office文档 ) 已完成" [ref=e725]:
+                    - table [ref=e726]:
+                      - rowgroup [ref=e727]:
+                        - row " 课程2：实践对认识的决定作用 (必看) 5 2个 0次 0次 已完成" [ref=e728]:
+                          - cell " 课程2：实践对认识的决定作用 (必看)" [ref=e729]:
+                            - generic [ref=e730] [cursor=pointer]: 
+                            - link "课程2：实践对认识的决定作用" [ref=e731] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "5" [ref=e732]
+                          - cell "2个" [ref=e733]
+                          - cell "0次" [ref=e734]
+                          - cell "0次" [ref=e735]
+                          - cell "已完成" [ref=e736]:
+                            - img "已完成" [ref=e737]
+                    - table [ref=e739]:
+                      - rowgroup [ref=e740]:
+                        - row "3.2实践对认识的决定作用_720p ( 视频 ) (必看) 已完成 3.2实践对认识的决定作用_720p.docx ( office文档 ) 已完成" [ref=e741]:
+                          - cell "3.2实践对认识的决定作用_720p ( 视频 ) (必看) 已完成 3.2实践对认识的决定作用_720p.docx ( office文档 ) 已完成" [ref=e742]:
+                            - generic [ref=e743]:
+                              - generic [ref=e745]:
+                                - link "3.2实践对认识的决定作用_720p" [ref=e746] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=tyanaewzv5rkyfpg9maryw
+                                - generic [ref=e747]: ( 视频 )
+                                - generic [ref=e748]: (必看)
+                                - img "已完成" [ref=e749]
+                              - generic [ref=e751]:
+                                - link "3.2实践对认识的决定作用_720p.docx" [ref=e752] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=tyanaewzcyxdgq78yb1sjw
+                                - generic [ref=e753]: ( office文档 )
+                                - img "已完成" [ref=e754]
+                - row "3   课程3：认识的过程 (必看) 5 2个 0次 0次 已完成 3.3认识的过程_720p ( 视频 ) (必看) 已完成 3.3认识的过程_720p.docx ( office文档 ) 已完成" [ref=e755]:
+                  - cell "3" [ref=e756]
+                  - cell "" [ref=e757]:
+                    - generic [ref=e758]: 
+                  - cell " 课程3：认识的过程 (必看) 5 2个 0次 0次 已完成 3.3认识的过程_720p ( 视频 ) (必看) 已完成 3.3认识的过程_720p.docx ( office文档 ) 已完成" [ref=e759]:
+                    - table [ref=e760]:
+                      - rowgroup [ref=e761]:
+                        - row " 课程3：认识的过程 (必看) 5 2个 0次 0次 已完成" [ref=e762]:
+                          - cell " 课程3：认识的过程 (必看)" [ref=e763]:
+                            - generic [ref=e764] [cursor=pointer]: 
+                            - link "课程3：认识的过程" [ref=e765] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "5" [ref=e766]
+                          - cell "2个" [ref=e767]
+                          - cell "0次" [ref=e768]
+                          - cell "0次" [ref=e769]
+                          - cell "已完成" [ref=e770]:
+                            - img "已完成" [ref=e771]
+                    - table [ref=e773]:
+                      - rowgroup [ref=e774]:
+                        - row "3.3认识的过程_720p ( 视频 ) (必看) 已完成 3.3认识的过程_720p.docx ( office文档 ) 已完成" [ref=e775]:
+                          - cell "3.3认识的过程_720p ( 视频 ) (必看) 已完成 3.3认识的过程_720p.docx ( office文档 ) 已完成" [ref=e776]:
+                            - generic [ref=e777]:
+                              - generic [ref=e779]:
+                                - link "3.3认识的过程_720p" [ref=e780] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=ryanaewzljdieiqodakgxa
+                                - generic [ref=e781]: ( 视频 )
+                                - generic [ref=e782]: (必看)
+                                - img "已完成" [ref=e783]
+                              - generic [ref=e785]:
+                                - link "3.3认识的过程_720p.docx" [ref=e786] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=ryanaewzjrpmojffjgpsjg
+                                - generic [ref=e787]: ( office文档 )
+                                - img "已完成" [ref=e788]
+                - row "4   课程4：真理及其检验标准 (必看) 5 2个 0次 0次 已完成 3.4真理及其检验标准_720p ( 视频 ) (必看) 已完成 3.4真理及其检验标准_720p.docx ( office文档 ) 已完成" [ref=e789]:
+                  - cell "4" [ref=e790]
+                  - cell "" [ref=e791]:
+                    - generic [ref=e792]: 
+                  - cell " 课程4：真理及其检验标准 (必看) 5 2个 0次 0次 已完成 3.4真理及其检验标准_720p ( 视频 ) (必看) 已完成 3.4真理及其检验标准_720p.docx ( office文档 ) 已完成" [ref=e793]:
+                    - table [ref=e794]:
+                      - rowgroup [ref=e795]:
+                        - row " 课程4：真理及其检验标准 (必看) 5 2个 0次 0次 已完成" [ref=e796]:
+                          - cell " 课程4：真理及其检验标准 (必看)" [ref=e797]:
+                            - generic [ref=e798] [cursor=pointer]: 
+                            - link "课程4：真理及其检验标准" [ref=e799] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "5" [ref=e800]
+                          - cell "2个" [ref=e801]
+                          - cell "0次" [ref=e802]
+                          - cell "0次" [ref=e803]
+                          - cell "已完成" [ref=e804]:
+                            - img "已完成" [ref=e805]
+                    - table [ref=e807]:
+                      - rowgroup [ref=e808]:
+                        - row "3.4真理及其检验标准_720p ( 视频 ) (必看) 已完成 3.4真理及其检验标准_720p.docx ( office文档 ) 已完成" [ref=e809]:
+                          - cell "3.4真理及其检验标准_720p ( 视频 ) (必看) 已完成 3.4真理及其检验标准_720p.docx ( office文档 ) 已完成" [ref=e810]:
+                            - generic [ref=e811]:
+                              - generic [ref=e813]:
+                                - link "3.4真理及其检验标准_720p" [ref=e814] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=tianaewzgpljth-hfzcvvq
+                                - generic [ref=e815]: ( 视频 )
+                                - generic [ref=e816]: (必看)
+                                - img "已完成" [ref=e817]
+                              - generic [ref=e819]:
+                                - link "3.4真理及其检验标准_720p.docx" [ref=e820] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=tianaewztktbabolbikjmq
+                                - generic [ref=e821]: ( office文档 )
+                                - img "已完成" [ref=e822]
+                - row "5   课程5：价值及价值观 (必看) 5 2个 0次 0次 已完成 3.5价值及价值观_720p ( 视频 ) (必看) 已完成 3.5价值及价值观_720p.docx ( office文档 ) 已完成" [ref=e823]:
+                  - cell "5" [ref=e824]
+                  - cell "" [ref=e825]:
+                    - generic [ref=e826]: 
+                  - cell " 课程5：价值及价值观 (必看) 5 2个 0次 0次 已完成 3.5价值及价值观_720p ( 视频 ) (必看) 已完成 3.5价值及价值观_720p.docx ( office文档 ) 已完成" [ref=e827]:
+                    - table [ref=e828]:
+                      - rowgroup [ref=e829]:
+                        - row " 课程5：价值及价值观 (必看) 5 2个 0次 0次 已完成" [ref=e830]:
+                          - cell " 课程5：价值及价值观 (必看)" [ref=e831]:
+                            - generic [ref=e832] [cursor=pointer]: 
+                            - link "课程5：价值及价值观" [ref=e833] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "5" [ref=e834]
+                          - cell "2个" [ref=e835]
+                          - cell "0次" [ref=e836]
+                          - cell "0次" [ref=e837]
+                          - cell "已完成" [ref=e838]:
+                            - img "已完成" [ref=e839]
+                    - table [ref=e841]:
+                      - rowgroup [ref=e842]:
+                        - row "3.5价值及价值观_720p ( 视频 ) (必看) 已完成 3.5价值及价值观_720p.docx ( office文档 ) 已完成" [ref=e843]:
+                          - cell "3.5价值及价值观_720p ( 视频 ) (必看) 已完成 3.5价值及价值观_720p.docx ( office文档 ) 已完成" [ref=e844]:
+                            - generic [ref=e845]:
+                              - generic [ref=e847]:
+                                - link "3.5价值及价值观_720p" [ref=e848] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=qoanaewz95bjit480bdgoa
+                                - generic [ref=e849]: ( 视频 )
+                                - generic [ref=e850]: (必看)
+                                - img "已完成" [ref=e851]
+                              - generic [ref=e853]:
+                                - link "3.5价值及价值观_720p.docx" [ref=e854] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=q4anaewzq55jkhgj5v5u-g
+                                - generic [ref=e855]: ( office文档 )
+                                - img "已完成" [ref=e856]
+                - row "6   课程6：实事求是的思想路线 (必看) 5 2个 0次 0次 已完成 3.6实事求是的思想路线_720p ( 视频 ) (必看) 已完成 3.6实事求是的思想路线_720p.docx ( office文档 ) 已完成" [ref=e857]:
+                  - cell "6" [ref=e858]
+                  - cell "" [ref=e859]:
+                    - generic [ref=e860]: 
+                  - cell " 课程6：实事求是的思想路线 (必看) 5 2个 0次 0次 已完成 3.6实事求是的思想路线_720p ( 视频 ) (必看) 已完成 3.6实事求是的思想路线_720p.docx ( office文档 ) 已完成" [ref=e861]:
+                    - table [ref=e862]:
+                      - rowgroup [ref=e863]:
+                        - row " 课程6：实事求是的思想路线 (必看) 5 2个 0次 0次 已完成" [ref=e864]:
+                          - cell " 课程6：实事求是的思想路线 (必看)" [ref=e865]:
+                            - generic [ref=e866] [cursor=pointer]: 
+                            - link "课程6：实事求是的思想路线" [ref=e867] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "5" [ref=e868]
+                          - cell "2个" [ref=e869]
+                          - cell "0次" [ref=e870]
+                          - cell "0次" [ref=e871]
+                          - cell "已完成" [ref=e872]:
+                            - img "已完成" [ref=e873]
+                    - table [ref=e875]:
+                      - rowgroup [ref=e876]:
+                        - row "3.6实事求是的思想路线_720p ( 视频 ) (必看) 已完成 3.6实事求是的思想路线_720p.docx ( office文档 ) 已完成" [ref=e877]:
+                          - cell "3.6实事求是的思想路线_720p ( 视频 ) (必看) 已完成 3.6实事求是的思想路线_720p.docx ( office文档 ) 已完成" [ref=e878]:
+                            - generic [ref=e879]:
+                              - generic [ref=e881]:
+                                - link "3.6实事求是的思想路线_720p" [ref=e882] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=roanaewzjz9lh-def96gog
+                                - generic [ref=e883]: ( 视频 )
+                                - generic [ref=e884]: (必看)
+                                - img "已完成" [ref=e885]
+                              - generic [ref=e887]:
+                                - link "3.6实事求是的思想路线_720p.docx" [ref=e888] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=roanaewzsljbhbd8ffsbeg
+                                - generic [ref=e889]: ( office文档 )
+                                - img "已完成" [ref=e890]
+            - generic [ref=e891]:
+              - generic [ref=e892]: 五
+              - generic "专题四 人类社会及其发展规律" [ref=e893]
+            - table [ref=e896]:
+              - rowgroup [ref=e897]:
+                - row "名称 教学周 资源 活动 作业 进度" [ref=e898]:
+                  - columnheader [ref=e899]
+                  - columnheader [ref=e900]
+                  - columnheader "名称 教学周 资源 活动 作业 进度" [ref=e901]:
+                    - table [ref=e902]:
+                      - rowgroup [ref=e903]:
+                        - row "名称 教学周 资源 活动 作业 进度" [ref=e904]:
+                          - cell "名称" [ref=e905]
+                          - cell "教学周" [ref=e906]
+                          - cell "资源" [ref=e907]
+                          - cell "活动" [ref=e908]
+                          - cell "作业" [ref=e909]
+                          - cell "进度" [ref=e910]
+                - row "1   课程1：五种社会形态的演进变化 (必看) 7 2个 0次 0次 已完成 4.1五种社会形态的演进变化_720p ( 视频 ) (必看) 已完成 4.1五种社会形态的演进变化_720p.docx ( office文档 ) 已完成" [ref=e911]:
+                  - cell "1" [ref=e912]
+                  - cell "" [ref=e913]:
+                    - generic [ref=e914]: 
+                  - cell " 课程1：五种社会形态的演进变化 (必看) 7 2个 0次 0次 已完成 4.1五种社会形态的演进变化_720p ( 视频 ) (必看) 已完成 4.1五种社会形态的演进变化_720p.docx ( office文档 ) 已完成" [ref=e915]:
+                    - table [ref=e916]:
+                      - rowgroup [ref=e917]:
+                        - row " 课程1：五种社会形态的演进变化 (必看) 7 2个 0次 0次 已完成" [ref=e918]:
+                          - cell " 课程1：五种社会形态的演进变化 (必看)" [ref=e919]:
+                            - generic [ref=e920] [cursor=pointer]: 
+                            - link "课程1：五种社会形态的演进变化" [ref=e921] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "7" [ref=e922]
+                          - cell "2个" [ref=e923]
+                          - cell "0次" [ref=e924]
+                          - cell "0次" [ref=e925]
+                          - cell "已完成" [ref=e926]:
+                            - img "已完成" [ref=e927]
+                    - table [ref=e929]:
+                      - rowgroup [ref=e930]:
+                        - row "4.1五种社会形态的演进变化_720p ( 视频 ) (必看) 已完成 4.1五种社会形态的演进变化_720p.docx ( office文档 ) 已完成" [ref=e931]:
+                          - cell "4.1五种社会形态的演进变化_720p ( 视频 ) (必看) 已完成 4.1五种社会形态的演进变化_720p.docx ( office文档 ) 已完成" [ref=e932]:
+                            - generic [ref=e933]:
+                              - generic [ref=e935]:
+                                - link "4.1五种社会形态的演进变化_720p" [ref=e936] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=kyanaewzmrvlmxztmi9xkg
+                                - generic [ref=e937]: ( 视频 )
+                                - generic [ref=e938]: (必看)
+                                - img "已完成" [ref=e939]
+                              - generic [ref=e941]:
+                                - link "4.1五种社会形态的演进变化_720p.docx" [ref=e942] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=kianaewzmipm93lpopl7iw
+                                - generic [ref=e943]: ( office文档 )
+                                - img "已完成" [ref=e944]
+                - row "2   课程2：社会基本矛盾是社会发展的... (必看) 7 2个 0次 0次 已完成 4.2社会基本矛盾是社会发展的根本动力_720p ( 视频 ) (必看) 已完成 4.2社会基本矛盾是社会发展的根本动力_720p.docx ( office文档 ) 已完成" [ref=e945]:
+                  - cell "2" [ref=e946]
+                  - cell "" [ref=e947]:
+                    - generic [ref=e948]: 
+                  - cell " 课程2：社会基本矛盾是社会发展的... (必看) 7 2个 0次 0次 已完成 4.2社会基本矛盾是社会发展的根本动力_720p ( 视频 ) (必看) 已完成 4.2社会基本矛盾是社会发展的根本动力_720p.docx ( office文档 ) 已完成" [ref=e949]:
+                    - table [ref=e950]:
+                      - rowgroup [ref=e951]:
+                        - row " 课程2：社会基本矛盾是社会发展的... (必看) 7 2个 0次 0次 已完成" [ref=e952]:
+                          - cell " 课程2：社会基本矛盾是社会发展的... (必看)" [ref=e953]:
+                            - generic [ref=e954] [cursor=pointer]: 
+                            - link "课程2：社会基本矛盾是社会发展的..." [ref=e955] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "7" [ref=e956]
+                          - cell "2个" [ref=e957]
+                          - cell "0次" [ref=e958]
+                          - cell "0次" [ref=e959]
+                          - cell "已完成" [ref=e960]:
+                            - img "已完成" [ref=e961]
+                    - table [ref=e963]:
+                      - rowgroup [ref=e964]:
+                        - row "4.2社会基本矛盾是社会发展的根本动力_720p ( 视频 ) (必看) 已完成 4.2社会基本矛盾是社会发展的根本动力_720p.docx ( office文档 ) 已完成" [ref=e965]:
+                          - cell "4.2社会基本矛盾是社会发展的根本动力_720p ( 视频 ) (必看) 已完成 4.2社会基本矛盾是社会发展的根本动力_720p.docx ( office文档 ) 已完成" [ref=e966]:
+                            - generic [ref=e967]:
+                              - generic [ref=e969]:
+                                - link "4.2社会基本矛盾是社会发展的根本动力_720p" [ref=e970] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=koanaewzql1o6vehshtppq
+                                - generic [ref=e971]: ( 视频 )
+                                - generic [ref=e972]: (必看)
+                                - img "已完成" [ref=e973]
+                              - generic [ref=e975]:
+                                - link "4.2社会基本矛盾是社会发展的根本动力_720p.docx" [ref=e976] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=koanaewzvp9fswlfctovng
+                                - generic [ref=e977]: ( office文档 )
+                                - img "已完成" [ref=e978]
+                - row "3   课程3：阶级斗争、社会革命和改革 (必看) 7 2个 0次 0次 未完成 4.3阶级斗争、社会革命和改革_720p ( 视频 ) (必看) 未完成 4.3阶级斗争、社会革命和改革_720p.docx ( office文档 ) 已完成" [ref=e979]:
+                  - cell "3" [ref=e980]
+                  - cell "" [ref=e981]:
+                    - generic [ref=e982]: 
+                  - cell " 课程3：阶级斗争、社会革命和改革 (必看) 7 2个 0次 0次 未完成 4.3阶级斗争、社会革命和改革_720p ( 视频 ) (必看) 未完成 4.3阶级斗争、社会革命和改革_720p.docx ( office文档 ) 已完成" [ref=e983]:
+                    - table [ref=e984]:
+                      - rowgroup [ref=e985]:
+                        - row " 课程3：阶级斗争、社会革命和改革 (必看) 7 2个 0次 0次 未完成" [ref=e986]:
+                          - cell " 课程3：阶级斗争、社会革命和改革 (必看)" [ref=e987]:
+                            - generic [ref=e988] [cursor=pointer]: 
+                            - link "课程3：阶级斗争、社会革命和改革" [ref=e989] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "7" [ref=e990]
+                          - cell "2个" [ref=e991]
+                          - cell "0次" [ref=e992]
+                          - cell "0次" [ref=e993]
+                          - cell "未完成" [ref=e994]:
+                            - img "未完成"
+                    - table [ref=e996]:
+                      - rowgroup [ref=e997]:
+                        - row "4.3阶级斗争、社会革命和改革_720p ( 视频 ) (必看) 未完成 4.3阶级斗争、社会革命和改革_720p.docx ( office文档 ) 已完成" [ref=e998]:
+                          - cell "4.3阶级斗争、社会革命和改革_720p ( 视频 ) (必看) 未完成 4.3阶级斗争、社会革命和改革_720p.docx ( office文档 ) 已完成" [ref=e999]:
+                            - generic [ref=e1000]:
+                              - generic [ref=e1002]:
+                                - link "4.3阶级斗争、社会革命和改革_720p" [ref=e1003] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=joanaewzfqhf-zovx9y5lq
+                                - generic [ref=e1004]: ( 视频 )
+                                - generic [ref=e1005]: (必看)
+                                - img "未完成"
+                              - generic [ref=e1007]:
+                                - link "4.3阶级斗争、社会革命和改革_720p.docx" [ref=e1008] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=j4anaewzh5xjcfdwdfqlag
+                                - generic [ref=e1009]: ( office文档 )
+                                - img "已完成" [ref=e1010]
+                - row "4   课程4：人民群众在历史中的作用 (必看) 7 2个 0次 0次 未完成 4.4人民群众在历史中的作用_720p ( 视频 ) (必看) 未完成 4.4人民群众在历史中的作用_720p.docx ( office文档 ) 已完成" [ref=e1011]:
+                  - cell "4" [ref=e1012]
+                  - cell "" [ref=e1013]:
+                    - generic [ref=e1014]: 
+                  - cell " 课程4：人民群众在历史中的作用 (必看) 7 2个 0次 0次 未完成 4.4人民群众在历史中的作用_720p ( 视频 ) (必看) 未完成 4.4人民群众在历史中的作用_720p.docx ( office文档 ) 已完成" [ref=e1015]:
+                    - table [ref=e1016]:
+                      - rowgroup [ref=e1017]:
+                        - row " 课程4：人民群众在历史中的作用 (必看) 7 2个 0次 0次 未完成" [ref=e1018]:
+                          - cell " 课程4：人民群众在历史中的作用 (必看)" [ref=e1019]:
+                            - generic [ref=e1020] [cursor=pointer]: 
+                            - link "课程4：人民群众在历史中的作用" [ref=e1021] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "7" [ref=e1022]
+                          - cell "2个" [ref=e1023]
+                          - cell "0次" [ref=e1024]
+                          - cell "0次" [ref=e1025]
+                          - cell "未完成" [ref=e1026]:
+                            - img "未完成"
+                    - table [ref=e1028]:
+                      - rowgroup [ref=e1029]:
+                        - row "4.4人民群众在历史中的作用_720p ( 视频 ) (必看) 未完成 4.4人民群众在历史中的作用_720p.docx ( office文档 ) 已完成" [ref=e1030]:
+                          - cell "4.4人民群众在历史中的作用_720p ( 视频 ) (必看) 未完成 4.4人民群众在历史中的作用_720p.docx ( office文档 ) 已完成" [ref=e1031]:
+                            - generic [ref=e1032]:
+                              - generic [ref=e1034]:
+                                - link "4.4人民群众在历史中的作用_720p" [ref=e1035] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=kianaewz0rtl-8b3dl59pw
+                                - generic [ref=e1036]: ( 视频 )
+                                - generic [ref=e1037]: (必看)
+                                - img "未完成"
+                              - generic [ref=e1039]:
+                                - link "4.4人民群众在历史中的作用_720p.docx" [ref=e1040] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=j4anaewzfavj36rrm8psia
+                                - generic [ref=e1041]: ( office文档 )
+                                - img "已完成" [ref=e1042]
+                - row "5   课程5：群众史观与英雄史观的本质... (必看) 7 2个 0次 0次 未完成 4.5群众史观与英雄史观的本质区别_720p ( 视频 ) (必看) 未完成 4.5群众史观与英雄史观的本质区别_720p.docx ( office文档 ) 已完成" [ref=e1043]:
+                  - cell "5" [ref=e1044]
+                  - cell "" [ref=e1045]:
+                    - generic [ref=e1046]: 
+                  - cell " 课程5：群众史观与英雄史观的本质... (必看) 7 2个 0次 0次 未完成 4.5群众史观与英雄史观的本质区别_720p ( 视频 ) (必看) 未完成 4.5群众史观与英雄史观的本质区别_720p.docx ( office文档 ) 已完成" [ref=e1047]:
+                    - table [ref=e1048]:
+                      - rowgroup [ref=e1049]:
+                        - row " 课程5：群众史观与英雄史观的本质... (必看) 7 2个 0次 0次 未完成" [ref=e1050]:
+                          - cell " 课程5：群众史观与英雄史观的本质... (必看)" [ref=e1051]:
+                            - generic [ref=e1052] [cursor=pointer]: 
+                            - link "课程5：群众史观与英雄史观的本质..." [ref=e1053] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "7" [ref=e1054]
+                          - cell "2个" [ref=e1055]
+                          - cell "0次" [ref=e1056]
+                          - cell "0次" [ref=e1057]
+                          - cell "未完成" [ref=e1058]:
+                            - img "未完成"
+                    - table [ref=e1060]:
+                      - rowgroup [ref=e1061]:
+                        - row "4.5群众史观与英雄史观的本质区别_720p ( 视频 ) (必看) 未完成 4.5群众史观与英雄史观的本质区别_720p.docx ( office文档 ) 已完成" [ref=e1062]:
+                          - cell "4.5群众史观与英雄史观的本质区别_720p ( 视频 ) (必看) 未完成 4.5群众史观与英雄史观的本质区别_720p.docx ( office文档 ) 已完成" [ref=e1063]:
+                            - generic [ref=e1064]:
+                              - generic [ref=e1066]:
+                                - link "4.5群众史观与英雄史观的本质区别_720p" [ref=e1067] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=jyanaewzm4hpwoodwxrbnw
+                                - generic [ref=e1068]: ( 视频 )
+                                - generic [ref=e1069]: (必看)
+                                - img "未完成"
+                              - generic [ref=e1071]:
+                                - link "4.5群众史观与英雄史观的本质区别_720p.docx" [ref=e1072] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=jyanaewztydkllzbcilbpa
+                                - generic [ref=e1073]: ( office文档 )
+                                - img "已完成" [ref=e1074]
+            - generic [ref=e1075]:
+              - generic [ref=e1076]: 六
+              - generic "专题五 资本主义的本质及其规律" [ref=e1077]
+            - table [ref=e1080]:
+              - rowgroup [ref=e1081]:
+                - row "名称 教学周 资源 活动 作业 进度" [ref=e1082]:
+                  - columnheader [ref=e1083]
+                  - columnheader [ref=e1084]
+                  - columnheader "名称 教学周 资源 活动 作业 进度" [ref=e1085]:
+                    - table [ref=e1086]:
+                      - rowgroup [ref=e1087]:
+                        - row "名称 教学周 资源 活动 作业 进度" [ref=e1088]:
+                          - cell "名称" [ref=e1089]
+                          - cell "教学周" [ref=e1090]
+                          - cell "资源" [ref=e1091]
+                          - cell "活动" [ref=e1092]
+                          - cell "作业" [ref=e1093]
+                          - cell "进度" [ref=e1094]
+                - row "1   课程1：商品的二因素与劳动的二重... (必看) 9 2个 0次 0次 未完成 5.1商品的二因素与劳动的二重性_720 ( 视频 ) (必看) 未看 5.1商品的二因素与劳动的二重性_720.docx ( office文档 ) 已完成" [ref=e1095]:
+                  - cell "1" [ref=e1096]
+                  - cell "" [ref=e1097]:
+                    - generic [ref=e1098]: 
+                  - cell " 课程1：商品的二因素与劳动的二重... (必看) 9 2个 0次 0次 未完成 5.1商品的二因素与劳动的二重性_720 ( 视频 ) (必看) 未看 5.1商品的二因素与劳动的二重性_720.docx ( office文档 ) 已完成" [ref=e1099]:
+                    - table [ref=e1100]:
+                      - rowgroup [ref=e1101]:
+                        - row " 课程1：商品的二因素与劳动的二重... (必看) 9 2个 0次 0次 未完成" [ref=e1102]:
+                          - cell " 课程1：商品的二因素与劳动的二重... (必看)" [ref=e1103]:
+                            - generic [ref=e1104] [cursor=pointer]: 
+                            - link "课程1：商品的二因素与劳动的二重..." [ref=e1105] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1106]
+                          - cell "2个" [ref=e1107]
+                          - cell "0次" [ref=e1108]
+                          - cell "0次" [ref=e1109]
+                          - cell "未完成" [ref=e1110]:
+                            - img "未完成"
+                    - table [ref=e1112]:
+                      - rowgroup [ref=e1113]:
+                        - row "5.1商品的二因素与劳动的二重性_720 ( 视频 ) (必看) 未看 5.1商品的二因素与劳动的二重性_720.docx ( office文档 ) 已完成" [ref=e1114]:
+                          - cell "5.1商品的二因素与劳动的二重性_720 ( 视频 ) (必看) 未看 5.1商品的二因素与劳动的二重性_720.docx ( office文档 ) 已完成" [ref=e1115]:
+                            - generic [ref=e1116]:
+                              - generic [ref=e1118]:
+                                - link "5.1商品的二因素与劳动的二重性_720" [ref=e1119] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=f4anaewz0j1oyhfnyggh7g
+                                - generic [ref=e1120]: ( 视频 )
+                                - generic [ref=e1121]: (必看)
+                                - img "未看"
+                              - generic [ref=e1123]:
+                                - link "5.1商品的二因素与劳动的二重性_720.docx" [ref=e1124] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=f4anaewzzkjetja7484fag
+                                - generic [ref=e1125]: ( office文档 )
+                                - img "已完成" [ref=e1126]
+                - row "2   课程2：价值规律理论 (必看) 9 2个 0次 0次 未完成 5.2价值规律理论_720P ( 视频 ) (必看) 未看 5.2价值规律理论_720P.docx ( office文档 ) 已完成" [ref=e1127]:
+                  - cell "2" [ref=e1128]
+                  - cell "" [ref=e1129]:
+                    - generic [ref=e1130]: 
+                  - cell " 课程2：价值规律理论 (必看) 9 2个 0次 0次 未完成 5.2价值规律理论_720P ( 视频 ) (必看) 未看 5.2价值规律理论_720P.docx ( office文档 ) 已完成" [ref=e1131]:
+                    - table [ref=e1132]:
+                      - rowgroup [ref=e1133]:
+                        - row " 课程2：价值规律理论 (必看) 9 2个 0次 0次 未完成" [ref=e1134]:
+                          - cell " 课程2：价值规律理论 (必看)" [ref=e1135]:
+                            - generic [ref=e1136] [cursor=pointer]: 
+                            - link "课程2：价值规律理论" [ref=e1137] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1138]
+                          - cell "2个" [ref=e1139]
+                          - cell "0次" [ref=e1140]
+                          - cell "0次" [ref=e1141]
+                          - cell "未完成" [ref=e1142]:
+                            - img "未完成"
+                    - table [ref=e1144]:
+                      - rowgroup [ref=e1145]:
+                        - row "5.2价值规律理论_720P ( 视频 ) (必看) 未看 5.2价值规律理论_720P.docx ( office文档 ) 已完成" [ref=e1146]:
+                          - cell "5.2价值规律理论_720P ( 视频 ) (必看) 未看 5.2价值规律理论_720P.docx ( office文档 ) 已完成" [ref=e1147]:
+                            - generic [ref=e1148]:
+                              - generic [ref=e1150]:
+                                - link "5.2价值规律理论_720P" [ref=e1151] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=eoanaewze65catbaceaheg
+                                - generic [ref=e1152]: ( 视频 )
+                                - generic [ref=e1153]: (必看)
+                                - img "未看"
+                              - generic [ref=e1155]:
+                                - link "5.2价值规律理论_720P.docx" [ref=e1156] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=doanaewztkjin6rxltpfxw
+                                - generic [ref=e1157]: ( office文档 )
+                                - img "已完成" [ref=e1158]
+                - row "3   课程3：以私有制为基础的商品经济... (必看) 9 2个 0次 0次 未完成 5.3以私有制为基础的商品经济的基本矛盾_720P ( 视频 ) (必看) 未看 5.3以私有制为基础的商品经济的基本矛盾_720P.docx ( office文档 ) 已完成" [ref=e1159]:
+                  - cell "3" [ref=e1160]
+                  - cell "" [ref=e1161]:
+                    - generic [ref=e1162]: 
+                  - cell " 课程3：以私有制为基础的商品经济... (必看) 9 2个 0次 0次 未完成 5.3以私有制为基础的商品经济的基本矛盾_720P ( 视频 ) (必看) 未看 5.3以私有制为基础的商品经济的基本矛盾_720P.docx ( office文档 ) 已完成" [ref=e1163]:
+                    - table [ref=e1164]:
+                      - rowgroup [ref=e1165]:
+                        - row " 课程3：以私有制为基础的商品经济... (必看) 9 2个 0次 0次 未完成" [ref=e1166]:
+                          - cell " 课程3：以私有制为基础的商品经济... (必看)" [ref=e1167]:
+                            - generic [ref=e1168] [cursor=pointer]: 
+                            - link "课程3：以私有制为基础的商品经济..." [ref=e1169] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1170]
+                          - cell "2个" [ref=e1171]
+                          - cell "0次" [ref=e1172]
+                          - cell "0次" [ref=e1173]
+                          - cell "未完成" [ref=e1174]:
+                            - img "未完成"
+                    - table [ref=e1176]:
+                      - rowgroup [ref=e1177]:
+                        - row "5.3以私有制为基础的商品经济的基本矛盾_720P ( 视频 ) (必看) 未看 5.3以私有制为基础的商品经济的基本矛盾_720P.docx ( office文档 ) 已完成" [ref=e1178]:
+                          - cell "5.3以私有制为基础的商品经济的基本矛盾_720P ( 视频 ) (必看) 未看 5.3以私有制为基础的商品经济的基本矛盾_720P.docx ( office文档 ) 已完成" [ref=e1179]:
+                            - generic [ref=e1180]:
+                              - generic [ref=e1182]:
+                                - link "5.3以私有制为基础的商品经济的基本矛盾_720P" [ref=e1183] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=coanaewzv45bsvk1nk3wdw
+                                - generic [ref=e1184]: ( 视频 )
+                                - generic [ref=e1185]: (必看)
+                                - img "未看"
+                              - generic [ref=e1187]:
+                                - link "5.3以私有制为基础的商品经济的基本矛盾_720P.docx" [ref=e1188] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=coanaewzo7hkbn5tgphrqw
+                                - generic [ref=e1189]: ( office文档 )
+                                - img "已完成" [ref=e1190]
+                - row "4   课程4：商品拜物教 (必看) 9 2个 0次 0次 未完成 5.4商品拜物教_720P ( 视频 ) (必看) 未看 5.4商品拜物教_720P.docx ( office文档 ) 已完成" [ref=e1191]:
+                  - cell "4" [ref=e1192]
+                  - cell "" [ref=e1193]:
+                    - generic [ref=e1194]: 
+                  - cell " 课程4：商品拜物教 (必看) 9 2个 0次 0次 未完成 5.4商品拜物教_720P ( 视频 ) (必看) 未看 5.4商品拜物教_720P.docx ( office文档 ) 已完成" [ref=e1195]:
+                    - table [ref=e1196]:
+                      - rowgroup [ref=e1197]:
+                        - row " 课程4：商品拜物教 (必看) 9 2个 0次 0次 未完成" [ref=e1198]:
+                          - cell " 课程4：商品拜物教 (必看)" [ref=e1199]:
+                            - generic [ref=e1200] [cursor=pointer]: 
+                            - link "课程4：商品拜物教" [ref=e1201] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1202]
+                          - cell "2个" [ref=e1203]
+                          - cell "0次" [ref=e1204]
+                          - cell "0次" [ref=e1205]
+                          - cell "未完成" [ref=e1206]:
+                            - img "未完成"
+                    - table [ref=e1208]:
+                      - rowgroup [ref=e1209]:
+                        - row "5.4商品拜物教_720P ( 视频 ) (必看) 未看 5.4商品拜物教_720P.docx ( office文档 ) 已完成" [ref=e1210]:
+                          - cell "5.4商品拜物教_720P ( 视频 ) (必看) 未看 5.4商品拜物教_720P.docx ( office文档 ) 已完成" [ref=e1211]:
+                            - generic [ref=e1212]:
+                              - generic [ref=e1214]:
+                                - link "5.4商品拜物教_720P" [ref=e1215] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=e4anaewzs6na2x7wt3gnsw
+                                - generic [ref=e1216]: ( 视频 )
+                                - generic [ref=e1217]: (必看)
+                                - img "未看"
+                              - generic [ref=e1219]:
+                                - link "5.4商品拜物教_720P.docx" [ref=e1220] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=eoanaewzcbvfvnjj929fzw
+                                - generic [ref=e1221]: ( office文档 )
+                                - img "已完成" [ref=e1222]
+                - row "5   课程5：资本原始积累 (必看) 9 2个 0次 0次 未完成 5.5资本原始积累_720p ( 视频 ) (必看) 未看 5.5资本原始积累_720p.docx ( office文档 ) 已完成" [ref=e1223]:
+                  - cell "5" [ref=e1224]
+                  - cell "" [ref=e1225]:
+                    - generic [ref=e1226]: 
+                  - cell " 课程5：资本原始积累 (必看) 9 2个 0次 0次 未完成 5.5资本原始积累_720p ( 视频 ) (必看) 未看 5.5资本原始积累_720p.docx ( office文档 ) 已完成" [ref=e1227]:
+                    - table [ref=e1228]:
+                      - rowgroup [ref=e1229]:
+                        - row " 课程5：资本原始积累 (必看) 9 2个 0次 0次 未完成" [ref=e1230]:
+                          - cell " 课程5：资本原始积累 (必看)" [ref=e1231]:
+                            - generic [ref=e1232] [cursor=pointer]: 
+                            - link "课程5：资本原始积累" [ref=e1233] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1234]
+                          - cell "2个" [ref=e1235]
+                          - cell "0次" [ref=e1236]
+                          - cell "0次" [ref=e1237]
+                          - cell "未完成" [ref=e1238]:
+                            - img "未完成"
+                    - table [ref=e1240]:
+                      - rowgroup [ref=e1241]:
+                        - row "5.5资本原始积累_720p ( 视频 ) (必看) 未看 5.5资本原始积累_720p.docx ( office文档 ) 已完成" [ref=e1242]:
+                          - cell "5.5资本原始积累_720p ( 视频 ) (必看) 未看 5.5资本原始积累_720p.docx ( office文档 ) 已完成" [ref=e1243]:
+                            - generic [ref=e1244]:
+                              - generic [ref=e1246]:
+                                - link "5.5资本原始积累_720p" [ref=e1247] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=foanaewzkahinzlstuor6g
+                                - generic [ref=e1248]: ( 视频 )
+                                - generic [ref=e1249]: (必看)
+                                - img "未看"
+                              - generic [ref=e1251]:
+                                - link "5.5资本原始积累_720p.docx" [ref=e1252] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=foanaewzpaxkkhp29-ddma
+                                - generic [ref=e1253]: ( office文档 )
+                                - img "已完成" [ref=e1254]
+                - row "6   课程6：剩余价值产生及转化 (必看) 9 2个 0次 0次 未完成 5.6剩余价值产生及转化_720 ( 视频 ) (必看) 未看 5.6剩余价值产生及转化_720.docx ( office文档 ) 已完成" [ref=e1255]:
+                  - cell "6" [ref=e1256]
+                  - cell "" [ref=e1257]:
+                    - generic [ref=e1258]: 
+                  - cell " 课程6：剩余价值产生及转化 (必看) 9 2个 0次 0次 未完成 5.6剩余价值产生及转化_720 ( 视频 ) (必看) 未看 5.6剩余价值产生及转化_720.docx ( office文档 ) 已完成" [ref=e1259]:
+                    - table [ref=e1260]:
+                      - rowgroup [ref=e1261]:
+                        - row " 课程6：剩余价值产生及转化 (必看) 9 2个 0次 0次 未完成" [ref=e1262]:
+                          - cell " 课程6：剩余价值产生及转化 (必看)" [ref=e1263]:
+                            - generic [ref=e1264] [cursor=pointer]: 
+                            - link "课程6：剩余价值产生及转化" [ref=e1265] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1266]
+                          - cell "2个" [ref=e1267]
+                          - cell "0次" [ref=e1268]
+                          - cell "0次" [ref=e1269]
+                          - cell "未完成" [ref=e1270]:
+                            - img "未完成"
+                    - table [ref=e1272]:
+                      - rowgroup [ref=e1273]:
+                        - row "5.6剩余价值产生及转化_720 ( 视频 ) (必看) 未看 5.6剩余价值产生及转化_720.docx ( office文档 ) 已完成" [ref=e1274]:
+                          - cell "5.6剩余价值产生及转化_720 ( 视频 ) (必看) 未看 5.6剩余价值产生及转化_720.docx ( office文档 ) 已完成" [ref=e1275]:
+                            - generic [ref=e1276]:
+                              - generic [ref=e1278]:
+                                - link "5.6剩余价值产生及转化_720" [ref=e1279] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=fyanaewzejhnvjzv7quwfq
+                                - generic [ref=e1280]: ( 视频 )
+                                - generic [ref=e1281]: (必看)
+                                - img "未看"
+                              - generic [ref=e1283]:
+                                - link "5.6剩余价值产生及转化_720.docx" [ref=e1284] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=fyanaewzy6zp2f6-pzz01g
+                                - generic [ref=e1285]: ( office文档 )
+                                - img "已完成" [ref=e1286]
+                - row "7   课程7：生产剩余价值的方法 (必看) 9 2个 0次 0次 未完成 5.7生产剩余价值的方法_720P ( 视频 ) (必看) 未看 5.7生产剩余价值的方法_720P.docx ( office文档 ) 已完成" [ref=e1287]:
+                  - cell "7" [ref=e1288]
+                  - cell "" [ref=e1289]:
+                    - generic [ref=e1290]: 
+                  - cell " 课程7：生产剩余价值的方法 (必看) 9 2个 0次 0次 未完成 5.7生产剩余价值的方法_720P ( 视频 ) (必看) 未看 5.7生产剩余价值的方法_720P.docx ( office文档 ) 已完成" [ref=e1291]:
+                    - table [ref=e1292]:
+                      - rowgroup [ref=e1293]:
+                        - row " 课程7：生产剩余价值的方法 (必看) 9 2个 0次 0次 未完成" [ref=e1294]:
+                          - cell " 课程7：生产剩余价值的方法 (必看)" [ref=e1295]:
+                            - generic [ref=e1296] [cursor=pointer]: 
+                            - link "课程7：生产剩余价值的方法" [ref=e1297] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1298]
+                          - cell "2个" [ref=e1299]
+                          - cell "0次" [ref=e1300]
+                          - cell "0次" [ref=e1301]
+                          - cell "未完成" [ref=e1302]:
+                            - img "未完成"
+                    - table [ref=e1304]:
+                      - rowgroup [ref=e1305]:
+                        - row "5.7生产剩余价值的方法_720P ( 视频 ) (必看) 未看 5.7生产剩余价值的方法_720P.docx ( office文档 ) 已完成" [ref=e1306]:
+                          - cell "5.7生产剩余价值的方法_720P ( 视频 ) (必看) 未看 5.7生产剩余价值的方法_720P.docx ( office文档 ) 已完成" [ref=e1307]:
+                            - generic [ref=e1308]:
+                              - generic [ref=e1310]:
+                                - link "5.7生产剩余价值的方法_720P" [ref=e1311] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=e4anaewzxbpi2bpfmuczma
+                                - generic [ref=e1312]: ( 视频 )
+                                - generic [ref=e1313]: (必看)
+                                - img "未看"
+                              - generic [ref=e1315]:
+                                - link "5.7生产剩余价值的方法_720P.docx" [ref=e1316] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=fianaewzsb9fauz-pfning
+                                - generic [ref=e1317]: ( office文档 )
+                                - img "已完成" [ref=e1318]
+                - row "8   课程8：资本积累 (必看) 9 2个 0次 0次 未完成 5.8资本积累_720P ( 视频 ) (必看) 未看 5.8资本积累_720P.docx ( office文档 ) 已完成" [ref=e1319]:
+                  - cell "8" [ref=e1320]
+                  - cell "" [ref=e1321]:
+                    - generic [ref=e1322]: 
+                  - cell " 课程8：资本积累 (必看) 9 2个 0次 0次 未完成 5.8资本积累_720P ( 视频 ) (必看) 未看 5.8资本积累_720P.docx ( office文档 ) 已完成" [ref=e1323]:
+                    - table [ref=e1324]:
+                      - rowgroup [ref=e1325]:
+                        - row " 课程8：资本积累 (必看) 9 2个 0次 0次 未完成" [ref=e1326]:
+                          - cell " 课程8：资本积累 (必看)" [ref=e1327]:
+                            - generic [ref=e1328] [cursor=pointer]: 
+                            - link "课程8：资本积累" [ref=e1329] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1330]
+                          - cell "2个" [ref=e1331]
+                          - cell "0次" [ref=e1332]
+                          - cell "0次" [ref=e1333]
+                          - cell "未完成" [ref=e1334]:
+                            - img "未完成"
+                    - table [ref=e1336]:
+                      - rowgroup [ref=e1337]:
+                        - row "5.8资本积累_720P ( 视频 ) (必看) 未看 5.8资本积累_720P.docx ( office文档 ) 已完成" [ref=e1338]:
+                          - cell "5.8资本积累_720P ( 视频 ) (必看) 未看 5.8资本积累_720P.docx ( office文档 ) 已完成" [ref=e1339]:
+                            - generic [ref=e1340]:
+                              - generic [ref=e1342]:
+                                - link "5.8资本积累_720P" [ref=e1343] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=dyanaewzyi5izls9tsccoa
+                                - generic [ref=e1344]: ( 视频 )
+                                - generic [ref=e1345]: (必看)
+                                - img "未看"
+                              - generic [ref=e1347]:
+                                - link "5.8资本积累_720P.docx" [ref=e1348] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=dyanaewzayrjoornxvxghg
+                                - generic [ref=e1349]: ( office文档 )
+                                - img "已完成" [ref=e1350]
+                - row "9   课程9：资本主义基本矛盾与经济危... (必看) 9 2个 0次 0次 未完成 5.9资本主义基本矛盾与经济危机_720P ( 视频 ) (必看) 未看 5.9资本主义基本矛盾与经济危机_720P.docx ( office文档 ) 已完成" [ref=e1351]:
+                  - cell "9" [ref=e1352]
+                  - cell "" [ref=e1353]:
+                    - generic [ref=e1354]: 
+                  - cell " 课程9：资本主义基本矛盾与经济危... (必看) 9 2个 0次 0次 未完成 5.9资本主义基本矛盾与经济危机_720P ( 视频 ) (必看) 未看 5.9资本主义基本矛盾与经济危机_720P.docx ( office文档 ) 已完成" [ref=e1355]:
+                    - table [ref=e1356]:
+                      - rowgroup [ref=e1357]:
+                        - row " 课程9：资本主义基本矛盾与经济危... (必看) 9 2个 0次 0次 未完成" [ref=e1358]:
+                          - cell " 课程9：资本主义基本矛盾与经济危... (必看)" [ref=e1359]:
+                            - generic [ref=e1360] [cursor=pointer]: 
+                            - link "课程9：资本主义基本矛盾与经济危..." [ref=e1361] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1362]
+                          - cell "2个" [ref=e1363]
+                          - cell "0次" [ref=e1364]
+                          - cell "0次" [ref=e1365]
+                          - cell "未完成" [ref=e1366]:
+                            - img "未完成"
+                    - table [ref=e1368]:
+                      - rowgroup [ref=e1369]:
+                        - row "5.9资本主义基本矛盾与经济危机_720P ( 视频 ) (必看) 未看 5.9资本主义基本矛盾与经济危机_720P.docx ( office文档 ) 已完成" [ref=e1370]:
+                          - cell "5.9资本主义基本矛盾与经济危机_720P ( 视频 ) (必看) 未看 5.9资本主义基本矛盾与经济危机_720P.docx ( office文档 ) 已完成" [ref=e1371]:
+                            - generic [ref=e1372]:
+                              - generic [ref=e1374]:
+                                - link "5.9资本主义基本矛盾与经济危机_720P" [ref=e1375] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=c4anaewzh4pi0yeiua-ckw
+                                - generic [ref=e1376]: ( 视频 )
+                                - generic [ref=e1377]: (必看)
+                                - img "未看"
+                              - generic [ref=e1379]:
+                                - link "5.9资本主义基本矛盾与经济危机_720P.docx" [ref=e1380] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=c4anaewzib1kfohdyss9ha
+                                - generic [ref=e1381]: ( office文档 )
+                                - img "已完成" [ref=e1382]
+                - row "10   课程10：资本主义民主制度的实质... (必看) 9 2个 0次 0次 未完成 5.10资本主义民主制度的实质及其局限性_720P ( 视频 ) (必看) 未看 5.10资本主义民主制度的实质及其局限性_720P.docx ( office文档 ) 已完成" [ref=e1383]:
+                  - cell "10" [ref=e1384]
+                  - cell "" [ref=e1385]:
+                    - generic [ref=e1386]: 
+                  - cell " 课程10：资本主义民主制度的实质... (必看) 9 2个 0次 0次 未完成 5.10资本主义民主制度的实质及其局限性_720P ( 视频 ) (必看) 未看 5.10资本主义民主制度的实质及其局限性_720P.docx ( office文档 ) 已完成" [ref=e1387]:
+                    - table [ref=e1388]:
+                      - rowgroup [ref=e1389]:
+                        - row " 课程10：资本主义民主制度的实质... (必看) 9 2个 0次 0次 未完成" [ref=e1390]:
+                          - cell " 课程10：资本主义民主制度的实质... (必看)" [ref=e1391]:
+                            - generic [ref=e1392] [cursor=pointer]: 
+                            - link "课程10：资本主义民主制度的实质..." [ref=e1393] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1394]
+                          - cell "2个" [ref=e1395]
+                          - cell "0次" [ref=e1396]
+                          - cell "0次" [ref=e1397]
+                          - cell "未完成" [ref=e1398]:
+                            - img "未完成"
+                    - table [ref=e1400]:
+                      - rowgroup [ref=e1401]:
+                        - row "5.10资本主义民主制度的实质及其局限性_720P ( 视频 ) (必看) 未看 5.10资本主义民主制度的实质及其局限性_720P.docx ( office文档 ) 已完成" [ref=e1402]:
+                          - cell "5.10资本主义民主制度的实质及其局限性_720P ( 视频 ) (必看) 未看 5.10资本主义民主制度的实质及其局限性_720P.docx ( office文档 ) 已完成" [ref=e1403]:
+                            - generic [ref=e1404]:
+                              - generic [ref=e1406]:
+                                - link "5.10资本主义民主制度的实质及其局限性_720P" [ref=e1407] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=dianaewzgppdja5h53hc1g
+                                - generic [ref=e1408]: ( 视频 )
+                                - generic [ref=e1409]: (必看)
+                                - img "未看"
+                              - generic [ref=e1411]:
+                                - link "5.10资本主义民主制度的实质及其局限性_720P.docx" [ref=e1412] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=dianaewztqdhqrgvc1zafq
+                                - generic [ref=e1413]: ( office文档 )
+                                - img "已完成" [ref=e1414]
+                - row "11   课程11：资本主义意识形态及其本... (必看) 9 2个 0次 0次 未完成 5.11资本主义意识形态及其本质_720 ( 视频 ) (必看) 未看 5.11资本主义意识形态及其本质_720.docx ( office文档 ) 已完成" [ref=e1415]:
+                  - cell "11" [ref=e1416]
+                  - cell "" [ref=e1417]:
+                    - generic [ref=e1418]: 
+                  - cell " 课程11：资本主义意识形态及其本... (必看) 9 2个 0次 0次 未完成 5.11资本主义意识形态及其本质_720 ( 视频 ) (必看) 未看 5.11资本主义意识形态及其本质_720.docx ( office文档 ) 已完成" [ref=e1419]:
+                    - table [ref=e1420]:
+                      - rowgroup [ref=e1421]:
+                        - row " 课程11：资本主义意识形态及其本... (必看) 9 2个 0次 0次 未完成" [ref=e1422]:
+                          - cell " 课程11：资本主义意识形态及其本... (必看)" [ref=e1423]:
+                            - generic [ref=e1424] [cursor=pointer]: 
+                            - link "课程11：资本主义意识形态及其本..." [ref=e1425] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "9" [ref=e1426]
+                          - cell "2个" [ref=e1427]
+                          - cell "0次" [ref=e1428]
+                          - cell "0次" [ref=e1429]
+                          - cell "未完成" [ref=e1430]:
+                            - img "未完成"
+                    - table [ref=e1432]:
+                      - rowgroup [ref=e1433]:
+                        - row "5.11资本主义意识形态及其本质_720 ( 视频 ) (必看) 未看 5.11资本主义意识形态及其本质_720.docx ( office文档 ) 已完成" [ref=e1434]:
+                          - cell "5.11资本主义意识形态及其本质_720 ( 视频 ) (必看) 未看 5.11资本主义意识形态及其本质_720.docx ( office文档 ) 已完成" [ref=e1435]:
+                            - generic [ref=e1436]:
+                              - generic [ref=e1438]:
+                                - link "5.11资本主义意识形态及其本质_720" [ref=e1439] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=gianaewzm4jbybyaqvikcw
+                                - generic [ref=e1440]: ( 视频 )
+                                - generic [ref=e1441]: (必看)
+                                - img "未看"
+                              - generic [ref=e1443]:
+                                - link "5.11资本主义意识形态及其本质_720.docx" [ref=e1444] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=gianaewzv4nd9frqbhq7sq
+                                - generic [ref=e1445]: ( office文档 )
+                                - img "已完成" [ref=e1446]
+            - generic [ref=e1447]:
+              - generic [ref=e1448]: 七
+              - generic "专题六 资本主义的发展及其趋势" [ref=e1449]
+            - table [ref=e1452]:
+              - rowgroup [ref=e1453]:
+                - row "名称 教学周 资源 活动 作业 进度" [ref=e1454]:
+                  - columnheader [ref=e1455]
+                  - columnheader [ref=e1456]
+                  - columnheader "名称 教学周 资源 活动 作业 进度" [ref=e1457]:
+                    - table [ref=e1458]:
+                      - rowgroup [ref=e1459]:
+                        - row "名称 教学周 资源 活动 作业 进度" [ref=e1460]:
+                          - cell "名称" [ref=e1461]
+                          - cell "教学周" [ref=e1462]
+                          - cell "资源" [ref=e1463]
+                          - cell "活动" [ref=e1464]
+                          - cell "作业" [ref=e1465]
+                          - cell "进度" [ref=e1466]
+                - row "1   课程1：资本主义从自由到垄断 (必看) 11 2个 0次 0次 未完成 6.1资本主义从自由到垄断_720p ( 视频 ) (必看) 未看 6.1资本主义从自由到垄断_720p.docx ( office文档 ) 已完成" [ref=e1467]:
+                  - cell "1" [ref=e1468]
+                  - cell "" [ref=e1469]:
+                    - generic [ref=e1470]: 
+                  - cell " 课程1：资本主义从自由到垄断 (必看) 11 2个 0次 0次 未完成 6.1资本主义从自由到垄断_720p ( 视频 ) (必看) 未看 6.1资本主义从自由到垄断_720p.docx ( office文档 ) 已完成" [ref=e1471]:
+                    - table [ref=e1472]:
+                      - rowgroup [ref=e1473]:
+                        - row " 课程1：资本主义从自由到垄断 (必看) 11 2个 0次 0次 未完成" [ref=e1474]:
+                          - cell " 课程1：资本主义从自由到垄断 (必看)" [ref=e1475]:
+                            - generic [ref=e1476] [cursor=pointer]: 
+                            - link "课程1：资本主义从自由到垄断" [ref=e1477] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "11" [ref=e1478]
+                          - cell "2个" [ref=e1479]
+                          - cell "0次" [ref=e1480]
+                          - cell "0次" [ref=e1481]
+                          - cell "未完成" [ref=e1482]:
+                            - img "未完成"
+                    - table [ref=e1484]:
+                      - rowgroup [ref=e1485]:
+                        - row "6.1资本主义从自由到垄断_720p ( 视频 ) (必看) 未看 6.1资本主义从自由到垄断_720p.docx ( office文档 ) 已完成" [ref=e1486]:
+                          - cell "6.1资本主义从自由到垄断_720p ( 视频 ) (必看) 未看 6.1资本主义从自由到垄断_720p.docx ( office文档 ) 已完成" [ref=e1487]:
+                            - generic [ref=e1488]:
+                              - generic [ref=e1490]:
+                                - link "6.1资本主义从自由到垄断_720p" [ref=e1491] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=aianaewzfi5eqzzkjqmibw
+                                - generic [ref=e1492]: ( 视频 )
+                                - generic [ref=e1493]: (必看)
+                                - img "未看"
+                              - generic [ref=e1495]:
+                                - link "6.1资本主义从自由到垄断_720p.docx" [ref=e1496] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=z4anaewzqa9g62ejdjvpuq
+                                - generic [ref=e1497]: ( office文档 )
+                                - img "已完成" [ref=e1498]
+                - row "2   课程2：垄断资本主义的发展 (必看) 11 2个 0次 0次 未完成 6.2垄断资本主义的发展_720p ( 视频 ) (必看) 未看 6.2垄断资本主义的发展_720p.docx ( office文档 ) 已完成" [ref=e1499]:
+                  - cell "2" [ref=e1500]
+                  - cell "" [ref=e1501]:
+                    - generic [ref=e1502]: 
+                  - cell " 课程2：垄断资本主义的发展 (必看) 11 2个 0次 0次 未完成 6.2垄断资本主义的发展_720p ( 视频 ) (必看) 未看 6.2垄断资本主义的发展_720p.docx ( office文档 ) 已完成" [ref=e1503]:
+                    - table [ref=e1504]:
+                      - rowgroup [ref=e1505]:
+                        - row " 课程2：垄断资本主义的发展 (必看) 11 2个 0次 0次 未完成" [ref=e1506]:
+                          - cell " 课程2：垄断资本主义的发展 (必看)" [ref=e1507]:
+                            - generic [ref=e1508] [cursor=pointer]: 
+                            - link "课程2：垄断资本主义的发展" [ref=e1509] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "11" [ref=e1510]
+                          - cell "2个" [ref=e1511]
+                          - cell "0次" [ref=e1512]
+                          - cell "0次" [ref=e1513]
+                          - cell "未完成" [ref=e1514]:
+                            - img "未完成"
+                    - table [ref=e1516]:
+                      - rowgroup [ref=e1517]:
+                        - row "6.2垄断资本主义的发展_720p ( 视频 ) (必看) 未看 6.2垄断资本主义的发展_720p.docx ( office文档 ) 已完成" [ref=e1518]:
+                          - cell "6.2垄断资本主义的发展_720p ( 视频 ) (必看) 未看 6.2垄断资本主义的发展_720p.docx ( office文档 ) 已完成" [ref=e1519]:
+                            - generic [ref=e1520]:
+                              - generic [ref=e1522]:
+                                - link "6.2垄断资本主义的发展_720p" [ref=e1523] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=x4anaewzil9fb-zbvforzw
+                                - generic [ref=e1524]: ( 视频 )
+                                - generic [ref=e1525]: (必看)
+                                - img "未看"
+                              - generic [ref=e1527]:
+                                - link "6.2垄断资本主义的发展_720p.docx" [ref=e1528] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=x4anaewzikrmdjl4pbm1jw
+                                - generic [ref=e1529]: ( office文档 )
+                                - img "已完成" [ref=e1530]
+                - row "3   课程3：经济全球化及其影响 (必看) 11 2个 0次 0次 未完成 6.3经济全球化及其影响_720p ( 视频 ) (必看) 未看 6.3经济全球化及其影响_720p.docx ( office文档 ) 已完成" [ref=e1531]:
+                  - cell "3" [ref=e1532]
+                  - cell "" [ref=e1533]:
+                    - generic [ref=e1534]: 
+                  - cell " 课程3：经济全球化及其影响 (必看) 11 2个 0次 0次 未完成 6.3经济全球化及其影响_720p ( 视频 ) (必看) 未看 6.3经济全球化及其影响_720p.docx ( office文档 ) 已完成" [ref=e1535]:
+                    - table [ref=e1536]:
+                      - rowgroup [ref=e1537]:
+                        - row " 课程3：经济全球化及其影响 (必看) 11 2个 0次 0次 未完成" [ref=e1538]:
+                          - cell " 课程3：经济全球化及其影响 (必看)" [ref=e1539]:
+                            - generic [ref=e1540] [cursor=pointer]: 
+                            - link "课程3：经济全球化及其影响" [ref=e1541] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "11" [ref=e1542]
+                          - cell "2个" [ref=e1543]
+                          - cell "0次" [ref=e1544]
+                          - cell "0次" [ref=e1545]
+                          - cell "未完成" [ref=e1546]:
+                            - img "未完成"
+                    - table [ref=e1548]:
+                      - rowgroup [ref=e1549]:
+                        - row "6.3经济全球化及其影响_720p ( 视频 ) (必看) 未看 6.3经济全球化及其影响_720p.docx ( office文档 ) 已完成" [ref=e1550]:
+                          - cell "6.3经济全球化及其影响_720p ( 视频 ) (必看) 未看 6.3经济全球化及其影响_720p.docx ( office文档 ) 已完成" [ref=e1551]:
+                            - generic [ref=e1552]:
+                              - generic [ref=e1554]:
+                                - link "6.3经济全球化及其影响_720p" [ref=e1555] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=yianaewzy79hxejx4bu-sa
+                                - generic [ref=e1556]: ( 视频 )
+                                - generic [ref=e1557]: (必看)
+                                - img "未看"
+                              - generic [ref=e1559]:
+                                - link "6.3经济全球化及其影响_720p.docx" [ref=e1560] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=yianaewzhj1coyymicelbg
+                                - generic [ref=e1561]: ( office文档 )
+                                - img "已完成" [ref=e1562]
+                - row "4   课程4：第二次世界大战后资本主义... (必看) 11 2个 0次 0次 未完成 6.4资本主义新变化_720p ( 视频 ) (必看) 未看 6.4资本主义新变化_720p.docx ( office文档 ) 已完成" [ref=e1563]:
+                  - cell "4" [ref=e1564]
+                  - cell "" [ref=e1565]:
+                    - generic [ref=e1566]: 
+                  - cell " 课程4：第二次世界大战后资本主义... (必看) 11 2个 0次 0次 未完成 6.4资本主义新变化_720p ( 视频 ) (必看) 未看 6.4资本主义新变化_720p.docx ( office文档 ) 已完成" [ref=e1567]:
+                    - table [ref=e1568]:
+                      - rowgroup [ref=e1569]:
+                        - row " 课程4：第二次世界大战后资本主义... (必看) 11 2个 0次 0次 未完成" [ref=e1570]:
+                          - cell " 课程4：第二次世界大战后资本主义... (必看)" [ref=e1571]:
+                            - generic [ref=e1572] [cursor=pointer]: 
+                            - link "课程4：第二次世界大战后资本主义..." [ref=e1573] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "11" [ref=e1574]
+                          - cell "2个" [ref=e1575]
+                          - cell "0次" [ref=e1576]
+                          - cell "0次" [ref=e1577]
+                          - cell "未完成" [ref=e1578]:
+                            - img "未完成"
+                    - table [ref=e1580]:
+                      - rowgroup [ref=e1581]:
+                        - row "6.4资本主义新变化_720p ( 视频 ) (必看) 未看 6.4资本主义新变化_720p.docx ( office文档 ) 已完成" [ref=e1582]:
+                          - cell "6.4资本主义新变化_720p ( 视频 ) (必看) 未看 6.4资本主义新变化_720p.docx ( office文档 ) 已完成" [ref=e1583]:
+                            - generic [ref=e1584]:
+                              - generic [ref=e1586]:
+                                - link "6.4资本主义新变化_720p" [ref=e1587] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=yyanaewzzaxejlft6pnsyg
+                                - generic [ref=e1588]: ( 视频 )
+                                - generic [ref=e1589]: (必看)
+                                - img "未看"
+                              - generic [ref=e1591]:
+                                - link "6.4资本主义新变化_720p.docx" [ref=e1592] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=yyanaewzlarhyfyuuhr-9a
+                                - generic [ref=e1593]: ( office文档 )
+                                - img "已完成" [ref=e1594]
+                - row "5   课程5：国际金融危机以来资本主义... (必看) 11 2个 0次 0次 未完成 6.5国际金融危机以来资本主义的矛盾与冲突_720p ( 视频 ) (必看) 未看 6.5国际金融危机以来资本主义的矛盾与冲突_720p.docx ( office文档 ) 已完成" [ref=e1595]:
+                  - cell "5" [ref=e1596]
+                  - cell "" [ref=e1597]:
+                    - generic [ref=e1598]: 
+                  - cell " 课程5：国际金融危机以来资本主义... (必看) 11 2个 0次 0次 未完成 6.5国际金融危机以来资本主义的矛盾与冲突_720p ( 视频 ) (必看) 未看 6.5国际金融危机以来资本主义的矛盾与冲突_720p.docx ( office文档 ) 已完成" [ref=e1599]:
+                    - table [ref=e1600]:
+                      - rowgroup [ref=e1601]:
+                        - row " 课程5：国际金融危机以来资本主义... (必看) 11 2个 0次 0次 未完成" [ref=e1602]:
+                          - cell " 课程5：国际金融危机以来资本主义... (必看)" [ref=e1603]:
+                            - generic [ref=e1604] [cursor=pointer]: 
+                            - link "课程5：国际金融危机以来资本主义..." [ref=e1605] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "11" [ref=e1606]
+                          - cell "2个" [ref=e1607]
+                          - cell "0次" [ref=e1608]
+                          - cell "0次" [ref=e1609]
+                          - cell "未完成" [ref=e1610]:
+                            - img "未完成"
+                    - table [ref=e1612]:
+                      - rowgroup [ref=e1613]:
+                        - row "6.5国际金融危机以来资本主义的矛盾与冲突_720p ( 视频 ) (必看) 未看 6.5国际金融危机以来资本主义的矛盾与冲突_720p.docx ( office文档 ) 已完成" [ref=e1614]:
+                          - cell "6.5国际金融危机以来资本主义的矛盾与冲突_720p ( 视频 ) (必看) 未看 6.5国际金融危机以来资本主义的矛盾与冲突_720p.docx ( office文档 ) 已完成" [ref=e1615]:
+                            - generic [ref=e1616]:
+                              - generic [ref=e1618]:
+                                - link "6.5国际金融危机以来资本主义的矛盾与冲突_720p" [ref=e1619] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=zoanaewz06jnnbkbyedpxg
+                                - generic [ref=e1620]: ( 视频 )
+                                - generic [ref=e1621]: (必看)
+                                - img "未看"
+                              - generic [ref=e1623]:
+                                - link "6.5国际金融危机以来资本主义的矛盾与冲突_720p.docx" [ref=e1624] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=zyanaewzxjtarrmbw5jgeq
+                                - generic [ref=e1625]: ( office文档 )
+                                - img "已完成" [ref=e1626]
+                - row "6   课程6：资本主义的历史地位和发展... (必看) 11 2个 0次 0次 未完成 6.6资本主义的历史地位和发展趋势_720p ( 视频 ) (必看) 未看 6.6资本主义的历史地位和发展趋势_720p.docx ( office文档 ) 已完成" [ref=e1627]:
+                  - cell "6" [ref=e1628]
+                  - cell "" [ref=e1629]:
+                    - generic [ref=e1630]: 
+                  - cell " 课程6：资本主义的历史地位和发展... (必看) 11 2个 0次 0次 未完成 6.6资本主义的历史地位和发展趋势_720p ( 视频 ) (必看) 未看 6.6资本主义的历史地位和发展趋势_720p.docx ( office文档 ) 已完成" [ref=e1631]:
+                    - table [ref=e1632]:
+                      - rowgroup [ref=e1633]:
+                        - row " 课程6：资本主义的历史地位和发展... (必看) 11 2个 0次 0次 未完成" [ref=e1634]:
+                          - cell " 课程6：资本主义的历史地位和发展... (必看)" [ref=e1635]:
+                            - generic [ref=e1636] [cursor=pointer]: 
+                            - link "课程6：资本主义的历史地位和发展..." [ref=e1637] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "11" [ref=e1638]
+                          - cell "2个" [ref=e1639]
+                          - cell "0次" [ref=e1640]
+                          - cell "0次" [ref=e1641]
+                          - cell "未完成" [ref=e1642]:
+                            - img "未完成"
+                    - table [ref=e1644]:
+                      - rowgroup [ref=e1645]:
+                        - row "6.6资本主义的历史地位和发展趋势_720p ( 视频 ) (必看) 未看 6.6资本主义的历史地位和发展趋势_720p.docx ( office文档 ) 已完成" [ref=e1646]:
+                          - cell "6.6资本主义的历史地位和发展趋势_720p ( 视频 ) (必看) 未看 6.6资本主义的历史地位和发展趋势_720p.docx ( office文档 ) 已完成" [ref=e1647]:
+                            - generic [ref=e1648]:
+                              - generic [ref=e1650]:
+                                - link "6.6资本主义的历史地位和发展趋势_720p" [ref=e1651] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=z4anaewzwidhf--czikiuq
+                                - generic [ref=e1652]: ( 视频 )
+                                - generic [ref=e1653]: (必看)
+                                - img "未看"
+                              - generic [ref=e1655]:
+                                - link "6.6资本主义的历史地位和发展趋势_720p.docx" [ref=e1656] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=zoanaewzp7dolt-kmo5hna
+                                - generic [ref=e1657]: ( office文档 )
+                                - img "已完成" [ref=e1658]
+            - generic [ref=e1659]:
+              - generic [ref=e1660]: 八
+              - generic "专题七 社会主义的发展及其规律" [ref=e1661]
+            - table [ref=e1664]:
+              - rowgroup [ref=e1665]:
+                - row "名称 教学周 资源 活动 作业 进度" [ref=e1666]:
+                  - columnheader [ref=e1667]
+                  - columnheader [ref=e1668]
+                  - columnheader "名称 教学周 资源 活动 作业 进度" [ref=e1669]:
+                    - table [ref=e1670]:
+                      - rowgroup [ref=e1671]:
+                        - row "名称 教学周 资源 活动 作业 进度" [ref=e1672]:
+                          - cell "名称" [ref=e1673]
+                          - cell "教学周" [ref=e1674]
+                          - cell "资源" [ref=e1675]
+                          - cell "活动" [ref=e1676]
+                          - cell "作业" [ref=e1677]
+                          - cell "进度" [ref=e1678]
+                - row "1   课程1：十月革命的胜利——社会主... (必看) 13 2个 0次 0次 未完成 7.1十月革命及其历史意义_720p ( 视频 ) (必看) 未看 7.1十月革命及其历史意义_720p.docx ( office文档 ) 已完成" [ref=e1679]:
+                  - cell "1" [ref=e1680]
+                  - cell "" [ref=e1681]:
+                    - generic [ref=e1682]: 
+                  - cell " 课程1：十月革命的胜利——社会主... (必看) 13 2个 0次 0次 未完成 7.1十月革命及其历史意义_720p ( 视频 ) (必看) 未看 7.1十月革命及其历史意义_720p.docx ( office文档 ) 已完成" [ref=e1683]:
+                    - table [ref=e1684]:
+                      - rowgroup [ref=e1685]:
+                        - row " 课程1：十月革命的胜利——社会主... (必看) 13 2个 0次 0次 未完成" [ref=e1686]:
+                          - cell " 课程1：十月革命的胜利——社会主... (必看)" [ref=e1687]:
+                            - generic [ref=e1688] [cursor=pointer]: 
+                            - link "课程1：十月革命的胜利——社会主..." [ref=e1689] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "13" [ref=e1690]
+                          - cell "2个" [ref=e1691]
+                          - cell "0次" [ref=e1692]
+                          - cell "0次" [ref=e1693]
+                          - cell "未完成" [ref=e1694]:
+                            - img "未完成"
+                    - table [ref=e1696]:
+                      - rowgroup [ref=e1697]:
+                        - row "7.1十月革命及其历史意义_720p ( 视频 ) (必看) 未看 7.1十月革命及其历史意义_720p.docx ( office文档 ) 已完成" [ref=e1698]:
+                          - cell "7.1十月革命及其历史意义_720p ( 视频 ) (必看) 未看 7.1十月革命及其历史意义_720p.docx ( office文档 ) 已完成" [ref=e1699]:
+                            - generic [ref=e1700]:
+                              - generic [ref=e1702]:
+                                - link "7.1十月革命及其历史意义_720p" [ref=e1703] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=ayanaewzkzlewo8f0cwzsw
+                                - generic [ref=e1704]: ( 视频 )
+                                - generic [ref=e1705]: (必看)
+                                - img "未看"
+                              - generic [ref=e1707]:
+                                - link "7.1十月革命及其历史意义_720p.docx" [ref=e1708] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=ayanaewzszzdysyxjavsbw
+                                - generic [ref=e1709]: ( office文档 )
+                                - img "已完成" [ref=e1710]
+                - row "2   课程2：苏俄新生政权的“内忧外患... (必看) 13 2个 0次 0次 未完成 7.2苏俄新生政权的“内忧外患”_720p ( 视频 ) (必看) 未看 7.2苏俄新生政权的“内忧外患”_720p.docx ( office文档 ) 已完成" [ref=e1711]:
+                  - cell "2" [ref=e1712]
+                  - cell "" [ref=e1713]:
+                    - generic [ref=e1714]: 
+                  - cell " 课程2：苏俄新生政权的“内忧外患... (必看) 13 2个 0次 0次 未完成 7.2苏俄新生政权的“内忧外患”_720p ( 视频 ) (必看) 未看 7.2苏俄新生政权的“内忧外患”_720p.docx ( office文档 ) 已完成" [ref=e1715]:
+                    - table [ref=e1716]:
+                      - rowgroup [ref=e1717]:
+                        - row " 课程2：苏俄新生政权的“内忧外患... (必看) 13 2个 0次 0次 未完成" [ref=e1718]:
+                          - cell " 课程2：苏俄新生政权的“内忧外患... (必看)" [ref=e1719]:
+                            - generic [ref=e1720] [cursor=pointer]: 
+                            - link "课程2：苏俄新生政权的“内忧外患..." [ref=e1721] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "13" [ref=e1722]
+                          - cell "2个" [ref=e1723]
+                          - cell "0次" [ref=e1724]
+                          - cell "0次" [ref=e1725]
+                          - cell "未完成" [ref=e1726]:
+                            - img "未完成"
+                    - table [ref=e1728]:
+                      - rowgroup [ref=e1729]:
+                        - row "7.2苏俄新生政权的“内忧外患”_720p ( 视频 ) (必看) 未看 7.2苏俄新生政权的“内忧外患”_720p.docx ( office文档 ) 已完成" [ref=e1730]:
+                          - cell "7.2苏俄新生政权的“内忧外患”_720p ( 视频 ) (必看) 未看 7.2苏俄新生政权的“内忧外患”_720p.docx ( office文档 ) 已完成" [ref=e1731]:
+                            - generic [ref=e1732]:
+                              - generic [ref=e1734]:
+                                - link "7.2苏俄新生政权的“内忧外患”_720p" [ref=e1735] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=a4anaewz0ivcohuirvbofg
+                                - generic [ref=e1736]: ( 视频 )
+                                - generic [ref=e1737]: (必看)
+                                - img "未看"
+                              - generic [ref=e1739]:
+                                - link "7.2苏俄新生政权的“内忧外患”_720p.docx" [ref=e1740] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=a4anaewzu6nizgw9xp72uw
+                                - generic [ref=e1741]: ( office文档 )
+                                - img "已完成" [ref=e1742]
+                - row "3   课程3：社会主义在苏联一国的实践... (必看) 13 2个 0次 0次 未完成 7.3实行战时共产主义政策_720p ( 视频 ) (必看) 未看 7.3实行战时共产主义政策_720p.docx ( office文档 ) 已完成" [ref=e1743]:
+                  - cell "3" [ref=e1744]
+                  - cell "" [ref=e1745]:
+                    - generic [ref=e1746]: 
+                  - cell " 课程3：社会主义在苏联一国的实践... (必看) 13 2个 0次 0次 未完成 7.3实行战时共产主义政策_720p ( 视频 ) (必看) 未看 7.3实行战时共产主义政策_720p.docx ( office文档 ) 已完成" [ref=e1747]:
+                    - table [ref=e1748]:
+                      - rowgroup [ref=e1749]:
+                        - row " 课程3：社会主义在苏联一国的实践... (必看) 13 2个 0次 0次 未完成" [ref=e1750]:
+                          - cell " 课程3：社会主义在苏联一国的实践... (必看)" [ref=e1751]:
+                            - generic [ref=e1752] [cursor=pointer]: 
+                            - link "课程3：社会主义在苏联一国的实践..." [ref=e1753] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "13" [ref=e1754]
+                          - cell "2个" [ref=e1755]
+                          - cell "0次" [ref=e1756]
+                          - cell "0次" [ref=e1757]
+                          - cell "未完成" [ref=e1758]:
+                            - img "未完成"
+                    - table [ref=e1760]:
+                      - rowgroup [ref=e1761]:
+                        - row "7.3实行战时共产主义政策_720p ( 视频 ) (必看) 未看 7.3实行战时共产主义政策_720p.docx ( office文档 ) 已完成" [ref=e1762]:
+                          - cell "7.3实行战时共产主义政策_720p ( 视频 ) (必看) 未看 7.3实行战时共产主义政策_720p.docx ( office文档 ) 已完成" [ref=e1763]:
+                            - generic [ref=e1764]:
+                              - generic [ref=e1766]:
+                                - link "7.3实行战时共产主义政策_720p" [ref=e1767] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=bianaewzuqjjeobcykhubw
+                                - generic [ref=e1768]: ( 视频 )
+                                - generic [ref=e1769]: (必看)
+                                - img "未看"
+                              - generic [ref=e1771]:
+                                - link "7.3实行战时共产主义政策_720p.docx" [ref=e1772] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=bianaewznbbbwrbicmzwwq
+                                - generic [ref=e1773]: ( office文档 )
+                                - img "已完成" [ref=e1774]
+                - row "4   课程4：社会主义在苏联一国的实践... (必看) 13 2个 0次 0次 未完成 7.4社会主义在苏联一国的实践——实行新经济政策_720p ( 视频 ) (必看) 未看 7.4社会主义在苏联一国的实践——实行新经济政策_720p.docx ( office文档 ) 已完成" [ref=e1775]:
+                  - cell "4" [ref=e1776]
+                  - cell "" [ref=e1777]:
+                    - generic [ref=e1778]: 
+                  - cell " 课程4：社会主义在苏联一国的实践... (必看) 13 2个 0次 0次 未完成 7.4社会主义在苏联一国的实践——实行新经济政策_720p ( 视频 ) (必看) 未看 7.4社会主义在苏联一国的实践——实行新经济政策_720p.docx ( office文档 ) 已完成" [ref=e1779]:
+                    - table [ref=e1780]:
+                      - rowgroup [ref=e1781]:
+                        - row " 课程4：社会主义在苏联一国的实践... (必看) 13 2个 0次 0次 未完成" [ref=e1782]:
+                          - cell " 课程4：社会主义在苏联一国的实践... (必看)" [ref=e1783]:
+                            - generic [ref=e1784] [cursor=pointer]: 
+                            - link "课程4：社会主义在苏联一国的实践..." [ref=e1785] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "13" [ref=e1786]
+                          - cell "2个" [ref=e1787]
+                          - cell "0次" [ref=e1788]
+                          - cell "0次" [ref=e1789]
+                          - cell "未完成" [ref=e1790]:
+                            - img "未完成"
+                    - table [ref=e1792]:
+                      - rowgroup [ref=e1793]:
+                        - row "7.4社会主义在苏联一国的实践——实行新经济政策_720p ( 视频 ) (必看) 未看 7.4社会主义在苏联一国的实践——实行新经济政策_720p.docx ( office文档 ) 已完成" [ref=e1794]:
+                          - cell "7.4社会主义在苏联一国的实践——实行新经济政策_720p ( 视频 ) (必看) 未看 7.4社会主义在苏联一国的实践——实行新经济政策_720p.docx ( office文档 ) 已完成" [ref=e1795]:
+                            - generic [ref=e1796]:
+                              - generic [ref=e1798]:
+                                - link "7.4社会主义在苏联一国的实践——实行新经济政策_720p" [ref=e1799] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=boanaewzvzhau9fkvx0ygg
+                                - generic [ref=e1800]: ( 视频 )
+                                - generic [ref=e1801]: (必看)
+                                - img "未看"
+                              - generic [ref=e1803]:
+                                - link "7.4社会主义在苏联一国的实践——实行新经济政策_720p.docx" [ref=e1804] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=boanaewzoj5jl3lmksuwew
+                                - generic [ref=e1805]: ( office文档 )
+                                - img "已完成" [ref=e1806]
+                - row "5   课程5：苏联社会主义建设的奇迹和... (必看) 13 2个 0次 0次 未完成 7.5社会主义建成_720p ( 视频 ) (必看) 未看 7.5社会主义建成_720p.docx ( office文档 ) 已完成" [ref=e1807]:
+                  - cell "5" [ref=e1808]
+                  - cell "" [ref=e1809]:
+                    - generic [ref=e1810]: 
+                  - cell " 课程5：苏联社会主义建设的奇迹和... (必看) 13 2个 0次 0次 未完成 7.5社会主义建成_720p ( 视频 ) (必看) 未看 7.5社会主义建成_720p.docx ( office文档 ) 已完成" [ref=e1811]:
+                    - table [ref=e1812]:
+                      - rowgroup [ref=e1813]:
+                        - row " 课程5：苏联社会主义建设的奇迹和... (必看) 13 2个 0次 0次 未完成" [ref=e1814]:
+                          - cell " 课程5：苏联社会主义建设的奇迹和... (必看)" [ref=e1815]:
+                            - generic [ref=e1816] [cursor=pointer]: 
+                            - link "课程5：苏联社会主义建设的奇迹和..." [ref=e1817] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "13" [ref=e1818]
+                          - cell "2个" [ref=e1819]
+                          - cell "0次" [ref=e1820]
+                          - cell "0次" [ref=e1821]
+                          - cell "未完成" [ref=e1822]:
+                            - img "未完成"
+                    - table [ref=e1824]:
+                      - rowgroup [ref=e1825]:
+                        - row "7.5社会主义建成_720p ( 视频 ) (必看) 未看 7.5社会主义建成_720p.docx ( office文档 ) 已完成" [ref=e1826]:
+                          - cell "7.5社会主义建成_720p ( 视频 ) (必看) 未看 7.5社会主义建成_720p.docx ( office文档 ) 已完成" [ref=e1827]:
+                            - generic [ref=e1828]:
+                              - generic [ref=e1830]:
+                                - link "7.5社会主义建成_720p" [ref=e1831] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=cianaewzcbrgmq0ueainrq
+                                - generic [ref=e1832]: ( 视频 )
+                                - generic [ref=e1833]: (必看)
+                                - img "未看"
+                              - generic [ref=e1835]:
+                                - link "7.5社会主义建成_720p.docx" [ref=e1836] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=cianaewzvkrb94vqrfinng
+                                - generic [ref=e1837]: ( office文档 )
+                                - img "已完成" [ref=e1838]
+                - row "6   课程6：社会主义建设的长期性和发... (必看) 13 2个 0次 0次 未完成 7.6社会主义建设的长期性和发展道路的多样性_720 ( 视频 ) (必看) 未看 7.6社会主义建设的长期性和发展道路的多样性_720.docx ( office文档 ) 已完成" [ref=e1839]:
+                  - cell "6" [ref=e1840]
+                  - cell "" [ref=e1841]:
+                    - generic [ref=e1842]: 
+                  - cell " 课程6：社会主义建设的长期性和发... (必看) 13 2个 0次 0次 未完成 7.6社会主义建设的长期性和发展道路的多样性_720 ( 视频 ) (必看) 未看 7.6社会主义建设的长期性和发展道路的多样性_720.docx ( office文档 ) 已完成" [ref=e1843]:
+                    - table [ref=e1844]:
+                      - rowgroup [ref=e1845]:
+                        - row " 课程6：社会主义建设的长期性和发... (必看) 13 2个 0次 0次 未完成" [ref=e1846]:
+                          - cell " 课程6：社会主义建设的长期性和发... (必看)" [ref=e1847]:
+                            - generic [ref=e1848] [cursor=pointer]: 
+                            - link "课程6：社会主义建设的长期性和发..." [ref=e1849] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "13" [ref=e1850]
+                          - cell "2个" [ref=e1851]
+                          - cell "0次" [ref=e1852]
+                          - cell "0次" [ref=e1853]
+                          - cell "未完成" [ref=e1854]:
+                            - img "未完成"
+                    - table [ref=e1856]:
+                      - rowgroup [ref=e1857]:
+                        - row "7.6社会主义建设的长期性和发展道路的多样性_720 ( 视频 ) (必看) 未看 7.6社会主义建设的长期性和发展道路的多样性_720.docx ( office文档 ) 已完成" [ref=e1858]:
+                          - cell "7.6社会主义建设的长期性和发展道路的多样性_720 ( 视频 ) (必看) 未看 7.6社会主义建设的长期性和发展道路的多样性_720.docx ( office文档 ) 已完成" [ref=e1859]:
+                            - generic [ref=e1860]:
+                              - generic [ref=e1862]:
+                                - link "7.6社会主义建设的长期性和发展道路的多样性_720" [ref=e1863] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=aoanaewzqqrenu4iofzclg
+                                - generic [ref=e1864]: ( 视频 )
+                                - generic [ref=e1865]: (必看)
+                                - img "未看"
+                              - generic [ref=e1867]:
+                                - link "7.6社会主义建设的长期性和发展道路的多样性_720.docx" [ref=e1868] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=aoanaewznp5mjzljqhiaja
+                                - generic [ref=e1869]: ( office文档 )
+                                - img "已完成" [ref=e1870]
+                - row "7   课程7：科学社会主义一般原则（一... (必看) 13 2个 0次 0次 未完成 7.8 科学社会主义一般原则（一）_720p ( 视频 ) (必看) 未看 7.7科学社会主义一般原则（一）_720p.docx ( office文档 ) 已完成" [ref=e1871]:
+                  - cell "7" [ref=e1872]
+                  - cell "" [ref=e1873]:
+                    - generic [ref=e1874]: 
+                  - cell " 课程7：科学社会主义一般原则（一... (必看) 13 2个 0次 0次 未完成 7.8 科学社会主义一般原则（一）_720p ( 视频 ) (必看) 未看 7.7科学社会主义一般原则（一）_720p.docx ( office文档 ) 已完成" [ref=e1875]:
+                    - table [ref=e1876]:
+                      - rowgroup [ref=e1877]:
+                        - row " 课程7：科学社会主义一般原则（一... (必看) 13 2个 0次 0次 未完成" [ref=e1878]:
+                          - cell " 课程7：科学社会主义一般原则（一... (必看)" [ref=e1879]:
+                            - generic [ref=e1880] [cursor=pointer]: 
+                            - link "课程7：科学社会主义一般原则（一..." [ref=e1881] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "13" [ref=e1882]
+                          - cell "2个" [ref=e1883]
+                          - cell "0次" [ref=e1884]
+                          - cell "0次" [ref=e1885]
+                          - cell "未完成" [ref=e1886]:
+                            - img "未完成"
+                    - table [ref=e1888]:
+                      - rowgroup [ref=e1889]:
+                        - row "7.8 科学社会主义一般原则（一）_720p ( 视频 ) (必看) 未看 7.7科学社会主义一般原则（一）_720p.docx ( office文档 ) 已完成" [ref=e1890]:
+                          - cell "7.8 科学社会主义一般原则（一）_720p ( 视频 ) (必看) 未看 7.7科学社会主义一般原则（一）_720p.docx ( office文档 ) 已完成" [ref=e1891]:
+                            - generic [ref=e1892]:
+                              - generic [ref=e1894]:
+                                - link "7.8 科学社会主义一般原则（一）_720p" [ref=e1895] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=byanaewzw5hd2rkrczxztq
+                                - generic [ref=e1896]: ( 视频 )
+                                - generic [ref=e1897]: (必看)
+                                - img "未看"
+                              - generic [ref=e1899]:
+                                - link "7.7科学社会主义一般原则（一）_720p.docx" [ref=e1900] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=byanaewztabhnxdomlcsbw
+                                - generic [ref=e1901]: ( office文档 )
+                                - img "已完成" [ref=e1902]
+                - row "8   课程8：科学社会主义一般原则（二... (必看) 13 2个 0次 0次 未完成 7.7 科学社会主义一般原则（二）_720P ( 视频 ) (必看) 未看 7.8 科学社会主义一般原则（二）_720P.docx ( office文档 ) 已完成" [ref=e1903]:
+                  - cell "8" [ref=e1904]
+                  - cell "" [ref=e1905]:
+                    - generic [ref=e1906]: 
+                  - cell " 课程8：科学社会主义一般原则（二... (必看) 13 2个 0次 0次 未完成 7.7 科学社会主义一般原则（二）_720P ( 视频 ) (必看) 未看 7.8 科学社会主义一般原则（二）_720P.docx ( office文档 ) 已完成" [ref=e1907]:
+                    - table [ref=e1908]:
+                      - rowgroup [ref=e1909]:
+                        - row " 课程8：科学社会主义一般原则（二... (必看) 13 2个 0次 0次 未完成" [ref=e1910]:
+                          - cell " 课程8：科学社会主义一般原则（二... (必看)" [ref=e1911]:
+                            - generic [ref=e1912] [cursor=pointer]: 
+                            - link "课程8：科学社会主义一般原则（二..." [ref=e1913] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "13" [ref=e1914]
+                          - cell "2个" [ref=e1915]
+                          - cell "0次" [ref=e1916]
+                          - cell "0次" [ref=e1917]
+                          - cell "未完成" [ref=e1918]:
+                            - img "未完成"
+                    - table [ref=e1920]:
+                      - rowgroup [ref=e1921]:
+                        - row "7.7 科学社会主义一般原则（二）_720P ( 视频 ) (必看) 未看 7.8 科学社会主义一般原则（二）_720P.docx ( office文档 ) 已完成" [ref=e1922]:
+                          - cell "7.7 科学社会主义一般原则（二）_720P ( 视频 ) (必看) 未看 7.8 科学社会主义一般原则（二）_720P.docx ( office文档 ) 已完成" [ref=e1923]:
+                            - generic [ref=e1924]:
+                              - generic [ref=e1926]:
+                                - link "7.7 科学社会主义一般原则（二）_720P" [ref=e1927] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=b4anaewz16dbwx5ijbus0w
+                                - generic [ref=e1928]: ( 视频 )
+                                - generic [ref=e1929]: (必看)
+                                - img "未看"
+                              - generic [ref=e1931]:
+                                - link "7.8 科学社会主义一般原则（二）_720P.docx" [ref=e1932] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=b4anaewzhbxl48wyhbwjwa
+                                - generic [ref=e1933]: ( office文档 )
+                                - img "已完成" [ref=e1934]
+            - generic [ref=e1935]:
+              - generic [ref=e1936]: 九
+              - generic "专题八 共产主义的崇高理想" [ref=e1937]
+            - table [ref=e1940]:
+              - rowgroup [ref=e1941]:
+                - row "名称 教学周 资源 活动 作业 进度" [ref=e1942]:
+                  - columnheader [ref=e1943]
+                  - columnheader [ref=e1944]
+                  - columnheader "名称 教学周 资源 活动 作业 进度" [ref=e1945]:
+                    - table [ref=e1946]:
+                      - rowgroup [ref=e1947]:
+                        - row "名称 教学周 资源 活动 作业 进度" [ref=e1948]:
+                          - cell "名称" [ref=e1949]
+                          - cell "教学周" [ref=e1950]
+                          - cell "资源" [ref=e1951]
+                          - cell "活动" [ref=e1952]
+                          - cell "作业" [ref=e1953]
+                          - cell "进度" [ref=e1954]
+                - row "1   课程1：预见未来社会的科学方法论... (必看) 15 2个 0次 0次 未完成 8.1预见未来社会的方法论原则_720p ( 视频 ) (必看) 未看 8.1预见未来社会的方法论原则_720p.docx ( office文档 ) 已完成" [ref=e1955]:
+                  - cell "1" [ref=e1956]
+                  - cell "" [ref=e1957]:
+                    - generic [ref=e1958]: 
+                  - cell " 课程1：预见未来社会的科学方法论... (必看) 15 2个 0次 0次 未完成 8.1预见未来社会的方法论原则_720p ( 视频 ) (必看) 未看 8.1预见未来社会的方法论原则_720p.docx ( office文档 ) 已完成" [ref=e1959]:
+                    - table [ref=e1960]:
+                      - rowgroup [ref=e1961]:
+                        - row " 课程1：预见未来社会的科学方法论... (必看) 15 2个 0次 0次 未完成" [ref=e1962]:
+                          - cell " 课程1：预见未来社会的科学方法论... (必看)" [ref=e1963]:
+                            - generic [ref=e1964] [cursor=pointer]: 
+                            - link "课程1：预见未来社会的科学方法论..." [ref=e1965] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "15" [ref=e1966]
+                          - cell "2个" [ref=e1967]
+                          - cell "0次" [ref=e1968]
+                          - cell "0次" [ref=e1969]
+                          - cell "未完成" [ref=e1970]:
+                            - img "未完成"
+                    - table [ref=e1972]:
+                      - rowgroup [ref=e1973]:
+                        - row "8.1预见未来社会的方法论原则_720p ( 视频 ) (必看) 未看 8.1预见未来社会的方法论原则_720p.docx ( office文档 ) 已完成" [ref=e1974]:
+                          - cell "8.1预见未来社会的方法论原则_720p ( 视频 ) (必看) 未看 8.1预见未来社会的方法论原则_720p.docx ( office文档 ) 已完成" [ref=e1975]:
+                            - generic [ref=e1976]:
+                              - generic [ref=e1978]:
+                                - link "8.1预见未来社会的方法论原则_720p" [ref=e1979] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=loanaewzlktfqcmj-66ezq
+                                - generic [ref=e1980]: ( 视频 )
+                                - generic [ref=e1981]: (必看)
+                                - img "未看"
+                              - generic [ref=e1983]:
+                                - link "8.1预见未来社会的方法论原则_720p.docx" [ref=e1984] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=loanaewzhbto-k1ihumgja
+                                - generic [ref=e1985]: ( office文档 )
+                                - img "已完成" [ref=e1986]
+                - row "2   课程2：共产主义社会的基本特征 (必看) 15 2个 0次 0次 未完成 8.2共产主义社会的基本特征_720p ( 视频 ) (必看) 未看 8.2共产主义社会的基本特征_720p.docx ( office文档 ) 已完成" [ref=e1987]:
+                  - cell "2" [ref=e1988]
+                  - cell "" [ref=e1989]:
+                    - generic [ref=e1990]: 
+                  - cell " 课程2：共产主义社会的基本特征 (必看) 15 2个 0次 0次 未完成 8.2共产主义社会的基本特征_720p ( 视频 ) (必看) 未看 8.2共产主义社会的基本特征_720p.docx ( office文档 ) 已完成" [ref=e1991]:
+                    - table [ref=e1992]:
+                      - rowgroup [ref=e1993]:
+                        - row " 课程2：共产主义社会的基本特征 (必看) 15 2个 0次 0次 未完成" [ref=e1994]:
+                          - cell " 课程2：共产主义社会的基本特征 (必看)" [ref=e1995]:
+                            - generic [ref=e1996] [cursor=pointer]: 
+                            - link "课程2：共产主义社会的基本特征" [ref=e1997] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "15" [ref=e1998]
+                          - cell "2个" [ref=e1999]
+                          - cell "0次" [ref=e2000]
+                          - cell "0次" [ref=e2001]
+                          - cell "未完成" [ref=e2002]:
+                            - img "未完成"
+                    - table [ref=e2004]:
+                      - rowgroup [ref=e2005]:
+                        - row "8.2共产主义社会的基本特征_720p ( 视频 ) (必看) 未看 8.2共产主义社会的基本特征_720p.docx ( office文档 ) 已完成" [ref=e2006]:
+                          - cell "8.2共产主义社会的基本特征_720p ( 视频 ) (必看) 未看 8.2共产主义社会的基本特征_720p.docx ( office文档 ) 已完成" [ref=e2007]:
+                            - generic [ref=e2008]:
+                              - generic [ref=e2010]:
+                                - link "8.2共产主义社会的基本特征_720p" [ref=e2011] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=lianaewzuprbrxiitcbqoa
+                                - generic [ref=e2012]: ( 视频 )
+                                - generic [ref=e2013]: (必看)
+                                - img "未看"
+                              - generic [ref=e2015]:
+                                - link "8.2共产主义社会的基本特征_720p.docx" [ref=e2016] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=k4anaewzhy5m7kwzibpt-q
+                                - generic [ref=e2017]: ( office文档 )
+                                - img "已完成" [ref=e2018]
+                - row "3   课程3：实现共产主义的必然性与长... (必看) 15 2个 0次 0次 未完成 8.3实现共产主义的必然性与长期性_720p ( 视频 ) (必看) 未看 8.3实现共产主义的必然性与长期性_720p.docx ( office文档 ) 已完成" [ref=e2019]:
+                  - cell "3" [ref=e2020]
+                  - cell "" [ref=e2021]:
+                    - generic [ref=e2022]: 
+                  - cell " 课程3：实现共产主义的必然性与长... (必看) 15 2个 0次 0次 未完成 8.3实现共产主义的必然性与长期性_720p ( 视频 ) (必看) 未看 8.3实现共产主义的必然性与长期性_720p.docx ( office文档 ) 已完成" [ref=e2023]:
+                    - table [ref=e2024]:
+                      - rowgroup [ref=e2025]:
+                        - row " 课程3：实现共产主义的必然性与长... (必看) 15 2个 0次 0次 未完成" [ref=e2026]:
+                          - cell " 课程3：实现共产主义的必然性与长... (必看)" [ref=e2027]:
+                            - generic [ref=e2028] [cursor=pointer]: 
+                            - link "课程3：实现共产主义的必然性与长..." [ref=e2029] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: (必看)
+                          - cell "15" [ref=e2030]
+                          - cell "2个" [ref=e2031]
+                          - cell "0次" [ref=e2032]
+                          - cell "0次" [ref=e2033]
+                          - cell "未完成" [ref=e2034]:
+                            - img "未完成"
+                    - table [ref=e2036]:
+                      - rowgroup [ref=e2037]:
+                        - row "8.3实现共产主义的必然性与长期性_720p ( 视频 ) (必看) 未看 8.3实现共产主义的必然性与长期性_720p.docx ( office文档 ) 已完成" [ref=e2038]:
+                          - cell "8.3实现共产主义的必然性与长期性_720p ( 视频 ) (必看) 未看 8.3实现共产主义的必然性与长期性_720p.docx ( office文档 ) 已完成" [ref=e2039]:
+                            - generic [ref=e2040]:
+                              - generic [ref=e2042]:
+                                - link "8.3实现共产主义的必然性与长期性_720p" [ref=e2043] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=lianaewznofojpviok5zkw
+                                - generic [ref=e2044]: ( 视频 )
+                                - generic [ref=e2045]: (必看)
+                                - img "未看"
+                              - generic [ref=e2047]:
+                                - link "8.3实现共产主义的必然性与长期性_720p.docx" [ref=e2048] [cursor=pointer]:
+                                  - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&cellId=lyanaewzyrxpeaaujyimfg
+                                - generic [ref=e2049]: ( office文档 )
+                                - img "已完成" [ref=e2050]
+        - img [ref=e2052] [cursor=pointer]
+      - generic [ref=e2054]:
+        - generic [ref=e2055]:
+          - heading " 智能体" [level=3] [ref=e2057]:
+            - generic [ref=e2058]: 
+            - text: 智能体
+          - link "马克思主义基本原理答疑助手 马克思主义基本原理答疑助手" [ref=e2061] [cursor=pointer]:
+            - /url: "#"
+            - img "马克思主义基本原理答疑助手" [ref=e2062]
+            - text: 马克思主义基本原理答疑助手
+        - generic [ref=e2063]:
+          - heading " 学习进度" [level=3] [ref=e2065]:
+            - generic [ref=e2066]: 
+            - text: 学习进度
+          - generic [ref=e2067]:
+            - img "需完成" [ref=e2068]
+            - img "需完成" [ref=e2069]
+            - img "需完成" [ref=e2070]
+            - img "需完成" [ref=e2071]
+            - img "需完成" [ref=e2072]
+            - img "需完成" [ref=e2073]
+            - img "需完成" [ref=e2074]
+            - img "需完成" [ref=e2075]
+            - img "需完成" [ref=e2076]
+            - img "需完成" [ref=e2077]
+            - img "需完成" [ref=e2078]
+            - img "需完成" [ref=e2079]
+            - img "需完成" [ref=e2080]
+            - img "需完成" [ref=e2081]
+            - img "需完成" [ref=e2082]
+            - img "需完成" [ref=e2083]
+            - img "需完成" [ref=e2084]
+            - img "需完成" [ref=e2085]
+            - img "需完成" [ref=e2086]
+            - img "需完成" [ref=e2087]
+            - img "需完成" [ref=e2088]
+            - img [ref=e2089]
+            - img [ref=e2090]
+            - img [ref=e2091]
+            - img [ref=e2092]
+            - img [ref=e2093]
+            - img [ref=e2094]
+            - img [ref=e2095]
+            - img [ref=e2096]
+            - img [ref=e2097]
+            - img [ref=e2098]
+            - img [ref=e2099]
+            - img [ref=e2100]
+            - img [ref=e2101]
+            - img [ref=e2102]
+            - img [ref=e2103]
+            - img [ref=e2104]
+            - img [ref=e2105]
+            - img [ref=e2106]
+            - img [ref=e2107]
+            - img [ref=e2108]
+            - img [ref=e2109]
+            - img [ref=e2110]
+            - img [ref=e2111]
+            - img [ref=e2112]
+            - img [ref=e2113]
+            - img [ref=e2114]
+            - img [ref=e2115]
+            - img [ref=e2116]
+            - img [ref=e2117]
+            - img [ref=e2118]
+            - img [ref=e2119]
+            - img [ref=e2120]
+            - img [ref=e2121]
+            - generic [ref=e2122]: 建议学习进度：应学 38%
+            - img "学习指南(已完成)" [ref=e2123]
+            - img "导学(已完成)" [ref=e2124]
+            - img "课程1：马克思主义产生的社会根源和阶级基础(已完成)" [ref=e2125]
+            - img "课程2：马克思主义的思想来源(已完成)" [ref=e2126]
+            - img "课程3：马克思、恩格斯对新世界观的探索(已完成)" [ref=e2127]
+            - img "课程4：《共产党宣言》的诞生(已完成)" [ref=e2128]
+            - img "课程5：马克思主义的首次完整、系统阐述(已完成)" [ref=e2129]
+            - img "课程1：物质及其存在形态(已完成)" [ref=e2130]
+            - img "课程2：世界的物质统一性(已完成)" [ref=e2131]
+            - img "课程3：事物的普遍联系和永恒发展(已完成)" [ref=e2132]
+            - img "课程4：联系和发��的基本环节（一）(已完成)" [ref=e2133]
+            - img "课程5：联系和发展的基本环节（二）(已完成)" [ref=e2134]
+            - img "课程6：对立统一规律(已完成)" [ref=e2135]
+            - img "课程7：质量互变规律(已完成)" [ref=e2136]
+            - img "课程8：否定之否定规律(已完成)" [ref=e2137]
+            - img "课程1：实践及其基本结构(已完成)" [ref=e2138]
+            - img "课程2：实践对认识的决定作用(已完成)" [ref=e2139]
+            - img "课程3：认识的过程(已完成)" [ref=e2140]
+            - img "课程4：真理及其检验标准(已完成)" [ref=e2141]
+            - img "课程5：价值及价值观(已完成)" [ref=e2142]
+            - img "课程6：实事求是的思想路线(已完成)" [ref=e2143]
+            - img "课程1：五种社会形态的演进变化(已完成)" [ref=e2144]
+            - img "课程2：社会基本矛盾是社会发展的根本动力(已完成)" [ref=e2145]
+            - img "课程3：阶级斗争、社会革命和改革(未完成)" [ref=e2146]
+            - img "课程4：人民群众在历史中的作用(未完成)" [ref=e2147]
+            - img "课程5：群众史观与英雄史观的本质区别(未完成)" [ref=e2148]
+            - img "课程1：商品的二因素与劳动的二重性(未完成)" [ref=e2149]
+            - img "课程2：价值规律理论(未完成)" [ref=e2150]
+            - img "课程3：以私有制为基础的商品经济的基本矛盾(未完成)" [ref=e2151]
+            - img "课程4：商品拜物教(未完成)" [ref=e2152]
+            - img "课程5：资本原始积累(未完成)" [ref=e2153]
+            - img "课程6：剩余价值产生及转化(未完成)" [ref=e2154]
+            - img "课程7：生产剩余价值的方法(未完成)" [ref=e2155]
+            - img "课程8：资本积累(未完成)" [ref=e2156]
+            - img "课程9：资本主义基本矛盾与经济危机(未完成)" [ref=e2157]
+            - img "课程10：资本主义民主制度的实质及其局限性(未完成)" [ref=e2158]
+            - img "课程11：资本主义意识形态及其本质(未完成)" [ref=e2159]
+            - img "课程1：资本主义从自由到垄断(未完成)" [ref=e2160]
+            - img "课程2：垄断资本主义的发展(未完成)" [ref=e2161]
+            - img "课程3：经济全球化及其影响(未完成)" [ref=e2162]
+            - img "课程4：第二次世界大战后资本主义新变化(未完成)" [ref=e2163]
+            - img "课程5：国际金融危机以来资本主义的矛盾与冲突(未完成)" [ref=e2164]
+            - img "课程6：资本主义的历史地位和发展趋势(未完成)" [ref=e2165]
+            - img "课程1：十月革命的胜利——社会主义从理想到现实(未完成)" [ref=e2166]
+            - img "课程2：苏俄新生政权的“内忧外患”(未完成)" [ref=e2167]
+            - img "课程3：社会主义在苏联一国的实践——实行战时共产主义政策(未完成)" [ref=e2168]
+            - img "课程4：社会主义在苏联一国的实践——实行新经济政策(未完成)" [ref=e2169]
+            - img "课程5：苏联社会主义建设的奇迹和宣布建成社会主义(未完成)" [ref=e2170]
+            - img "课程6：社会主义建设的长期性和发展道路的多样性(未完成)" [ref=e2171]
+            - img "课程7：科学社会主义一般原则（一）(未完成)" [ref=e2172]
+            - img "课程8：科学社会主义一般原则（二）(未完成)" [ref=e2173]
+            - img "课程1：预见未来社会的科学方法论原则(未完成)" [ref=e2174]
+            - img "课程2：共产主义社会的基本特征(未完成)" [ref=e2175]
+            - img "课程3：实现共产主义的必然性与长期性(未完成)" [ref=e2176]
+            - generic [ref=e2177]: 实际学习进度：已学 71%
+            - generic [ref=e2178]:
+              - link "网上表现 " [ref=e2179] [cursor=pointer]:
+                - /url: /report/OnlineIndex.aspx?coursename=op4baewzb5rlb2cp7bkl5g&stuid=310_20252310040388
+                - text: 网上表现
+                - generic [ref=e2180]: 
+              - link "继续学习 " [ref=e2181] [cursor=pointer]:
+                - /url: /study/directory.aspx?CourseOpenId=op4baewzb5rlb2cp7bkl5g&cellId=koanaewzql1o6vehshtppq&minorcourseopenid=op4baewzb5rlb2cp7bkl5g
+                - text: 继续学习
+                - generic [ref=e2182]: 
+        - generic [ref=e2183]:
+          - heading " 学习活动" [level=3] [ref=e2185]:
+            - generic [ref=e2186]: 
+            - text: 学习活动
+          - table [ref=e2187]:
+            - rowgroup [ref=e2188]:
+              - row "\"马克思主义基本原理\"录播课（03月22日） 03-22 19:00至03-22 20:29" [ref=e2189]:
+                - cell "\"马克思主义基本原理\"录播课（03月22日） 03-22 19:00至03-22 20:29" [ref=e2190]:
+                  - link "\"马克思主义基本原理\"录播课（03月22日）" [ref=e2192] [cursor=pointer]:
+                    - /url: /study/activity-preview.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&activityId=5fq-aoizflbhpa3h7br1rw
+                  - generic [ref=e2193]: 03-22 19:00至03-22 20:29
+                - cell [ref=e2194]
+              - row "\"马克思主义基本原理\"录播课（03月22日） 03-22 19:00至03-22 20:29" [ref=e2195]:
+                - cell "\"马克思主义基本原理\"录播课（03月22日） 03-22 19:00至03-22 20:29" [ref=e2196]:
+                  - link "\"马克思主义基本原理\"录播课（03月22日）" [ref=e2198] [cursor=pointer]:
+                    - /url: /study/activity-preview.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&activityId=a1q-aoiz85dpwoq3z132qq
+                  - generic [ref=e2199]: 03-22 19:00至03-22 20:29
+                - cell [ref=e2200]
+              - row "\"马克思主义基本原理\"录播课（03月22日） 03-22 19:00至03-22 20:29" [ref=e2201]:
+                - cell "\"马克思主义基本原理\"录播课（03月22日） 03-22 19:00至03-22 20:29" [ref=e2202]:
+                  - link "\"马克思主义基本原理\"录播课（03月22日）" [ref=e2204] [cursor=pointer]:
+                    - /url: /study/activity-preview.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&activityId=vvq-aoizyi5hmrr7qu8fsq
+                  - generic [ref=e2205]: 03-22 19:00至03-22 20:29
+                - cell [ref=e2206]
+              - row "马克思主义基本原理概论（导引课） 04-09 19:00至04-09 21:30" [ref=e2207]:
+                - cell "马克思主义基本原理概论（导引课） 04-09 19:00至04-09 21:30" [ref=e2208]:
+                  - link "马克思主义基本原理概论（导引课）" [ref=e2210] [cursor=pointer]:
+                    - /url: /study/activity-preview.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorcourseopenid=op4baewzb5rlb2cp7bkl5g&activityId=S790409241706629
+                  - generic [ref=e2211]: 04-09 19:00至04-09 21:30
+                - cell [ref=e2212]
+        - generic [ref=e2213]:
+          - heading " 课程论文考" [level=3] [ref=e2215]:
+            - generic [ref=e2216]: 
+            - text: 课程论文考
+          - table [ref=e2217]:
+            - rowgroup [ref=e2218]:
+              - row "暂无数据" [ref=e2219]:
+                - cell "暂无数据" [ref=e2220]:
+                  - generic [ref=e2221]: 暂无数据
+        - generic [ref=e2222]:
+          - heading " 课程作业" [level=3] [ref=e2224]:
+            - generic [ref=e2225]: 
+            - text: 课程作业
+          - table [ref=e2226]:
+            - rowgroup [ref=e2227]:
+              - row "26春测试题一 2026-03-02至2026-06-21" [ref=e2228]:
+                - cell "26春测试题一 2026-03-02至2026-06-21" [ref=e2229]:
+                  - link "26春测试题一" [ref=e2231] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=xmrwap2zbbvh2hulxb6exg&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2232]: 2026-03-02至2026-06-21
+                - cell [ref=e2233]
+              - row "26春测试题二 2026-03-02至2026-06-21" [ref=e2234]:
+                - cell "26春测试题二 2026-03-02至2026-06-21" [ref=e2235]:
+                  - link "26春测试题二" [ref=e2237] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=ssdxap2z2ztht6q5osflua&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2238]: 2026-03-02至2026-06-21
+                - cell [ref=e2239]
+              - row "计分作业一 2026-03-05至2026-06-21" [ref=e2240]:
+                - cell "计分作业一 2026-03-05至2026-06-21" [ref=e2241]:
+                  - link "计分作业一" [ref=e2243] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=woenaewzklvo3iwf7lwlww&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2244]: 2026-03-05至2026-06-21
+                - cell [ref=e2245]
+              - row "计分作业七 2026-03-05至2026-06-21" [ref=e2246]:
+                - cell "计分作业七 2026-03-05至2026-06-21" [ref=e2247]:
+                  - link "计分作业七" [ref=e2249] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=wyenaewzn6dmahm04l-lia&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2250]: 2026-03-05至2026-06-21
+                - cell [ref=e2251]
+              - row "计分作业三 2026-03-05至2026-06-21" [ref=e2252]:
+                - cell "计分作业三 2026-03-05至2026-06-21" [ref=e2253]:
+                  - link "计分作业三" [ref=e2255] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=voenaewz1y5bkyrajvtqxg&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2256]: 2026-03-05至2026-06-21
+                - cell [ref=e2257]
+              - row "计分作业二 2026-03-05至2026-06-21" [ref=e2258]:
+                - cell "计分作业二 2026-03-05至2026-06-21" [ref=e2259]:
+                  - link "计分作业二" [ref=e2261] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=w4enaewzzixomu4pn-bxig&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2262]: 2026-03-05至2026-06-21
+                - cell [ref=e2263]
+              - row "计分作业五 2026-03-05至2026-06-21" [ref=e2264]:
+                - cell "计分作业五 2026-03-05至2026-06-21" [ref=e2265]:
+                  - link "计分作业五" [ref=e2267] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=vienaewzllxeoatc3vmpqq&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2268]: 2026-03-05至2026-06-21
+                - cell [ref=e2269]
+              - row "计分作业八 2026-03-05至2026-06-21" [ref=e2270]:
+                - cell "计分作业八 2026-03-05至2026-06-21" [ref=e2271]:
+                  - link "计分作业八" [ref=e2273] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=vyenaewzj7hjitbejc0x8g&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2274]: 2026-03-05至2026-06-21
+                - cell [ref=e2275]
+              - row "计分作业六 2026-03-05至2026-06-21" [ref=e2276]:
+                - cell "计分作业六 2026-03-05至2026-06-21" [ref=e2277]:
+                  - link "计分作业六" [ref=e2279] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=voenaewzd71iufh-ql69aw&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2280]: 2026-03-05至2026-06-21
+                - cell [ref=e2281]
+              - row "计分作业四 2026-03-05至2026-06-21" [ref=e2282]:
+                - cell "计分作业四 2026-03-05至2026-06-21" [ref=e2283]:
+                  - link "计分作业四" [ref=e2285] [cursor=pointer]:
+                    - /url: /study/assignment-preview.aspx?homeWorkId=v4enaewz4jxbpmx30gtoig&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2286]: 2026-03-05至2026-06-21
+                - cell [ref=e2287]
+        - generic [ref=e2288]:
+          - heading " 课程实践" [level=3] [ref=e2290]:
+            - generic [ref=e2291]: 
+            - text: 课程实践
+          - table [ref=e2292]:
+            - rowgroup [ref=e2293]:
+              - row "读经典原著，写心得体会 2026-03-02至2026-06-21" [ref=e2294]:
+                - cell "读经典原著，写心得体会 2026-03-02至2026-06-21" [ref=e2295]:
+                  - link "读经典原著，写心得体会" [ref=e2297] [cursor=pointer]:
+                    - /url: /study/laboratoryInfo/preview.aspx?laboratoryId=xr7gap2zborfwr1-wbehsg&courseopenid=op4baewzb5rlb2cp7bkl5g
+                  - generic [ref=e2298]: 2026-03-02至2026-06-21
+                - cell [ref=e2299]
+        - generic [ref=e2300]:
+          - heading " 小组活动" [level=3] [ref=e2302]:
+            - generic [ref=e2303]: 
+            - text: 小组活动
+          - table [ref=e2304]:
+            - rowgroup [ref=e2305]:
+              - row "暂无数据" [ref=e2306]:
+                - cell "暂无数据" [ref=e2307]:
+                  - generic [ref=e2308]: 暂无数据

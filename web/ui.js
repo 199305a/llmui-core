@@ -706,7 +706,10 @@ LLMUIApp.prototype.clearFiles = function() {
 };
 
 LLMUIApp.prototype.getSelectedWorkers = function() {
-    const checkboxes = document.querySelectorAll('.worker-checkbox:checked');
+    // Doit correspondre à app.js populateModelSelects : name="worker-model" (+ classe worker-checkbox)
+    const checkboxes = document.querySelectorAll(
+        'input.worker-checkbox:checked, input[name="worker-model"]:checked'
+    );
     return Array.from(checkboxes).map(cb => cb.value);
 };
 

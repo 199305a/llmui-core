@@ -45,7 +45,7 @@ from zoneinfo import ZoneInfo
 from fastapi import FastAPI, HTTPException, Request, Depends, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel, Field, validator
+from pydantic import AliasChoices, BaseModel, Field
 import uvicorn
 
 # AJOUTÉ: Session middleware
@@ -227,21 +227,17 @@ class SimpleGenerateRequest(BaseModel):
 class ConsensusGenerateRequest(BaseModel):
     """Request for consensus generation"""
     prompt: str
-    worker_models: List[str] = Field(default_factory=lambda: DEFAULT_WORKER_MODELS)
-    merger_model: str = DEFAULT_MERGER_MODEL
+    worker_models: List[str] = Field(
+        default_factory=lambda: list(DEFAULT_WORKER_MODELS),
+        validation_alias=AliasChoices("worker_models", "workers"),
+    )
+    merger_model: str = Field(
+        default=DEFAULT_MERGER_MODEL,
+        validation_alias=AliasChoices("merger_model", "merger"),
+    )
     session_id: Optional[str] = None
     timeout_level: TimeoutLevel = DEFAULT_TIMEOUT_LEVEL
     language: str = 'en'
-    
-    # AJOUTÉ: Support de workers (alias)
-    workers: Optional[List[str]] = None
-    
-    @validator('worker_models', pre=True, always=True)
-    def set_worker_models(cls, v, values):
-        # Si 'workers' est fourni, l'utiliser au lieu de 'worker_models'
-        if 'workers' in values and values['workers']:
-            return values['workers']
-        return v or DEFAULT_WORKER_MODELS
 
 # ============================================================================
 # 🔐 AUTHENTIFICATION - MODELS & FONCTIONS
@@ -1022,6 +1018,7 @@ Responses:
                 "success": True,
                 "response": merger_result["response"],
                 "worker_responses": worker_responses,
+                "worker_count": len(worker_models),
                 "merger_model": merger_model,
                 "processing_time": processing_time
             }

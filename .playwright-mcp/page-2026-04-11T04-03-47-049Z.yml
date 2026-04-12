@@ -1,0 +1,839 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - text: 学历教育在线学习
+      - link "一站式AI应用空间" [ref=e9] [cursor=pointer]:
+        - /url: https://aispaces.cc/#/index/home
+      - link "学位英语" [ref=e11] [cursor=pointer]:
+        - /url: https://ldoc2.shou.org.cn/doc/a@53F1FA910D23BF6017962F7C5FE8CA5A.pdf
+    - generic [ref=e12]:
+      - list [ref=e14]:
+        - listitem [ref=e15] [cursor=pointer]:
+          - link "操作指南" [ref=e16]:
+            - /url: https://l.shou.org.cn/help/default.aspx
+        - listitem [ref=e17] [cursor=pointer]: 微门户
+        - listitem [ref=e18] [cursor=pointer]:
+          - link "学情分析" [ref=e19]:
+            - /url: https://mp.shou.org.cn/user/login
+        - listitem [ref=e20] [cursor=pointer]:
+          - link "AI助教 | 在线客服" [ref=e21]:
+            - /url: javascript:void(0)
+      - generic [ref=e22]: user
+      - button "崔浩" [ref=e24] [cursor=pointer]:
+        - text: 崔浩
+        - img [ref=e26]
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - img [ref=e34]
+          - paragraph [ref=e35]: 姓名:崔浩
+          - paragraph [ref=e36]: 学号:20252310040388
+          - paragraph [ref=e37]: 专业:市场营销
+          - paragraph [ref=e38]: 班级:25秋川沙本科市场营销
+          - paragraph [ref=e39]: 学校:浦东东校(学习点)
+          - paragraph [ref=e40]: 毕业学分:89
+          - paragraph [ref=e41]: 已修学分:25
+        - generic [ref=e42]:
+          - generic [ref=e43]: 必修课程学分 67
+          - generic [ref=e44]: 必修课程数量 19
+          - generic [ref=e45]: 必修课程学时 1200
+        - generic [ref=e46]:
+          - generic [ref=e47]: 通识课：可选47学分 / 已学6学分
+          - progressbar [ref=e48]
+          - generic [ref=e52]: 专业课：可选78学分 / 已学0学分
+          - progressbar [ref=e53]
+          - generic [ref=e56]: 拓展课：可选8学分 / 已学0学分
+          - progressbar [ref=e57]
+          - generic [ref=e60]: 补修课：可选8学分 / 已学8学分
+          - progressbar [ref=e61]
+          - generic [ref=e65]: 思想政治课：可选12学分 / 已学3学分
+          - progressbar [ref=e66]
+          - generic [ref=e70]: 学科基础课：可选16学分 / 已学8学分
+          - progressbar [ref=e71]
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e78]:
+            - heading "当日教学活动" [level=3] [ref=e79]
+            - generic [ref=e83]:
+              - img [ref=e86]
+              - combobox "请选择日期" [ref=e88]: 2026-04-11
+            - link "浦东东校市场调研与分析第二次课 2026-04-11 08:30:00 ~ 2026-04-11 11:00:00" [ref=e90] [cursor=pointer]:
+              - /url: https://l.shou.org.cn/study/activity-preview.aspx?courseOpenId=mqadaewzzy5eslkbv6nwpg&activityId=S782153054933125
+              - paragraph [ref=e91]: 浦东东校市场调研与分析第二次课
+              - paragraph [ref=e92]: 2026-04-11 08:30:00 ~ 2026-04-11 11:00:00
+          - generic [ref=e94]:
+            - heading "我的消息" [level=3] [ref=e95]
+            - generic [ref=e96]:
+              - generic [ref=e97]: 调查
+              - link "统一学习门户满意度调查" [ref=e99] [cursor=pointer]:
+                - /url: https://www.wjx.cn/vm/wujkc9G.aspx?xh=20252310040388
+                - paragraph [ref=e100]: 统一学习门户满意度调查
+            - generic [ref=e101]:
+              - generic [ref=e102]: 课评
+              - link "市场调研与分析 课程评价未完成,请关注！" [ref=e104] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=mqadaewzzy5eslkbv6nwpg&minorCourseOpenId=mqadaewzzy5eslkbv6nwpg
+                - paragraph [ref=e105]: 市场调研与分析 课程评价未完成,请关注！
+            - generic [ref=e106]:
+              - generic [ref=e107]: 课评
+              - link "形势与政策（2） 课程评价未完成,请关注！" [ref=e109] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=d3kbaewz641idnlonkjeza&minorCourseOpenId=d3kbaewz641idnlonkjeza
+                - paragraph [ref=e110]: 形势与政策（2） 课程评价未完成,请关注！
+            - generic [ref=e111]:
+              - generic [ref=e112]: 课评
+              - link "顾客消费心理与行为 课程评价未完成,请关注！" [ref=e114] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=9p4yaewzq7tjwlrm5s0shq&minorCourseOpenId=9p4yaewzq7tjwlrm5s0shq
+                - paragraph [ref=e115]: 顾客消费心理与行为 课程评价未完成,请关注！
+            - generic [ref=e116]:
+              - generic [ref=e117]: 课评
+              - link "大学英语（4） 课程评价未完成,请关注！" [ref=e119] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=xw0aaewz955bogyzxgqpjw&minorCourseOpenId=xw0aaewz955bogyzxgqpjw
+                - paragraph [ref=e120]: 大学英语（4） 课程评价未完成,请关注！
+            - generic [ref=e121]:
+              - generic [ref=e122]: 课评
+              - link "习近平新时代中国特色社会主义思想概论 课程评价未完成,请关注！" [ref=e124] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=jjofaewzjibljzesuvwm7w&minorCourseOpenId=jjofaewzjibljzesuvwm7w
+                - paragraph [ref=e125]: 习近平新时代中国特色社会主义思想概论 课程评价未完成,请关注！
+            - generic [ref=e126]:
+              - generic [ref=e127]: 课评
+              - link "马克思主义基本原理 课程评价未完成,请关注！" [ref=e129] [cursor=pointer]:
+                - /url: https://l.shou.org.cn/study/evaluationNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorCourseOpenId=op4baewzb5rlb2cp7bkl5g
+                - paragraph [ref=e130]: 马克思主义基本原理 课程评价未完成,请关注！
+        - generic [ref=e134]:
+          - tablist [ref=e138]:
+            - tab "我的课程" [selected] [ref=e140]
+            - tab "收藏课程" [ref=e141]
+          - tabpanel "我的课程" [ref=e143]:
+            - generic [ref=e146]:
+              - generic [ref=e147]:
+                - paragraph [ref=e148]:
+                  - generic [ref=e149]:
+                    - link "品牌管理" [ref=e150] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=svecaewz3y1i0x1guqp-ia&minorCourseOpenId=svecaewz3y1i0x1guqp-ia
+                      - generic [ref=e151]:
+                        - text: 品牌管理
+                        - img [ref=e153]
+                    - superscript [ref=e155]: 含观看在线资源客观记分（权重:30%）
+                - paragraph [ref=e156]: "主持教师: 张永芬辅导教师: 周俊明辅导员: 吴云龙"
+              - generic [ref=e157]:
+                - generic [ref=e159]:
+                  - link "资源学习进度：100.00%" [ref=e161] [cursor=pointer]:
+                    - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=svecaewz3y1i0x1guqp-ia&minorCourseOpenId=svecaewz3y1i0x1guqp-ia
+                  - list [ref=e162]:
+                    - listitem [ref=e163]
+                    - listitem [ref=e164]
+                    - listitem [ref=e165]
+                    - listitem [ref=e166]
+                    - listitem [ref=e167]
+                    - listitem [ref=e168]
+                    - listitem [ref=e169]
+                    - listitem [ref=e170]
+                    - listitem [ref=e171]
+                    - listitem [ref=e172]
+                    - listitem [ref=e173]
+                    - listitem [ref=e174]
+                    - listitem [ref=e175]
+                    - listitem [ref=e176]
+                    - listitem [ref=e177]
+                    - listitem [ref=e178]
+                    - listitem [ref=e179]
+                    - listitem [ref=e180]
+                    - listitem [ref=e181]
+                    - listitem [ref=e182]
+                    - listitem [ref=e183]
+                    - listitem [ref=e184]
+                    - listitem [ref=e185]
+                    - listitem [ref=e186]
+                    - listitem [ref=e187]
+                    - listitem [ref=e188]
+                    - listitem [ref=e189]
+                    - listitem [ref=e190]
+                    - listitem [ref=e191]
+                    - listitem [ref=e192]
+                    - listitem [ref=e193]
+                    - listitem [ref=e194]
+                    - listitem [ref=e195]
+                    - listitem [ref=e196]
+                    - listitem [ref=e197]
+                    - listitem [ref=e198]
+                    - listitem [ref=e199]
+                    - listitem [ref=e200]
+                    - listitem [ref=e201]
+                    - listitem [ref=e202]
+                    - listitem [ref=e203]
+                    - listitem [ref=e204]
+                    - listitem [ref=e205]
+                    - listitem [ref=e206]
+                    - listitem [ref=e207]
+                    - listitem [ref=e208]
+                    - listitem [ref=e209]
+                    - listitem [ref=e210]
+                    - listitem [ref=e211]
+                    - listitem [ref=e212]
+                    - listitem [ref=e213]
+                    - listitem [ref=e214]
+                    - listitem [ref=e215]
+                    - listitem [ref=e216]
+                    - listitem [ref=e217]
+                    - listitem [ref=e218]
+                    - listitem [ref=e219]
+                    - listitem [ref=e220]
+                    - listitem [ref=e221]
+                    - listitem [ref=e222]
+                    - listitem [ref=e223]
+                    - listitem [ref=e224]
+                    - listitem [ref=e225]
+                    - listitem [ref=e226]
+                    - listitem [ref=e227]
+                    - listitem [ref=e228]
+                - generic [ref=e230]:
+                  - generic [ref=e232]:
+                    - link "直播出勤率：50.00%" [ref=e234] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=svecaewz3y1i0x1guqp-ia&minorCourseOpenId=svecaewz3y1i0x1guqp-ia
+                    - list [ref=e235]:
+                      - listitem [ref=e236]
+                      - listitem [ref=e237]
+                      - listitem [ref=e238]
+                      - listitem [ref=e239]
+                  - generic [ref=e241]:
+                    - link "面授出勤率：0.00%" [ref=e243] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=svecaewz3y1i0x1guqp-ia&minorCourseOpenId=svecaewz3y1i0x1guqp-ia
+                    - list [ref=e244]:
+                      - listitem [ref=e245]
+                  - generic [ref=e247]:
+                    - link "记分作业：100.00%" [ref=e249] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/HomeWorkNew.aspx?courseOpenId=svecaewz3y1i0x1guqp-ia&minorCourseOpenId=svecaewz3y1i0x1guqp-ia
+                    - list [ref=e250]:
+                      - listitem [ref=e251]
+                      - listitem [ref=e252]
+                - generic [ref=e253]:
+                  - img [ref=e254]
+                  - generic [ref=e255]: 学习建议：
+                  - text: 您的学习投入度、完成度、持续性还得加强，请继续努力，加油。
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - paragraph [ref=e264]:
+                  - generic [ref=e265]:
+                    - link "大学英语（4）" [ref=e266] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=xw0aaewz955bogyzxgqpjw&minorCourseOpenId=xw0aaewz955bogyzxgqpjw
+                      - generic [ref=e267]:
+                        - text: 大学英语（4）
+                        - img [ref=e269]
+                    - superscript [ref=e271]: 含观看在线资源客观记分（权重:30%）
+                - paragraph [ref=e272]: "主持教师: 陈荷男辅导教师: 倪盈盈辅导员: 吴云龙"
+              - generic [ref=e273]:
+                - generic [ref=e275]:
+                  - link "资源学习进度：91.00%" [ref=e277] [cursor=pointer]:
+                    - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=xw0aaewz955bogyzxgqpjw&minorCourseOpenId=xw0aaewz955bogyzxgqpjw
+                  - list [ref=e278]:
+                    - listitem [ref=e279]
+                    - listitem [ref=e280]
+                    - listitem [ref=e281]
+                    - listitem [ref=e282]
+                    - listitem [ref=e283]
+                    - listitem [ref=e284]
+                    - listitem [ref=e285]
+                    - listitem [ref=e286]
+                    - listitem [ref=e287]
+                    - listitem [ref=e288]
+                    - listitem [ref=e289]
+                    - listitem [ref=e290]
+                    - listitem [ref=e291]
+                    - listitem [ref=e292]
+                    - listitem [ref=e293]
+                    - listitem [ref=e294]
+                    - listitem [ref=e295]
+                    - listitem [ref=e296]
+                    - listitem [ref=e297]
+                    - listitem [ref=e298]
+                    - listitem [ref=e299]
+                    - listitem [ref=e300]
+                    - listitem [ref=e301]
+                    - listitem [ref=e302]
+                    - listitem [ref=e303]
+                    - listitem [ref=e304]
+                    - listitem [ref=e305]
+                    - listitem [ref=e306]
+                    - listitem [ref=e307]
+                    - listitem [ref=e308]
+                    - listitem [ref=e309]
+                    - listitem [ref=e310]
+                - generic [ref=e312]:
+                  - generic [ref=e314]:
+                    - link "直播出勤率：25.00%" [ref=e316] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=xw0aaewz955bogyzxgqpjw&minorCourseOpenId=xw0aaewz955bogyzxgqpjw
+                    - list [ref=e317]:
+                      - listitem [ref=e318]
+                      - listitem [ref=e319]
+                      - listitem [ref=e320]
+                      - listitem [ref=e321]
+                      - listitem [ref=e322]
+                      - listitem [ref=e323]
+                      - listitem [ref=e324]
+                      - listitem [ref=e325]
+                  - generic [ref=e327]:
+                    - link "面授出勤率：无" [ref=e329] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=xw0aaewz955bogyzxgqpjw&minorCourseOpenId=xw0aaewz955bogyzxgqpjw
+                    - list
+                  - generic [ref=e331]:
+                    - link "记分作业：25.00%" [ref=e333] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/HomeWorkNew.aspx?courseOpenId=xw0aaewz955bogyzxgqpjw&minorCourseOpenId=xw0aaewz955bogyzxgqpjw
+                    - list [ref=e334]:
+                      - listitem [ref=e335]
+                      - listitem [ref=e336]
+                      - listitem [ref=e337]
+                      - listitem [ref=e338]
+                - generic [ref=e339]:
+                  - img [ref=e340]
+                  - generic [ref=e341]: 学习建议：
+                  - text: 您的学习投入度、完成度、活跃度、持续性、参与度还得加强，请继续努力，加油。
+            - generic [ref=e348]:
+              - generic [ref=e349]:
+                - paragraph [ref=e350]:
+                  - generic [ref=e351]:
+                    - link "马克思主义基本原理" [ref=e352] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorCourseOpenId=op4baewzb5rlb2cp7bkl5g
+                      - generic [ref=e353]:
+                        - text: 马克思主义基本原理
+                        - img [ref=e355]
+                    - superscript [ref=e357]: 含观看在线资源客观记分（权重:15%）
+                - paragraph [ref=e358]: "主持教师: 李清聚辅导教师: 徐敏辅导员: 吴云龙"
+              - generic [ref=e359]:
+                - generic [ref=e361]:
+                  - link "资源学习进度：57.00%" [ref=e363] [cursor=pointer]:
+                    - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorCourseOpenId=op4baewzb5rlb2cp7bkl5g
+                  - list [ref=e364]:
+                    - listitem [ref=e365]
+                    - listitem [ref=e366]
+                    - listitem [ref=e367]
+                    - listitem [ref=e368]
+                    - listitem [ref=e369]
+                    - listitem [ref=e370]
+                    - listitem [ref=e371]
+                    - listitem [ref=e372]
+                    - listitem [ref=e373]
+                    - listitem [ref=e374]
+                    - listitem [ref=e375]
+                    - listitem [ref=e376]
+                    - listitem [ref=e377]
+                    - listitem [ref=e378]
+                    - listitem [ref=e379]
+                    - listitem [ref=e380]
+                    - listitem [ref=e381]
+                    - listitem [ref=e382]
+                    - listitem [ref=e383]
+                    - listitem [ref=e384]
+                    - listitem [ref=e385]
+                    - listitem [ref=e386]
+                    - listitem [ref=e387]
+                    - listitem [ref=e388]
+                    - listitem [ref=e389]
+                    - listitem [ref=e390]
+                    - listitem [ref=e391]
+                    - listitem [ref=e392]
+                    - listitem [ref=e393]
+                    - listitem [ref=e394]
+                    - listitem [ref=e395]
+                    - listitem [ref=e396]
+                    - listitem [ref=e397]
+                    - listitem [ref=e398]
+                    - listitem [ref=e399]
+                    - listitem [ref=e400]
+                    - listitem [ref=e401]
+                    - listitem [ref=e402]
+                    - listitem [ref=e403]
+                    - listitem [ref=e404]
+                    - listitem [ref=e405]
+                    - listitem [ref=e406]
+                    - listitem [ref=e407]
+                    - listitem [ref=e408]
+                    - listitem [ref=e409]
+                    - listitem [ref=e410]
+                    - listitem [ref=e411]
+                    - listitem [ref=e412]
+                    - listitem [ref=e413]
+                    - listitem [ref=e414]
+                    - listitem [ref=e415]
+                    - listitem [ref=e416]
+                    - listitem [ref=e417]
+                    - listitem [ref=e418]
+                - generic [ref=e420]:
+                  - generic [ref=e422]:
+                    - link "直播出勤率：100.00%" [ref=e424] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorCourseOpenId=op4baewzb5rlb2cp7bkl5g
+                    - list [ref=e425]:
+                      - listitem [ref=e426]
+                  - generic [ref=e428]:
+                    - link "面授出勤率：无" [ref=e430] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorCourseOpenId=op4baewzb5rlb2cp7bkl5g
+                    - list
+                  - generic [ref=e432]:
+                    - link "记分作业：0.00%" [ref=e434] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/HomeWorkNew.aspx?courseOpenId=op4baewzb5rlb2cp7bkl5g&minorCourseOpenId=op4baewzb5rlb2cp7bkl5g
+                    - list [ref=e435]:
+                      - listitem [ref=e436]
+                      - listitem [ref=e437]
+                      - listitem [ref=e438]
+                      - listitem [ref=e439]
+                      - listitem [ref=e440]
+                      - listitem [ref=e441]
+                      - listitem [ref=e442]
+                      - listitem [ref=e443]
+                      - listitem [ref=e444]
+                      - listitem [ref=e445]
+                - generic [ref=e446]:
+                  - img [ref=e447]
+                  - generic [ref=e448]: 学习建议：
+                  - text: 您的学习投入度、完成度、活跃度、持续性、参与度还得加强，请继续努力，加油。
+            - generic [ref=e455]:
+              - generic [ref=e456]:
+                - paragraph [ref=e457]:
+                  - generic [ref=e458]:
+                    - link "顾客消费心理与行为" [ref=e459] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=9p4yaewzq7tjwlrm5s0shq&minorCourseOpenId=9p4yaewzq7tjwlrm5s0shq
+                      - generic [ref=e460]:
+                        - text: 顾客消费心理与行为
+                        - img [ref=e462]
+                    - superscript [ref=e464]: 含观看在线资源客观记分（权重:40%）
+                - paragraph [ref=e465]: "主持教师: 曾庆芳辅导教师: 陆成辅导员: 吴云龙"
+              - generic [ref=e466]:
+                - generic [ref=e468]:
+                  - link "资源学习进度：100.00%" [ref=e470] [cursor=pointer]:
+                    - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=9p4yaewzq7tjwlrm5s0shq&minorCourseOpenId=9p4yaewzq7tjwlrm5s0shq
+                  - list [ref=e471]:
+                    - listitem [ref=e472]
+                    - listitem [ref=e473]
+                    - listitem [ref=e474]
+                    - listitem [ref=e475]
+                    - listitem [ref=e476]
+                    - listitem [ref=e477]
+                    - listitem [ref=e478]
+                    - listitem [ref=e479]
+                    - listitem [ref=e480]
+                    - listitem [ref=e481]
+                    - listitem [ref=e482]
+                    - listitem [ref=e483]
+                    - listitem [ref=e484]
+                    - listitem [ref=e485]
+                    - listitem [ref=e486]
+                    - listitem [ref=e487]
+                    - listitem [ref=e488]
+                    - listitem [ref=e489]
+                    - listitem [ref=e490]
+                    - listitem [ref=e491]
+                    - listitem [ref=e492]
+                    - listitem [ref=e493]
+                    - listitem [ref=e494]
+                    - listitem [ref=e495]
+                    - listitem [ref=e496]
+                    - listitem [ref=e497]
+                    - listitem [ref=e498]
+                    - listitem [ref=e499]
+                    - listitem [ref=e500]
+                    - listitem [ref=e501]
+                    - listitem [ref=e502]
+                    - listitem [ref=e503]
+                    - listitem [ref=e504]
+                    - listitem [ref=e505]
+                    - listitem [ref=e506]
+                    - listitem [ref=e507]
+                    - listitem [ref=e508]
+                    - listitem [ref=e509]
+                    - listitem [ref=e510]
+                    - listitem [ref=e511]
+                    - listitem [ref=e512]
+                    - listitem [ref=e513]
+                    - listitem [ref=e514]
+                    - listitem [ref=e515]
+                    - listitem [ref=e516]
+                    - listitem [ref=e517]
+                    - listitem [ref=e518]
+                    - listitem [ref=e519]
+                    - listitem [ref=e520]
+                    - listitem [ref=e521]
+                    - listitem [ref=e522]
+                    - listitem [ref=e523]
+                    - listitem [ref=e524]
+                    - listitem [ref=e525]
+                    - listitem [ref=e526]
+                    - listitem [ref=e527]
+                    - listitem [ref=e528]
+                - generic [ref=e530]:
+                  - generic [ref=e532]:
+                    - link "直播出勤率：25.00%" [ref=e534] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=9p4yaewzq7tjwlrm5s0shq&minorCourseOpenId=9p4yaewzq7tjwlrm5s0shq
+                    - list [ref=e535]:
+                      - listitem [ref=e536]
+                      - listitem [ref=e537]
+                      - listitem [ref=e538]
+                      - listitem [ref=e539]
+                  - generic [ref=e541]:
+                    - link "面授出勤率：0.00%" [ref=e543] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=9p4yaewzq7tjwlrm5s0shq&minorCourseOpenId=9p4yaewzq7tjwlrm5s0shq
+                    - list [ref=e544]:
+                      - listitem [ref=e545]
+                  - generic [ref=e547]:
+                    - link "记分作业：0.00%" [ref=e549] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/HomeWorkNew.aspx?courseOpenId=9p4yaewzq7tjwlrm5s0shq&minorCourseOpenId=9p4yaewzq7tjwlrm5s0shq
+                    - list [ref=e550]:
+                      - listitem [ref=e551]
+                      - listitem [ref=e552]
+                - generic [ref=e553]:
+                  - img [ref=e554]
+                  - generic [ref=e555]: 学习建议：
+                  - text: 您的学习投入度、完成度、活跃度、持续性、参与度还得加强，请继续努力，加油。
+            - generic [ref=e562]:
+              - generic [ref=e563]:
+                - paragraph [ref=e564]:
+                  - generic [ref=e565]:
+                    - link "市场调研与分析" [ref=e566] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=mqadaewzzy5eslkbv6nwpg&minorCourseOpenId=mqadaewzzy5eslkbv6nwpg
+                      - generic [ref=e567]:
+                        - text: 市场调研与分析
+                        - img [ref=e569]
+                    - superscript [ref=e571]: 含观看在线资源客观记分（权重:20%）
+                - paragraph [ref=e572]: "主持教师: 何庆斌辅导教师: 黄丽云辅导员: 吴云龙"
+              - generic [ref=e573]:
+                - generic [ref=e575]:
+                  - link "资源学习进度：59.00%" [ref=e577] [cursor=pointer]:
+                    - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=mqadaewzzy5eslkbv6nwpg&minorCourseOpenId=mqadaewzzy5eslkbv6nwpg
+                  - list [ref=e578]:
+                    - listitem [ref=e579]
+                    - listitem [ref=e580]
+                    - listitem [ref=e581]
+                    - listitem [ref=e582]
+                    - listitem [ref=e583]
+                    - listitem [ref=e584]
+                    - listitem [ref=e585]
+                    - listitem [ref=e586]
+                    - listitem [ref=e587]
+                    - listitem [ref=e588]
+                    - listitem [ref=e589]
+                    - listitem [ref=e590]
+                    - listitem [ref=e591]
+                    - listitem [ref=e592]
+                    - listitem [ref=e593]
+                    - listitem [ref=e594]
+                    - listitem [ref=e595]
+                    - listitem [ref=e596]
+                    - listitem [ref=e597]
+                    - listitem [ref=e598]
+                    - listitem [ref=e599]
+                    - listitem [ref=e600]
+                    - listitem [ref=e601]
+                    - listitem [ref=e602]
+                    - listitem [ref=e603]
+                    - listitem [ref=e604]
+                    - listitem [ref=e605]
+                    - listitem [ref=e606]
+                    - listitem [ref=e607]
+                    - listitem [ref=e608]
+                    - listitem [ref=e609]
+                    - listitem [ref=e610]
+                    - listitem [ref=e611]
+                    - listitem [ref=e612]
+                    - listitem [ref=e613]
+                    - listitem [ref=e614]
+                    - listitem [ref=e615]
+                    - listitem [ref=e616]
+                    - listitem [ref=e617]
+                    - listitem [ref=e618]
+                    - listitem [ref=e619]
+                    - listitem [ref=e620]
+                    - listitem [ref=e621]
+                    - listitem [ref=e622]
+                    - listitem [ref=e623]
+                    - listitem [ref=e624]
+                    - listitem [ref=e625]
+                    - listitem [ref=e626]
+                    - listitem [ref=e627]
+                    - listitem [ref=e628]
+                    - listitem [ref=e629]
+                    - listitem [ref=e630]
+                    - listitem [ref=e631]
+                    - listitem [ref=e632]
+                    - listitem [ref=e633]
+                    - listitem [ref=e634]
+                    - listitem [ref=e635]
+                    - listitem [ref=e636]
+                    - listitem [ref=e637]
+                    - listitem [ref=e638]
+                    - listitem [ref=e639]
+                    - listitem [ref=e640]
+                    - listitem [ref=e641]
+                    - listitem [ref=e642]
+                - generic [ref=e644]:
+                  - generic [ref=e646]:
+                    - link "直播出勤率：40.00%" [ref=e648] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=mqadaewzzy5eslkbv6nwpg&minorCourseOpenId=mqadaewzzy5eslkbv6nwpg
+                    - list [ref=e649]:
+                      - listitem [ref=e650]
+                      - listitem [ref=e651]
+                      - listitem [ref=e652]
+                      - listitem [ref=e653]
+                      - listitem [ref=e654]
+                  - generic [ref=e656]:
+                    - link "面授出勤率：0.00%" [ref=e658] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=mqadaewzzy5eslkbv6nwpg&minorCourseOpenId=mqadaewzzy5eslkbv6nwpg
+                    - list [ref=e659]:
+                      - listitem [ref=e660]
+                  - generic [ref=e662]:
+                    - link "记分作业：100.00%" [ref=e664] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/HomeWorkNew.aspx?courseOpenId=mqadaewzzy5eslkbv6nwpg&minorCourseOpenId=mqadaewzzy5eslkbv6nwpg
+                    - list [ref=e665]:
+                      - listitem [ref=e666]
+                      - listitem [ref=e667]
+                - generic [ref=e668]:
+                  - img [ref=e669]
+                  - generic [ref=e670]: 学习建议：
+                  - text: 您的学习投入度、完成度、活跃度、持续性还得加强，请继续努力，加油。
+            - generic [ref=e677]:
+              - generic [ref=e678]:
+                - paragraph [ref=e679]:
+                  - generic [ref=e680]:
+                    - link "形势与政策（2）" [ref=e681] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=d3kbaewz641idnlonkjeza&minorCourseOpenId=d3kbaewz641idnlonkjeza
+                      - generic [ref=e682]:
+                        - text: 形势与政策（2）
+                        - img [ref=e684]
+                    - superscript [ref=e686]: 完成必看资源学习后，方可作答形考作业
+                - paragraph [ref=e687]: "主持教师: 李清聚辅导教师: 王肖肖辅导员: 吴云龙"
+              - generic [ref=e688]:
+                - generic [ref=e690]:
+                  - link "资源学习进度：100.00%" [ref=e692] [cursor=pointer]:
+                    - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=d3kbaewz641idnlonkjeza&minorCourseOpenId=d3kbaewz641idnlonkjeza
+                  - list [ref=e693]:
+                    - listitem [ref=e694]
+                    - listitem [ref=e695]
+                    - listitem [ref=e696]
+                    - listitem [ref=e697]
+                    - listitem [ref=e698]
+                    - listitem [ref=e699]
+                    - listitem [ref=e700]
+                    - listitem [ref=e701]
+                    - listitem [ref=e702]
+                    - listitem [ref=e703]
+                    - listitem [ref=e704]
+                    - listitem [ref=e705]
+                    - listitem [ref=e706]
+                    - listitem [ref=e707]
+                    - listitem [ref=e708]
+                    - listitem [ref=e709]
+                    - listitem [ref=e710]
+                    - listitem [ref=e711]
+                    - listitem [ref=e712]
+                    - listitem [ref=e713]
+                    - listitem [ref=e714]
+                    - listitem [ref=e715]
+                    - listitem [ref=e716]
+                    - listitem [ref=e717]
+                    - listitem [ref=e718]
+                    - listitem [ref=e719]
+                    - listitem [ref=e720]
+                    - listitem [ref=e721]
+                    - listitem [ref=e722]
+                - generic [ref=e724]:
+                  - generic [ref=e726]:
+                    - link "直播出勤率：无" [ref=e728] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=d3kbaewz641idnlonkjeza&minorCourseOpenId=d3kbaewz641idnlonkjeza
+                    - list
+                  - generic [ref=e730]:
+                    - link "面授出勤率：无" [ref=e732] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=d3kbaewz641idnlonkjeza&minorCourseOpenId=d3kbaewz641idnlonkjeza
+                    - list
+                  - generic [ref=e734]:
+                    - link "记分作业：0.00%" [ref=e736] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/HomeWorkNew.aspx?courseOpenId=d3kbaewz641idnlonkjeza&minorCourseOpenId=d3kbaewz641idnlonkjeza
+                    - list [ref=e737]:
+                      - listitem [ref=e738]
+                - generic [ref=e739]:
+                  - img [ref=e740]
+                  - generic [ref=e741]: 学习建议：
+                  - text: 你还没有开始学习本课程，请开始您的上开学习之旅。
+            - generic [ref=e748]:
+              - generic [ref=e749]:
+                - paragraph [ref=e750]:
+                  - generic [ref=e751]:
+                    - link "习近平新时代中国特色社会主义思想概论" [ref=e752] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=jjofaewzjibljzesuvwm7w&minorCourseOpenId=jjofaewzjibljzesuvwm7w
+                      - generic [ref=e753]:
+                        - text: 习近平新时代中国特色社会主义思想概论
+                        - img [ref=e755]
+                    - superscript [ref=e757]: 含观看在线资源客观记分（权重:40%）
+                - paragraph [ref=e758]: "主持教师: 顾相伟辅导教师: 王肖肖辅导员: 吴云龙"
+              - generic [ref=e759]:
+                - generic [ref=e761]:
+                  - link "资源学习进度：100.00%" [ref=e763] [cursor=pointer]:
+                    - /url: https://l.shou.org.cn/study/learnCatalogNew.aspx?courseOpenId=jjofaewzjibljzesuvwm7w&minorCourseOpenId=jjofaewzjibljzesuvwm7w
+                  - list [ref=e764]:
+                    - listitem [ref=e765]
+                    - listitem [ref=e766]
+                    - listitem [ref=e767]
+                    - listitem [ref=e768]
+                    - listitem [ref=e769]
+                    - listitem [ref=e770]
+                    - listitem [ref=e771]
+                    - listitem [ref=e772]
+                    - listitem [ref=e773]
+                    - listitem [ref=e774]
+                    - listitem [ref=e775]
+                    - listitem [ref=e776]
+                    - listitem [ref=e777]
+                    - listitem [ref=e778]
+                    - listitem [ref=e779]
+                    - listitem [ref=e780]
+                    - listitem [ref=e781]
+                    - listitem [ref=e782]
+                    - listitem [ref=e783]
+                    - listitem [ref=e784]
+                    - listitem [ref=e785]
+                    - listitem [ref=e786]
+                    - listitem [ref=e787]
+                    - listitem [ref=e788]
+                    - listitem [ref=e789]
+                    - listitem [ref=e790]
+                    - listitem [ref=e791]
+                    - listitem [ref=e792]
+                    - listitem [ref=e793]
+                    - listitem [ref=e794]
+                    - listitem [ref=e795]
+                    - listitem [ref=e796]
+                    - listitem [ref=e797]
+                    - listitem [ref=e798]
+                    - listitem [ref=e799]
+                    - listitem [ref=e800]
+                    - listitem [ref=e801]
+                    - listitem [ref=e802]
+                    - listitem [ref=e803]
+                    - listitem [ref=e804]
+                    - listitem [ref=e805]
+                    - listitem [ref=e806]
+                    - listitem [ref=e807]
+                    - listitem [ref=e808]
+                    - listitem [ref=e809]
+                    - listitem [ref=e810]
+                    - listitem [ref=e811]
+                    - listitem [ref=e812]
+                    - listitem [ref=e813]
+                    - listitem [ref=e814]
+                    - listitem [ref=e815]
+                    - listitem [ref=e816]
+                    - listitem [ref=e817]
+                    - listitem [ref=e818]
+                    - listitem [ref=e819]
+                    - listitem [ref=e820]
+                    - listitem [ref=e821]
+                    - listitem [ref=e822]
+                    - listitem [ref=e823]
+                    - listitem [ref=e824]
+                    - listitem [ref=e825]
+                    - listitem [ref=e826]
+                    - listitem [ref=e827]
+                    - listitem [ref=e828]
+                    - listitem [ref=e829]
+                    - listitem [ref=e830]
+                    - listitem [ref=e831]
+                    - listitem [ref=e832]
+                    - listitem [ref=e833]
+                    - listitem [ref=e834]
+                    - listitem [ref=e835]
+                    - listitem [ref=e836]
+                    - listitem [ref=e837]
+                    - listitem [ref=e838]
+                    - listitem [ref=e839]
+                    - listitem [ref=e840]
+                    - listitem [ref=e841]
+                    - listitem [ref=e842]
+                    - listitem [ref=e843]
+                    - listitem [ref=e844]
+                    - listitem [ref=e845]
+                    - listitem [ref=e846]
+                    - listitem [ref=e847]
+                    - listitem [ref=e848]
+                    - listitem [ref=e849]
+                    - listitem [ref=e850]
+                    - listitem [ref=e851]
+                    - listitem [ref=e852]
+                    - listitem [ref=e853]
+                    - listitem [ref=e854]
+                    - listitem [ref=e855]
+                    - listitem [ref=e856]
+                    - listitem [ref=e857]
+                    - listitem [ref=e858]
+                    - listitem [ref=e859]
+                    - listitem [ref=e860]
+                    - listitem [ref=e861]
+                    - listitem [ref=e862]
+                    - listitem [ref=e863]
+                    - listitem [ref=e864]
+                    - listitem [ref=e865]
+                    - listitem [ref=e866]
+                - generic [ref=e868]:
+                  - generic [ref=e870]:
+                    - link "直播出勤率：0.00%" [ref=e872] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=jjofaewzjibljzesuvwm7w&minorCourseOpenId=jjofaewzjibljzesuvwm7w
+                    - list [ref=e873]:
+                      - listitem [ref=e874]
+                  - generic [ref=e876]:
+                    - link "面授出勤率：无" [ref=e878] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/activityNew.aspx?courseOpenId=jjofaewzjibljzesuvwm7w&minorCourseOpenId=jjofaewzjibljzesuvwm7w
+                    - list
+                  - generic [ref=e880]:
+                    - link "记分作业：0.00%" [ref=e882] [cursor=pointer]:
+                      - /url: https://l.shou.org.cn/study/HomeWorkNew.aspx?courseOpenId=jjofaewzjibljzesuvwm7w&minorCourseOpenId=jjofaewzjibljzesuvwm7w
+                    - list [ref=e883]:
+                      - listitem [ref=e884]
+                      - listitem [ref=e885]
+                - generic [ref=e886]:
+                  - img [ref=e887]
+                  - generic [ref=e888]: 学习建议：
+                  - text: 你还没有开始学习本课程，请开始您的上开学习之旅。
+      - generic [ref=e893]:
+        - generic [ref=e894]:
+          - heading "招" [level=3] [ref=e895]
+          - generic [ref=e898]:
+            - paragraph [ref=e901] [cursor=pointer]: 新生问卷调查
+            - paragraph [ref=e904] [cursor=pointer]: 选课缴费
+            - paragraph [ref=e907] [cursor=pointer]: 已选课程
+            - paragraph [ref=e910] [cursor=pointer]: 购买教材
+            - paragraph [ref=e913] [cursor=pointer]: 学籍查询
+            - paragraph [ref=e916] [cursor=pointer]: 学生信息申请修改
+        - generic [ref=e917]:
+          - heading "教" [level=3] [ref=e918]
+          - generic [ref=e921]:
+            - paragraph [ref=e924] [cursor=pointer]: 班级课表
+            - paragraph [ref=e928] [cursor=pointer]: 形考要求
+            - link "入学水平测试" [ref=e931] [cursor=pointer]:
+              - /url: http://rxtest.sou.edu.cn/
+              - paragraph [ref=e932]: 入学水平测试
+            - link "历史课程" [ref=e935] [cursor=pointer]:
+              - /url: https://l.shou.org.cn/student/termchoiceNew.aspx
+              - paragraph [ref=e936]: 历史课程
+        - generic [ref=e937]:
+          - heading "学" [level=3] [ref=e938]
+          - generic [ref=e941]:
+            - paragraph [ref=e944] [cursor=pointer]: 教学活动
+            - paragraph [ref=e947] [cursor=pointer]: 在线练习
+            - paragraph [ref=e950] [cursor=pointer]: 形考作业
+            - link "社会实践" [ref=e953] [cursor=pointer]:
+              - /url: https://l.shou.org.cn/student/socialSurveySpaceNew.aspx
+              - paragraph [ref=e954]: 社会实践
+            - link "毕业设计" [ref=e957] [cursor=pointer]:
+              - /url: https://graduation.sou.edu.cn/Account/Learning?userName=20252310040388&timeStamp=1775880150&randNum=42&sign=b90bf59f7846f0473020dd046b6897bd&type=0
+              - paragraph [ref=e958]: 毕业设计
+            - paragraph [ref=e961] [cursor=pointer]: 毕业生登记表
+        - generic [ref=e962]:
+          - heading "测" [level=3] [ref=e963]
+          - generic [ref=e966]:
+            - paragraph [ref=e969] [cursor=pointer]: 考试通知
+            - paragraph [ref=e972] [cursor=pointer]: 学位英语准考证
+        - generic [ref=e975]:
+          - heading "评" [level=3] [ref=e976]
+          - generic [ref=e977]:
+            - paragraph [ref=e980] [cursor=pointer]: 学习积分
+            - paragraph [ref=e983] [cursor=pointer]: 学习报告
+            - paragraph [ref=e986] [cursor=pointer]: 形考成绩
+            - paragraph [ref=e989] [cursor=pointer]: 最终成绩
+    - generic [ref=e993]:
+      - paragraph [ref=e994]: "沪ICP备05052049号-1联系地址: 上海市国顺路288号(200433)联系电话: (021) 25653114"
+      - paragraph [ref=e995]: ©上海开放大学版权所有

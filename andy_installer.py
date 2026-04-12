@@ -859,44 +859,104 @@ Now analyze and provide fixes:"""
                 self.log(f"Python {version} trop ancien (requis >= 3.8)", "ERROR")
                 return False
         return False
+
+    def _ollama_api_ready(self):
+        """True si l'API Ollama répond (évite curl install.sh inutile ou bloqué)."""
+        ok, _ = self.execute_command(
+            "curl -sf --connect-timeout 5 --max-time 12 http://127.0.0.1:11434/api/tags -o /dev/null",
+            "Test API Ollama (127.0.0.1:11434)",
+            3,
+            critical=False,
+        )
+        return ok
+
+    def _try_start_existing_ollama(self):
+        """
+        Si ollama est déjà installé, tente systemctl / serve et attend l'API.
+        Retourne True si l'API répond (pas besoin de télécharger install.sh).
+        """
+        if self._ollama_api_ready():
+            return True
+        ok_bin, _ = self.execute_command(
+            "command -v ollama >/dev/null 2>&1",
+            "Détection binaire ollama",
+            3,
+            critical=False,
+        )
+        if not ok_bin:
+            return False
+        self.log(
+            "Binaire ollama présent — tentative de démarrage (sans réinstaller depuis ollama.com)...",
+            "INFO",
+        )
+        self.execute_command(
+            "sudo systemctl start ollama",
+            "Démarrage service Ollama (systemd)",
+            3,
+        )
+        self.execute_command(
+            "ollama serve >> /tmp/ollama.log 2>&1 &",
+            "Démarrage manuel Ollama (arrière-plan)",
+            3,
+        )
+        for i in range(35):
+            time.sleep(1)
+            if self._ollama_api_ready():
+                self.log(
+                    "Ollama répond — script officiel d'installation ignoré.",
+                    "SUCCESS",
+                )
+                return True
+            if i % 10 == 9:
+                self.log(f"⏳ Attente API Ollama... {35 - i}s", "INFO")
+        return self._ollama_api_ready()
     
     def install_ollama_and_models(self):
         """Installe Ollama et télécharge les modèles"""
-        self.log("Installation d'Ollama...", "INFO")
-        success, _ = self.execute_command(
-            "curl -fsSL https://ollama.com/install.sh | sh",
-            "Installation Ollama",
-            3,
-            critical=True
-        )
-        
-        if not success:
-            self.add_note("Échec installation Ollama", "Installation")
-            return False
-        
-        # DÉMARRAGE du service Ollama
-        self.log("Démarrage du service Ollama...", "INFO")
-        success, _ = self.execute_command(
-            "sudo systemctl start ollama",
-            "Démarrage service Ollama",
-            3
-        )
-        
-        if not success:
-            self.log("⚠️ Impossible de démarrer Ollama via systemctl, tentative manuelle...", "WARNING")
-            # Tentative de démarrage manuel en arrière-plan
-            self.execute_command(
-                "ollama serve > /tmp/ollama.log 2>&1 &",
-                "Démarrage manuel Ollama",
+        self.log("Installation / vérification d'Ollama...", "INFO")
+
+        skip_remote_install = self._try_start_existing_ollama()
+        if skip_remote_install:
+            self.log(
+                "Ollama déjà utilisable (évite curl install.sh lent ou bloqué sur certains réseaux).",
+                "SUCCESS",
+            )
+            time.sleep(2)
+        else:
+            success, _ = self.execute_command(
+                "curl -fsSL --connect-timeout 30 --max-time 300 "
+                "https://ollama.com/install.sh | sh",
+                "Installation Ollama (script officiel)",
+                3,
+                critical=True,
+            )
+
+            if not success:
+                self.add_note("Échec installation Ollama", "Installation")
+                return False
+
+            # DÉMARRAGE du service Ollama (après première installation)
+            self.log("Démarrage du service Ollama...", "INFO")
+            success, _ = self.execute_command(
+                "sudo systemctl start ollama",
+                "Démarrage service Ollama",
                 3
             )
-        
-        # ⏰ ATTENTE CRITIQUE - Ollama a besoin de temps pour démarrer
-        self.log("⏳ Attente de 20 secondes pour le démarrage complet d'Ollama...", "INFO")
-        for i in range(20):
-            time.sleep(1)
-            if i % 10 == 0:  # Afficher un message toutes les 10 secondes
-                self.log(f"⏰ Attente Ollama... {20-i} secondes restantes", "INFO")
+
+            if not success:
+                self.log("⚠️ Impossible de démarrer Ollama via systemctl, tentative manuelle...", "WARNING")
+                self.execute_command(
+                    "ollama serve >> /tmp/ollama.log 2>&1 &",
+                    "Démarrage manuel Ollama",
+                    3
+                )
+
+            # ⏰ ATTENTE CRITIQUE - Ollama a besoin de temps pour démarrer
+            self.log("⏳ Attente de 20 secondes pour le démarrage complet d'Ollama...", "INFO")
+            for i in range(20):
+                time.sleep(1)
+                if i % 10 == 0:
+                    self.log(f"⏰ Attente Ollama... {20-i} secondes restantes", "INFO")
         
         # Vérification que Ollama répond
         self.log("Vérification qu'Ollama est opérationnel...", "INFO")

@@ -795,6 +795,88 @@ class MemoryManager:
         self.db.clear_session(session_id)
 
 # ============================================================================
+# OLLAMA /api/generate — debug logging & response parsing
+# ============================================================================
+
+def _debug_log_ollama_generate_request(
+    phase: str,
+    ollama_base: str,
+    model: str,
+    timeout_seconds: float,
+    prompt_preview: str,
+) -> None:
+    """Avant POST /api/generate : URL, modèle, timeout, extrait du prompt."""
+    print("==== OLLAMA REQUEST ====")
+    print("PHASE:", phase)
+    print("URL:", f"{ollama_base}/api/generate")
+    print("MODEL:", model)
+    print("TIMEOUT (s):", timeout_seconds)
+    print("PROMPT PREVIEW:", (prompt_preview or "")[:200])
+
+
+def _debug_parse_ollama_generate_response(
+    response: httpx.Response,
+    *,
+    phase: str,
+    model: str,
+    ollama_base: str,
+) -> Dict[str, Any]:
+    """
+    Après POST : status, en-têtes utiles, extrait brut, parse JSON.
+    Si le corps est du NDJSON (stream), tente json.loads(dernière ligne non vide).
+    """
+    print(f"==== OLLAMA RESPONSE META [{phase}] model={model} ====")
+    print("STATUS:", response.status_code)
+    try:
+        h = response.headers
+        print(
+            "HEADERS:",
+            {
+                "content-type": h.get("content-type", ""),
+                "content-length": h.get("content-length", ""),
+            },
+        )
+    except Exception:
+        pass
+
+    raw_text = response.text
+    print("==== RAW RESPONSE (FIRST 500) ====")
+    print(raw_text[:500] if raw_text else "(empty)")
+
+    if response.status_code != 200:
+        print("❌ BAD RESPONSE (non-200)")
+        try:
+            print("REQUEST URL:", response.request.url)
+        except Exception:
+            pass
+        print("RESPONSE (first 500):", raw_text[:500] if raw_text else "")
+        response.raise_for_status()
+
+    try:
+        result = response.json()
+        print("JSON PARSED OK")
+    except Exception as e:
+        print(f"❌ JSON PARSE ERROR: {e}")
+        lines = [ln.strip() for ln in raw_text.strip().split("\n") if ln.strip()]
+        if not lines:
+            print("RAW (first 500):", raw_text[:500] if raw_text else "")
+            raise
+        try:
+            result = json.loads(lines[-1])
+            print("JSON PARSED OK (last line / NDJSON stream fallback)")
+        except Exception as e2:
+            print(f"❌ FALLBACK PARSE ERROR: {e2}")
+            print("RAW (first 500):", raw_text[:500] if raw_text else "")
+            raise e2 from e
+
+    if isinstance(result, dict):
+        prev = result.get("response", "")
+        if isinstance(prev, str):
+            print("PARSED response preview:", prev[:200])
+    return result
+
+
+# ============================================================================
 # CORE LLMUI CLASS
 # ============================================================================
 
@@ -854,7 +936,13 @@ class LLMUICore:
             
             print(f"🔥 Génération simple avec {model} (timeout: {timeout_seconds}s, langue: {language})")
             
-            # Make request to Ollama
+            _debug_log_ollama_generate_request(
+                "simple",
+                self.ollama_base,
+                model,
+                timeout_seconds,
+                enriched_prompt,
+            )
             response = await self.client.post(
                 f"{self.ollama_base}/api/generate",
                 json={
@@ -869,9 +957,12 @@ class LLMUICore:
                 },
                 timeout=timeout_seconds
             )
-            
-            response.raise_for_status()
-            result = response.json()
+            result = _debug_parse_ollama_generate_response(
+                response,
+                phase="simple",
+                model=model,
+                ollama_base=self.ollama_base,
+            )
             
             processing_time = (datetime.now() - start_time).total_seconds()
             
@@ -945,6 +1036,13 @@ class LLMUICore:
                     # Note: Le timeout des workers est le timeout global divisé par le nombre de workers, ce qui est une heuristique.
                     worker_timeout = timeout_seconds / len(worker_models) if len(worker_models) > 0 else timeout_seconds
                     
+                    _debug_log_ollama_generate_request(
+                        "consensus_worker",
+                        self.ollama_base,
+                        worker,
+                        worker_timeout,
+                        enriched_prompt,
+                    )
                     response = await self.client.post(
                         f"{self.ollama_base}/api/generate",
                         json={
@@ -954,11 +1052,15 @@ class LLMUICore:
                         },
                         timeout=worker_timeout
                     )
-                    response.raise_for_status()
-                    result = response.json()
+                    result = _debug_parse_ollama_generate_response(
+                        response,
+                        phase="consensus_worker",
+                        model=worker,
+                        ollama_base=self.ollama_base,
+                    )
                     worker_responses.append({
                         "model": worker,
-                        "response": result["response"]
+                        "response": result.get("response", "")
                     })
                     print(f"  ✅ {worker} terminé")
                 except Exception as e:
@@ -986,6 +1088,13 @@ Responses:
             # Note: Le timeout du merger est le timeout global divisé par 2, ce qui est une heuristique.
             merger_timeout = timeout_seconds / 2
             
+            _debug_log_ollama_generate_request(
+                "consensus_merger",
+                self.ollama_base,
+                merger_model,
+                merger_timeout,
+                merger_prompt,
+            )
             response = await self.client.post(
                 f"{self.ollama_base}/api/generate",
                 json={
@@ -995,8 +1104,12 @@ Responses:
                 },
                 timeout=merger_timeout
             )
-            response.raise_for_status()
-            merger_result = response.json()
+            merger_result = _debug_parse_ollama_generate_response(
+                response,
+                phase="consensus_merger",
+                model=merger_model,
+                ollama_base=self.ollama_base,
+            )
             
             processing_time = (datetime.now() - start_time).total_seconds()
             

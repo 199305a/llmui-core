@@ -847,6 +847,10 @@ def _debug_parse_ollama_generate_response(
         print("❌ BAD RESPONSE (non-200)")
         try:
             print("REQUEST URL:", response.request.url)
+            rb = response.request.content
+            if rb:
+                preview = rb[:500] if isinstance(rb, (bytes, bytearray)) else str(rb)[:500]
+                print("REQUEST BODY (preview):", preview)
         except Exception:
             pass
         print("RESPONSE (first 500):", raw_text[:500] if raw_text else "")
@@ -965,13 +969,14 @@ class LLMUICore:
             )
             
             processing_time = (datetime.now() - start_time).total_seconds()
+            out_text = result.get("response", "")
             
             # Save to database
             if session_id:
                 self.db.save_conversation(
                     session_id=session_id,
                     prompt=prompt,
-                    response=result["response"],
+                    response=out_text,
                     model=model,
                     processing_time=processing_time,
                     mode='simple'
@@ -981,7 +986,7 @@ class LLMUICore:
             
             return {
                 "success": True,
-                "response": result["response"],
+                "response": out_text,
                 "model": model,
                 "processing_time": processing_time
             }
@@ -1114,11 +1119,12 @@ Responses:
             processing_time = (datetime.now() - start_time).total_seconds()
             
             # Save to database
+            merger_text = merger_result.get("response", "")
             if session_id:
                 self.db.save_conversation(
                     session_id=session_id,
                     prompt=prompt,
-                    response=merger_result["response"],
+                    response=merger_text,
                     worker_models=worker_models,
                     merger_model=merger_model,
                     processing_time=processing_time,
@@ -1129,7 +1135,7 @@ Responses:
             
             return {
                 "success": True,
-                "response": merger_result["response"],
+                "response": merger_text,
                 "worker_responses": worker_responses,
                 "worker_count": len(worker_models),
                 "merger_model": merger_model,

@@ -58,34 +58,37 @@ import httpx
 # CONFIGURATION
 # ============================================================================
 
+
 class TimeoutLevel(str, Enum):
     """Timeout level categories"""
-    LOW = "low"           # 15 minutes
-    MEDIUM = "medium"     # 1 hour
-    HIGH = "high"         # 4 hours  
+
+    LOW = "low"  # 15 minutes
+    MEDIUM = "medium"  # 1 hour
+    HIGH = "high"  # 4 hours
     VERY_HIGH = "very_high"  # 12 hours
+
 
 TIMEOUT_CONFIG = {
     TimeoutLevel.LOW: {
-        "simple": 900000,      # 15 minutes en millisecondes
+        "simple": 900000,  # 15 minutes en millisecondes
         "consensus": 1800000,  # 30 minutes en millisecondes
-        "description": "Quick responses - Small models"
+        "description": "Quick responses - Small models",
     },
     TimeoutLevel.MEDIUM: {
-        "simple": 3600000,     # 1 heure en millisecondes
+        "simple": 3600000,  # 1 heure en millisecondes
         "consensus": 7200000,  # 2 heures en millisecondes
-        "description": "Normal tasks - Medium models"
+        "description": "Normal tasks - Medium models",
     },
     TimeoutLevel.HIGH: {
-        "simple": 14400000,    # 4 heures en millisecondes
-        "consensus": 28800000, # 8 heures en millisecondes
-        "description": "Complex analysis - Large models"
+        "simple": 14400000,  # 4 heures en millisecondes
+        "consensus": 28800000,  # 8 heures en millisecondes
+        "description": "Complex analysis - Large models",
     },
     TimeoutLevel.VERY_HIGH: {
-        "simple": 43200000,    # 12 heures en millisecondes
-        "consensus": 86400000, # 24 heures en millisecondes
-        "description": "Large projects - Huge models"
-    }
+        "simple": 43200000,  # 12 heures en millisecondes
+        "consensus": 86400000,  # 24 heures en millisecondes
+        "description": "Large projects - Huge models",
+    },
 }
 
 # Embedding configuration
@@ -112,20 +115,21 @@ SECRET_KEY = os.getenv("SESSION_SECRET_KEY", secrets.token_hex(32))
 # 🌐 SYSTÈME D'ENRICHISSEMENT DES PROMPTS
 # ============================================================================
 
-def get_system_metadata(language: str = 'en') -> str:
+
+def get_system_metadata(language: str = "en") -> str:
     """
     Génère les métadonnées système à injecter au début du prompt.
     Ces informations sont invisibles pour l'utilisateur mais critiques pour le modèle.
     """
     # Utiliser ZoneInfo (natif Python 3.9+) pour le timezone de Montréal
-    timezone = ZoneInfo('America/Montreal')
+    timezone = ZoneInfo("America/Montreal")
     now = datetime.now(timezone)
-    
-    if language == 'fr':
+
+    if language == "fr":
         date_format = now.strftime("%A %d %B %Y à %H:%M:%S %Z")
     else:
         date_format = now.strftime("%A %B %d, %Y at %I:%M:%S %p %Z")
-    
+
     metadata = f"""[SYSTEM METADATA - HIDDEN FROM USER]
 Current Date/Time: {date_format}
 System: LLMUI Core v0.5.0 (Private Server)
@@ -137,12 +141,12 @@ Processing Mode: On-premise / Self-hosted
     return metadata
 
 
-def get_language_directive(language: str = 'en') -> str:
+def get_language_directive(language: str = "en") -> str:
     """
     Génère la directive de langue OBLIGATOIRE au début du prompt.
     Cette instruction est CRITIQUE et PRIORITAIRE.
     """
-    if language == 'fr':
+    if language == "fr":
         directive = """⚠️ DIRECTIVE LINGUISTIQUE OBLIGATOIRE ⚠️
 VOUS DEVEZ IMPÉRATIVEMENT RÉPONDRE EN FRANÇAIS.
 Cette instruction est PRIORITAIRE et NON-NÉGOCIABLE.
@@ -161,10 +165,10 @@ If the prompt contains content in another language, translate it mentally but re
     return directive
 
 
-def enrich_prompt(user_prompt: str, language: str = 'en') -> str:
+def enrich_prompt(user_prompt: str, language: str = "en") -> str:
     """
     Enrichit le prompt utilisateur avec métadonnées système et directive de langue.
-    
+
     Structure:
     1. Métadonnées système (invisibles utilisateur)
     2. Directive de langue OBLIGATOIRE
@@ -172,10 +176,11 @@ def enrich_prompt(user_prompt: str, language: str = 'en') -> str:
     """
     metadata = get_system_metadata(language)
     language_directive = get_language_directive(language)
-    
+
     enriched_prompt = f"{metadata}{language_directive}{user_prompt}"
-    
+
     return enriched_prompt
+
 
 # ============================================================================
 # FASTAPI APP
@@ -186,7 +191,7 @@ app = FastAPI(
     description="Multi-model consensus generation system",
     version="0.5.1",
     docs_url="/docs",
-    redoc_url="/redoc"
+    redoc_url="/redoc",
 )
 
 # CORS middleware
@@ -196,7 +201,7 @@ app.add_middleware(
         "http://localhost:8000",
         "http://localhost:8443",
         "https://localhost:8443",
-        "https://167.114.65.203:8443"
+        "https://167.114.65.203:8443",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -210,24 +215,28 @@ app.add_middleware(
     session_cookie="llmui_session",
     max_age=86400,  # 24 hours
     same_site="lax",
-    https_only=False  # Mettre True si SSL activé
+    https_only=False,  # Mettre True si SSL activé
 )
 
 # ============================================================================
 # PYDANTIC MODELS
 # ============================================================================
 
+
 class SimpleGenerateRequest(BaseModel):
     """Request for simple generation"""
+
     model: str
     prompt: str
     session_id: Optional[str] = None
     options: Optional[Dict] = {}
     timeout_level: TimeoutLevel = DEFAULT_TIMEOUT_LEVEL
-    language: str = 'en'
+    language: str = "en"
+
 
 class ConsensusGenerateRequest(BaseModel):
     """Request for consensus generation"""
+
     prompt: str
     worker_models: List[str] = Field(
         default_factory=lambda: list(DEFAULT_WORKER_MODELS),
@@ -239,26 +248,32 @@ class ConsensusGenerateRequest(BaseModel):
     )
     session_id: Optional[str] = None
     timeout_level: TimeoutLevel = DEFAULT_TIMEOUT_LEVEL
-    language: str = 'en'
+    language: str = "en"
+
 
 # ============================================================================
 # 🔐 AUTHENTIFICATION - MODELS & FONCTIONS
 # ============================================================================
 
+
 class LoginRequest(BaseModel):
     """Login request model"""
+
     username: str
     password: str
     rememberMe: Optional[bool] = False
 
+
 # AJOUTÉ: Modèle pour les informations utilisateur dans les réponses
 class UserResponse(BaseModel):
     """User info for response"""
+
     id: int
     username: str
     email: Optional[str] = None
     is_admin: bool
     created_at: Optional[str] = None
+
 
 # AJOUTÉ: Modèle de réponse pour la connexion
 class LoginResponse(BaseModel):
@@ -266,14 +281,17 @@ class LoginResponse(BaseModel):
     message: str
     user: Optional[UserResponse] = None
 
+
 # AJOUTÉ: Modèle de réponse pour la vérification de session
 class SessionResponse(BaseModel):
     authenticated: bool
     user: Optional[UserResponse] = None
 
+
 # ============================================================================
 # 🔐 FONCTIONS DE HASHAGE SÉCURISÉ (identiques à andy_installer.py)
 # ============================================================================
+
 
 def hash_password_secure(password: str) -> str:
     """
@@ -282,6 +300,7 @@ def hash_password_secure(password: str) -> str:
     """
     try:
         import bcrypt
+
         salt = bcrypt.gensalt()
         return bcrypt.hashpw(password.encode(), salt).decode()
     except ImportError:
@@ -289,12 +308,10 @@ def hash_password_secure(password: str) -> str:
         # Fallback sécurisé si bcrypt n'est pas disponible
         salt = os.urandom(32)
         key = hashlib.pbkdf2_hmac(
-            'sha256', 
-            password.encode(), 
-            salt, 
-            100000  # 100,000 itérations
+            "sha256", password.encode(), salt, 100000  # 100,000 itérations
         )
         return binascii.hexlify(salt + key).decode()
+
 
 def verify_password_secure(password: str, stored_hash: str) -> bool:
     """
@@ -304,33 +321,34 @@ def verify_password_secure(password: str, stored_hash: str) -> bool:
     try:
         # Tenter bcrypt d'abord
         import bcrypt
-        if stored_hash.startswith('$2b$') or stored_hash.startswith('$2a$') or stored_hash.startswith('$2y$'):
+
+        if (
+            stored_hash.startswith("$2b$")
+            or stored_hash.startswith("$2a$")
+            or stored_hash.startswith("$2y$")
+        ):
             # C'est un hash bcrypt
             return bcrypt.checkpw(password.encode(), stored_hash.encode())
     except ImportError:
         pass
     except Exception as e:
         print(f"[WARNING] Erreur vérification bcrypt: {e}")
-    
+
     # Si ce n'est pas bcrypt, ou si bcrypt n'est pas disponible, essayer PBKDF2
     try:
         # Format PBKDF2: hex(salt + key)
         stored_bytes = binascii.unhexlify(stored_hash)
         salt = stored_bytes[:32]
         stored_key = stored_bytes[32:]
-        
+
         # Recalculer le hash avec le même salt
-        new_key = hashlib.pbkdf2_hmac(
-            'sha256',
-            password.encode(),
-            salt,
-            100000
-        )
-        
+        new_key = hashlib.pbkdf2_hmac("sha256", password.encode(), salt, 100000)
+
         return new_key == stored_key
     except Exception as e:
         print(f"[WARNING] Erreur vérification PBKDF2: {e}")
         return False
+
 
 def get_current_user(request: Request) -> Optional[Dict]:
     """Get current authenticated user from session"""
@@ -341,9 +359,10 @@ def get_current_user(request: Request) -> Optional[Dict]:
             "username": request.session.get("username"),
             "email": request.session.get("email"),
             "is_admin": request.session.get("is_admin"),
-            "login_time": request.session.get("login_time")
+            "login_time": request.session.get("login_time"),
         }
     return None
+
 
 def require_auth(request: Request) -> Dict:
     """Dependency to require authentication"""
@@ -362,10 +381,10 @@ def require_auth(request: Request) -> Dict:
         except Exception:
             pass
         raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Not authenticated"
+            status_code=status.HTTP_401_UNAUTHORIZED, detail="Not authenticated"
         )
     return user
+
 
 def init_database():
     """Initialize database and create tables if they don't exist"""
@@ -375,13 +394,14 @@ def init_database():
         if db_dir and not os.path.exists(db_dir):
             os.makedirs(db_dir, exist_ok=True)
             print(f"[DB] Created directory: {db_dir}")
-        
+
         # Créer la base de données et les tables
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
-        
+
         # Table users
-        cursor.execute('''
+        cursor.execute(
+            """
             CREATE TABLE IF NOT EXISTS users (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 username TEXT UNIQUE NOT NULL,
@@ -391,41 +411,48 @@ def init_database():
                 created_at TEXT DEFAULT CURRENT_TIMESTAMP,
                 last_login TEXT
             )
-        ''')
-        
+        """
+        )
+
         # Vérifier si des utilisateurs existent
-        cursor.execute('SELECT COUNT(*) FROM users')
+        cursor.execute("SELECT COUNT(*) FROM users")
         user_count = cursor.fetchone()[0]
-        
+
         # Si aucun utilisateur, créer l'utilisateur par défaut
         if user_count == 0:
             print("[DB] No users found, creating default user...")
             default_username = "francois"
             default_password = "Francois2025!"
             default_hash = hash_password_secure(default_password)
-            
-            cursor.execute('''
+
+            cursor.execute(
+                """
                 INSERT INTO users (username, password_hash, email, is_admin)
                 VALUES (?, ?, ?, ?)
-            ''', (default_username, default_hash, "francois@llmui.org", 1))
-            
+            """,
+                (default_username, default_hash, "francois@llmui.org", 1),
+            )
+
             print(f"[DB] Default user created: {default_username} / {default_password}")
-        
+
         conn.commit()
         conn.close()
-        
+
         print(f"[DB] Database initialized at {DB_PATH}")
         return True
-        
+
     except Exception as e:
         print(f"[ERROR] Database initialization failed: {e}")
         import traceback
+
         traceback.print_exc()
         return False
+
 
 # ============================================================================
 # 🔐 AUTHENTIFICATION - ENDPOINTS
 # ============================================================================
+
 
 # Initialize database on startup
 @app.on_event("startup")
@@ -435,29 +462,33 @@ async def startup_event():
     init_database()
     print("[STARTUP] Initialization complete!")
 
+
 @app.post("/api/auth/login", response_model=LoginResponse)
 async def login_user(credentials: LoginRequest, request: Request):
     """User login endpoint"""
     try:
         username = credentials.username.strip().lower()
         password = credentials.password
-        
+
         print(f"[AUTH] Attempting login for user: {username}")
-        
+
         # Get user from DB
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
-        cursor.execute('''
+        cursor.execute(
+            """
             SELECT id, username, password_hash, email, is_admin, created_at
             FROM users
             WHERE LOWER(username) = ?
-        ''', (username,))
+        """,
+            (username,),
+        )
         user = cursor.fetchone()
         conn.close()
-        
+
         if user:
             stored_hash = user[2]
-            
+
             # CORRECTION v0.5.0: Utiliser verify_password_secure au lieu de SHA256
             if verify_password_secure(password, stored_hash):
                 # Create session
@@ -466,146 +497,150 @@ async def login_user(credentials: LoginRequest, request: Request):
                     "id": user[0],
                     "username": user[1],
                     "email": user[3],
-                    "is_admin": is_admin
+                    "is_admin": is_admin,
                 }
-                
-                request.session['user_id'] = user_info['id']
-                request.session['username'] = user_info['username']
-                request.session['email'] = user_info['email']
-                request.session['is_admin'] = user_info['is_admin']
-                request.session['login_time'] = datetime.now().isoformat()
-                
+
+                request.session["user_id"] = user_info["id"]
+                request.session["username"] = user_info["username"]
+                request.session["email"] = user_info["email"]
+                request.session["is_admin"] = user_info["is_admin"]
+                request.session["login_time"] = datetime.now().isoformat()
+
                 # Update last_login
                 conn = sqlite3.connect(DB_PATH)
                 conn.execute(
-                    'UPDATE users SET last_login = ? WHERE id = ?',
-                    (datetime.now().isoformat(), user[0])
+                    "UPDATE users SET last_login = ? WHERE id = ?",
+                    (datetime.now().isoformat(), user[0]),
                 )
                 conn.commit()
                 conn.close()
-                
+
                 print(f"[AUTH] User '{username}' logged in successfully")
-                
+
                 return LoginResponse(
                     success=True,
-                    message='Connexion réussie',
+                    message="Connexion réussie",
                     user=UserResponse(
                         id=user[0],
                         username=user[1],
                         email=user[3],
                         is_admin=is_admin,
-                        created_at=user[5]
-                    )
+                        created_at=user[5],
+                    ),
                 )
             else:
-                print(f"[AUTH] Failed login attempt for user '{username}' (Wrong Password)")
+                print(
+                    f"[AUTH] Failed login attempt for user '{username}' (Wrong Password)"
+                )
                 return JSONResponse(
                     status_code=401,
                     content={
-                        'success': False,
-                        'message': 'Nom d\'utilisateur ou mot de passe incorrect'
-                    }
+                        "success": False,
+                        "message": "Nom d'utilisateur ou mot de passe incorrect",
+                    },
                 )
-                
+
         else:
             print(f"[AUTH] Failed login attempt for user '{username}' (User Not Found)")
             return JSONResponse(
                 status_code=401,
                 content={
-                    'success': False,
-                    'message': 'Nom d\'utilisateur ou mot de passe incorrect'
-                }
+                    "success": False,
+                    "message": "Nom d'utilisateur ou mot de passe incorrect",
+                },
             )
-            
+
     except Exception as e:
         print(f"[ERROR] Login failed: {e}")
         return JSONResponse(
             status_code=500,
             content={
-                'success': False,
-                'message': "Erreur lors de l'authentification: " + str(e)
-            }
+                "success": False,
+                "message": "Erreur lors de l'authentification: " + str(e),
+            },
         )
+
 
 @app.get("/api/auth/verify", response_model=SessionResponse)
 async def verify_session(request: Request):
     """Verify if user is authenticated"""
     user_data = get_current_user(request)
-    
+
     if user_data:
         # Construit l'objet UserResponse sans le login_time pour le Pydantic Model
         user_response = UserResponse(
-            id=user_data['id'],
-            username=user_data['username'],
-            email=user_data['email'],
-            is_admin=user_data['is_admin']
+            id=user_data["id"],
+            username=user_data["username"],
+            email=user_data["email"],
+            is_admin=user_data["is_admin"],
             # created_at est absent de la session, mais optionnel dans UserResponse
         )
-        return SessionResponse(
-            authenticated=True,
-            user=user_response
-        )
-    
+        return SessionResponse(authenticated=True, user=user_response)
+
     return SessionResponse(authenticated=False)
+
 
 @app.post("/api/auth/logout")
 async def logout(request: Request):
     """Logout user and destroy session"""
-    username = request.session.get('username', 'unknown')
+    username = request.session.get("username", "unknown")
     request.session.clear()
-    
+
     print(f"[AUTH] User '{username}' logged out")
-    
+
     # Utiliser JSONResponse
-    return JSONResponse(
-        content={
-            'success': True,
-            'message': 'Déconnexion réussie'
-        }
-    )
+    return JSONResponse(content={"success": True, "message": "Déconnexion réussie"})
+
 
 @app.get("/api/auth/user")
 async def get_user_info(request: Request, user: Dict = Depends(require_auth)):
     """Get current user information (protected route)"""
     # L'objet `user` est déjà rempli par `require_auth`
-    return JSONResponse(content={'user': user})
+    return JSONResponse(content={"user": user})
+
 
 # ============================================================================
 # DATABASE MODELS & CLASSES
 # ============================================================================
 
+
 @dataclass
 class Model:
     """Ollama model information"""
+
     name: str
     size: int = 0
     modified_at: Optional[str] = None
     digest: Optional[str] = None
     details: Optional[Dict] = None
 
+
 @dataclass
 class Message:
     """Conversation message"""
+
     role: str  # 'user' or 'assistant'
     content: str
     timestamp: str = field(default_factory=lambda: datetime.now().isoformat())
 
+
 class DatabaseManager:
     """SQLite database manager"""
-    
+
     def __init__(self, db_path: str = DB_PATH):
         self.db_path = db_path
         self.init_database()
-    
+
     def init_database(self):
         """Initialize database tables"""
         os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
-        
+
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
+
         # Conversations table
-        cursor.execute("""
+        cursor.execute(
+            """
             CREATE TABLE IF NOT EXISTS conversations (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 session_id TEXT NOT NULL,
@@ -618,10 +653,12 @@ class DatabaseManager:
                 timestamp TEXT NOT NULL,
                 mode TEXT DEFAULT 'simple'
             )
-        """)
-        
+        """
+        )
+
         # Messages table (for context)
-        cursor.execute("""
+        cursor.execute(
+            """
             CREATE TABLE IF NOT EXISTS messages (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 session_id TEXT NOT NULL,
@@ -629,10 +666,12 @@ class DatabaseManager:
                 content TEXT NOT NULL,
                 timestamp TEXT NOT NULL
             )
-        """)
-        
+        """
+        )
+
         # Embeddings table
-        cursor.execute("""
+        cursor.execute(
+            """
             CREATE TABLE IF NOT EXISTS embeddings (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 session_id TEXT NOT NULL,
@@ -641,10 +680,12 @@ class DatabaseManager:
                 timestamp TEXT NOT NULL,
                 FOREIGN KEY (message_id) REFERENCES messages(id)
             )
-        """)
-        
+        """
+        )
+
         # AJOUTÉ: Table des utilisateurs si elle n'existe pas
-        cursor.execute("""
+        cursor.execute(
+            """
             CREATE TABLE IF NOT EXISTS users (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 username TEXT NOT NULL UNIQUE,
@@ -654,8 +695,9 @@ class DatabaseManager:
                 created_at TEXT NOT NULL,
                 last_login TEXT
             )
-        """)
-        
+        """
+        )
+
         # DÉSACTIVÉ: Les utilisateurs sont créés par andy_installer.py
         # Ne pas créer d'utilisateurs par défaut ici pour éviter les conflits
         #
@@ -665,152 +707,175 @@ class DatabaseManager:
         #     # CORRECTION v0.5.0: Utiliser hash_password_secure au lieu de SHA256
         #     francois_hash = hash_password_secure("Francois2025!")
         #     demo_hash = hash_password_secure("demo123")
-        #     
+        #
         #     # Utilisateur admin
         #     cursor.execute("""
         #         INSERT INTO users (username, password_hash, email, is_admin, created_at)
         #         VALUES (?, ?, ?, ?, ?)
         #     """, ("francois", francois_hash, "admin@llmui.org", 1, datetime.now().isoformat()))
-        #     
+        #
         #     # Utilisateur démo
         #     cursor.execute("""
         #         INSERT INTO users (username, password_hash, email, is_admin, created_at)
         #         VALUES (?, ?, ?, ?, ?)
         #     """, ("demo", demo_hash, "demo@llmui.org", 0, datetime.now().isoformat()))
-        #     
+        #
         #     print("[INFO] Default users created in SQLite DB.")
-        
+
         conn.commit()
         conn.close()
-    
-    def save_conversation(self, session_id: str, prompt: str, response: str,
-                         model: Optional[str] = None, worker_models: Optional[List[str]] = None,
-                         merger_model: Optional[str] = None, processing_time: float = 0.0,
-                         mode: str = 'simple'):
+
+    def save_conversation(
+        self,
+        session_id: str,
+        prompt: str,
+        response: str,
+        model: Optional[str] = None,
+        worker_models: Optional[List[str]] = None,
+        merger_model: Optional[str] = None,
+        processing_time: float = 0.0,
+        mode: str = "simple",
+    ):
         """Save conversation to database"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        cursor.execute("""
+
+        cursor.execute(
+            """
             INSERT INTO conversations 
             (session_id, prompt, response, model, worker_models, merger_model, processing_time, timestamp, mode)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """, (
-            session_id,
-            prompt,
-            response,
-            model,
-            json.dumps(worker_models) if worker_models else None,
-            merger_model,
-            processing_time,
-            datetime.now().isoformat(),
-            mode
-        ))
-        
+        """,
+            (
+                session_id,
+                prompt,
+                response,
+                model,
+                json.dumps(worker_models) if worker_models else None,
+                merger_model,
+                processing_time,
+                datetime.now().isoformat(),
+                mode,
+            ),
+        )
+
         conn.commit()
         conn.close()
-    
+
     def save_message(self, session_id: str, role: str, content: str) -> int:
         """Save message and return message ID"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        cursor.execute("""
+
+        cursor.execute(
+            """
             INSERT INTO messages (session_id, role, content, timestamp)
             VALUES (?, ?, ?, ?)
-        """, (session_id, role, content, datetime.now().isoformat()))
-        
+        """,
+            (session_id, role, content, datetime.now().isoformat()),
+        )
+
         message_id = cursor.lastrowid
         conn.commit()
         conn.close()
-        
+
         return message_id
-    
+
     def get_session_messages(self, session_id: str, limit: int = 10) -> List[Message]:
         """Get recent messages for a session"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
-        cursor.execute("""
+
+        cursor.execute(
+            """
             SELECT role, content, timestamp
             FROM messages
             WHERE session_id = ?
             ORDER BY timestamp DESC
             LIMIT ?
-        """, (session_id, limit))
-        
-        messages = [Message(role=row[0], content=row[1], timestamp=row[2]) 
-                   for row in cursor.fetchall()]
-        
+        """,
+            (session_id, limit),
+        )
+
+        messages = [
+            Message(role=row[0], content=row[1], timestamp=row[2])
+            for row in cursor.fetchall()
+        ]
+
         conn.close()
         return list(reversed(messages))  # Return in chronological order
-    
+
     def clear_session(self, session_id: str):
         """Clear all messages for a session"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
+
         cursor.execute("DELETE FROM messages WHERE session_id = ?", (session_id,))
         cursor.execute("DELETE FROM embeddings WHERE session_id = ?", (session_id,))
-        
+
         conn.commit()
         conn.close()
-    
+
     def get_stats(self) -> Dict[str, Any]:
         """Get database statistics"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
+
         # Total requests
         cursor.execute("SELECT COUNT(*) FROM conversations")
         total_requests = cursor.fetchone()[0]
-        
+
         # Success rate (assuming all saved conversations are successful)
         success_rate = 100.0
-        
+
         # Average processing time
-        cursor.execute("SELECT AVG(processing_time) FROM conversations WHERE processing_time > 0")
+        cursor.execute(
+            "SELECT AVG(processing_time) FROM conversations WHERE processing_time > 0"
+        )
         avg_time = cursor.fetchone()[0] or 0.0
-        
+
         conn.close()
-        
+
         return {
             "total_requests": total_requests,
             "success_rate": success_rate,
-            "average_processing_time": round(avg_time, 2)
+            "average_processing_time": round(avg_time, 2),
         }
+
 
 class MemoryManager:
     """Manages conversation memory and context"""
-    
+
     def __init__(self, db: DatabaseManager):
         self.db = db
         self.context_window = 10  # Number of messages to keep in context
-    
+
     def add_message(self, session_id: str, role: str, content: str):
         """Add message to memory"""
         self.db.save_message(session_id, role, content)
-    
+
     def get_context(self, session_id: str) -> str:
         """Get conversation context for a session"""
         messages = self.db.get_session_messages(session_id, self.context_window)
-        
+
         if not messages:
             return ""
-        
+
         context_parts = []
         for msg in messages:
             context_parts.append(f"{msg.role.upper()}: {msg.content}")
-        
+
         return "\n\n".join(context_parts)
-    
+
     def clear_session(self, session_id: str):
         """Clear session memory"""
         self.db.clear_session(session_id)
 
+
 # ============================================================================
 # OLLAMA /api/generate — debug logging & response parsing
 # ============================================================================
+
 
 def _debug_log_ollama_generate_request(
     phase: str,
@@ -863,7 +928,9 @@ def _debug_parse_ollama_generate_response(
             print("REQUEST URL:", response.request.url)
             rb = response.request.content
             if rb:
-                preview = rb[:500] if isinstance(rb, (bytes, bytearray)) else str(rb)[:500]
+                preview = (
+                    rb[:500] if isinstance(rb, (bytes, bytearray)) else str(rb)[:500]
+                )
                 print("REQUEST BODY (preview):", preview)
         except Exception:
             pass
@@ -898,62 +965,71 @@ def _debug_parse_ollama_generate_response(
 # CORE LLMUI CLASS
 # ============================================================================
 
+
 class LLMUICore:
     """Core LLMUI functionality"""
-    
+
     def __init__(self):
         self.ollama_base = OLLAMA_API_BASE
         self.client = httpx.AsyncClient(timeout=httpx.Timeout(600.0, connect=10.0))
         self.db = DatabaseManager()
         self.memory = MemoryManager(self.db)
-    
+
     async def get_models(self) -> List[Model]:
         """Get available Ollama models with size information"""
         try:
             response = await self.client.get(f"{self.ollama_base}/api/tags")
             response.raise_for_status()
             data = response.json()
-            
+
             models = []
             for model_data in data.get("models", []):
-                models.append(Model(
-                    name=model_data.get("name", ""),
-                    size=model_data.get("size", 0),
-                    modified_at=model_data.get("modified_at"),
-                    digest=model_data.get("digest"),
-                    details=model_data.get("details")
-                ))
-            
+                models.append(
+                    Model(
+                        name=model_data.get("name", ""),
+                        size=model_data.get("size", 0),
+                        modified_at=model_data.get("modified_at"),
+                        digest=model_data.get("digest"),
+                        details=model_data.get("details"),
+                    )
+                )
+
             return sorted(models, key=lambda m: m.name.lower())
-            
+
         except Exception as e:
             print(f"Error fetching models: {e}")
             return []
-    
-    async def generate_simple(self, model: str, prompt: str, 
-                             session_id: Optional[str] = None,
-                             timeout_level: TimeoutLevel = DEFAULT_TIMEOUT_LEVEL,
-                             language: str = 'en') -> Dict:
+
+    async def generate_simple(
+        self,
+        model: str,
+        prompt: str,
+        session_id: Optional[str] = None,
+        timeout_level: TimeoutLevel = DEFAULT_TIMEOUT_LEVEL,
+        language: str = "en",
+    ) -> Dict:
         """Simple generation with one model"""
         start_time = datetime.now()
-        
+
         try:
             # Enrichir le prompt avec métadonnées et directive de langue
             enriched_prompt = enrich_prompt(prompt, language)
-            
+
             # Get context if session exists
             context = ""
             if session_id:
                 context = self.memory.get_context(session_id)
                 if context:
                     enriched_prompt = f"[CONVERSATION HISTORY]\n{context}\n\n[CURRENT REQUEST]\n{enriched_prompt}"
-            
+
             # Get timeout for this level
             timeout_ms = TIMEOUT_CONFIG[timeout_level]["simple"]
             timeout_seconds = timeout_ms / 1000.0
-            
-            print(f"🔥 Génération simple avec {model} (timeout: {timeout_seconds}s, langue: {language})")
-            
+
+            print(
+                f"🔥 Génération simple avec {model} (timeout: {timeout_seconds}s, langue: {language})"
+            )
+
             _debug_log_ollama_generate_request(
                 "simple",
                 self.ollama_base,
@@ -967,13 +1043,9 @@ class LLMUICore:
                     "model": model,
                     "prompt": enriched_prompt,
                     "stream": False,
-                    "options": {
-                        "temperature": 0.7,
-                        "top_p": 0.9,
-                        "top_k": 40
-                    }
+                    "options": {"temperature": 0.7, "top_p": 0.9, "top_k": 40},
                 },
-                timeout=timeout_seconds
+                timeout=timeout_seconds,
             )
             result = _debug_parse_ollama_generate_response(
                 response,
@@ -981,10 +1053,10 @@ class LLMUICore:
                 model=model,
                 ollama_base=self.ollama_base,
             )
-            
+
             processing_time = (datetime.now() - start_time).total_seconds()
             out_text = result.get("response", "")
-            
+
             # Save to database
             if session_id:
                 self.db.save_conversation(
@@ -993,68 +1065,71 @@ class LLMUICore:
                     response=out_text,
                     model=model,
                     processing_time=processing_time,
-                    mode='simple'
+                    mode="simple",
                 )
-            
+
             print(f"✅ Génération simple terminée en {processing_time:.2f}s")
-            
+
             return {
                 "success": True,
                 "response": out_text,
                 "model": model,
-                "processing_time": processing_time
+                "processing_time": processing_time,
             }
-            
+
         except httpx.TimeoutException:
-            error_msg = f"⏰ Timeout dépassé ({timeout_level.value}) pour le modèle {model}"
+            error_msg = (
+                f"⏰ Timeout dépassé ({timeout_level.value}) pour le modèle {model}"
+            )
             print(error_msg)
-            return {
-                "success": False,
-                "error": error_msg,
-                "response": ""
-            }
+            return {"success": False, "error": error_msg, "response": ""}
         except Exception as e:
             error_msg = f"Erreur lors de la génération: {str(e)}"
             print(f"❌ {error_msg}")
-            return {
-                "success": False,
-                "error": error_msg,
-                "response": ""
-            }
-    
-    async def generate_consensus(self, prompt: str, 
-                                worker_models: List[str],
-                                merger_model: str,
-                                session_id: Optional[str] = None,
-                                timeout_level: TimeoutLevel = DEFAULT_TIMEOUT_LEVEL,
-                                language: str = 'en') -> Dict:
+            return {"success": False, "error": error_msg, "response": ""}
+
+    async def generate_consensus(
+        self,
+        prompt: str,
+        worker_models: List[str],
+        merger_model: str,
+        session_id: Optional[str] = None,
+        timeout_level: TimeoutLevel = DEFAULT_TIMEOUT_LEVEL,
+        language: str = "en",
+    ) -> Dict:
         """Consensus generation with multiple models"""
         start_time = datetime.now()
-        
+
         try:
             # Enrichir le prompt
             enriched_prompt = enrich_prompt(prompt, language)
-            
+
             # Get context if session exists
             context = ""
             if session_id:
                 context = self.memory.get_context(session_id)
                 if context:
                     enriched_prompt = f"[CONVERSATION HISTORY]\n{context}\n\n[CURRENT REQUEST]\n{enriched_prompt}"
-            
+
             # Get timeout for this level
             timeout_ms = TIMEOUT_CONFIG[timeout_level]["consensus"]
             timeout_seconds = timeout_ms / 1000.0
-            
-            print(f"🔥 Génération consensus avec {len(worker_models)} workers (timeout: {timeout_seconds}s, langue: {language})")
-            
+
+            print(
+                f"🔥 Génération consensus avec {len(worker_models)} workers (timeout: {timeout_seconds}s, langue: {language})"
+            )
+
             # Phase 1: Worker responses
             worker_responses = []
             for worker in worker_models:
                 try:
                     # Note: Le timeout des workers est le timeout global divisé par le nombre de workers, ce qui est une heuristique.
-                    worker_timeout = timeout_seconds / len(worker_models) if len(worker_models) > 0 else timeout_seconds
-                    
+                    worker_timeout = (
+                        timeout_seconds / len(worker_models)
+                        if len(worker_models) > 0
+                        else timeout_seconds
+                    )
+
                     _debug_log_ollama_generate_request(
                         "consensus_worker",
                         self.ollama_base,
@@ -1067,9 +1142,9 @@ class LLMUICore:
                         json={
                             "model": worker,
                             "prompt": enriched_prompt,
-                            "stream": False
+                            "stream": False,
                         },
-                        timeout=worker_timeout
+                        timeout=worker_timeout,
                     )
                     result = _debug_parse_ollama_generate_response(
                         response,
@@ -1077,18 +1152,16 @@ class LLMUICore:
                         model=worker,
                         ollama_base=self.ollama_base,
                     )
-                    worker_responses.append({
-                        "model": worker,
-                        "response": result.get("response", "")
-                    })
+                    worker_responses.append(
+                        {"model": worker, "response": result.get("response", "")}
+                    )
                     print(f"  ✅ {worker} terminé")
                 except Exception as e:
                     print(f"  ❌ {worker} échoué: {e}")
-                    worker_responses.append({
-                        "model": worker,
-                        "response": f"[ERROR: {str(e)}]"
-                    })
-            
+                    worker_responses.append(
+                        {"model": worker, "response": f"[ERROR: {str(e)}]"}
+                    )
+
             # Phase 2: Merger synthesis
             merger_prompt = f"""Based on the following responses from different AI models, create a comprehensive and accurate synthesis.
 
@@ -1098,15 +1171,15 @@ Responses:
 """
             for i, wr in enumerate(worker_responses, 1):
                 merger_prompt += f"\nModel {i} ({wr['model']}):\n{wr['response']}\n"
-            
+
             # Assurer que la directive de langue est également dans le prompt du Merger
             language_directive = get_language_directive(language)
             merger_prompt += f"\n{language_directive}"
             merger_prompt += f"\nProvide a synthesized response that combines the best insights from all models. RESPOND IN {language.upper()}."
-            
+
             # Note: Le timeout du merger est le timeout global divisé par 2, ce qui est une heuristique.
             merger_timeout = timeout_seconds / 2
-            
+
             _debug_log_ollama_generate_request(
                 "consensus_merger",
                 self.ollama_base,
@@ -1116,12 +1189,8 @@ Responses:
             )
             response = await self.client.post(
                 f"{self.ollama_base}/api/generate",
-                json={
-                    "model": merger_model,
-                    "prompt": merger_prompt,
-                    "stream": False
-                },
-                timeout=merger_timeout
+                json={"model": merger_model, "prompt": merger_prompt, "stream": False},
+                timeout=merger_timeout,
             )
             merger_result = _debug_parse_ollama_generate_response(
                 response,
@@ -1129,9 +1198,9 @@ Responses:
                 model=merger_model,
                 ollama_base=self.ollama_base,
             )
-            
+
             processing_time = (datetime.now() - start_time).total_seconds()
-            
+
             # Save to database
             merger_text = merger_result.get("response", "")
             if session_id:
@@ -1142,28 +1211,25 @@ Responses:
                     worker_models=worker_models,
                     merger_model=merger_model,
                     processing_time=processing_time,
-                    mode='consensus'
+                    mode="consensus",
                 )
-            
+
             print(f"✅ Consensus terminé en {processing_time:.2f}s")
-            
+
             return {
                 "success": True,
                 "response": merger_text,
                 "worker_responses": worker_responses,
                 "worker_count": len(worker_models),
                 "merger_model": merger_model,
-                "processing_time": processing_time
+                "processing_time": processing_time,
             }
-            
+
         except Exception as e:
             error_msg = f"Erreur lors du consensus: {str(e)}"
             print(f"❌ {error_msg}")
-            return {
-                "success": False,
-                "error": error_msg,
-                "response": ""
-            }
+            return {"success": False, "error": error_msg, "response": ""}
+
 
 # Initialize core
 core = LLMUICore()
@@ -1172,35 +1238,38 @@ core = LLMUICore()
 # API ENDPOINTS
 # ============================================================================
 
+
 @app.get("/health")
 async def health_check():
     """Health check endpoint (PUBLIC - no auth)"""
     return {"status": "healthy", "version": "0.5.1"}
+
 
 @app.get("/api/models")
 async def get_models(request: Request, user: Dict = Depends(require_auth)):
     """List available Ollama models with size info (PROTÉGÉ)"""
     try:
         models = await core.get_models()
-        
+
         # FIX: Retourner les objets complets avec name et size
         models_data = [
             {
                 "name": m.name,
                 "size": m.size,
                 "modified_at": m.modified_at,
-                "digest": m.digest
+                "digest": m.digest,
             }
             for m in models
         ]
-        
+
         return {
             "success": True,
             "models": models_data,
-            "total_models": len(models_data)
+            "total_models": len(models_data),
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
 
 @app.get("/api/timeout-levels")
 async def get_timeout_levels(request: Request, user: Dict = Depends(require_auth)):
@@ -1211,66 +1280,69 @@ async def get_timeout_levels(request: Request, user: Dict = Depends(require_auth
             level.value: {
                 **config,
                 "simple_minutes": config["simple"] // 60000,
-                "consensus_minutes": config["consensus"] // 60000
+                "consensus_minutes": config["consensus"] // 60000,
             }
             for level, config in TIMEOUT_CONFIG.items()
         },
-        "default": DEFAULT_TIMEOUT_LEVEL.value
+        "default": DEFAULT_TIMEOUT_LEVEL.value,
     }
 
+
 @app.post("/api/simple-generate")
-async def simple_generate(request: Request, req: SimpleGenerateRequest, user: Dict = Depends(require_auth)):
+async def simple_generate(
+    request: Request, req: SimpleGenerateRequest, user: Dict = Depends(require_auth)
+):
     """Simple generation endpoint (PROTÉGÉ)"""
     try:
         result = await core.generate_simple(
-            req.model,
-            req.prompt,
-            req.session_id,
-            req.timeout_level,
-            req.language
+            req.model, req.prompt, req.session_id, req.timeout_level, req.language
         )
-        
+
         # Save to memory
         if req.session_id and result["success"]:
             core.memory.add_message(req.session_id, "user", req.prompt)
             core.memory.add_message(req.session_id, "assistant", result["response"])
-        
+
         return result
-        
+
     except Exception as e:
         # TOUJOURS retourner du JSON, jamais d'exception HTML
         return JSONResponse(
-            status_code=500,
-            content={"success": False, "error": str(e), "response": ""}
+            status_code=500, content={"success": False, "error": str(e), "response": ""}
         )
+
 
 @app.post("/api/generate")
 @app.post("/api/consensus-generate")
-async def consensus_generate(request: Request, req: ConsensusGenerateRequest, user: Dict = Depends(require_auth)):
+async def consensus_generate(
+    request: Request, req: ConsensusGenerateRequest, user: Dict = Depends(require_auth)
+):
     """Consensus generation endpoint (PROTÉGÉ)"""
     try:
-        print(f"[CONSENSUS] worker_models={req.worker_models} merger_model={req.merger_model} timeout_level={req.timeout_level} lang={req.language} session_id={req.session_id}")
+        print(
+            f"[CONSENSUS] worker_models={req.worker_models} merger_model={req.merger_model} timeout_level={req.timeout_level} lang={req.language} session_id={req.session_id}"
+        )
         result = await core.generate_consensus(
             req.prompt,
             req.worker_models,
             req.merger_model,
             req.session_id,
             req.timeout_level,
-            req.language
+            req.language,
         )
-        
+
         # Save to memory
         if req.session_id and result["success"]:
             core.memory.add_message(req.session_id, "user", req.prompt)
             core.memory.add_message(req.session_id, "assistant", result["response"])
-        
+
         return result
-        
+
     except Exception as e:
         return JSONResponse(
-            status_code=500,
-            content={"success": False, "error": str(e), "response": ""}
+            status_code=500, content={"success": False, "error": str(e), "response": ""}
         )
+
 
 @app.get("/api/stats")
 async def get_stats():
@@ -1278,7 +1350,7 @@ async def get_stats():
     try:
         db = DatabaseManager()
         stats = db.get_stats()
-        
+
         # Récupérer le nombre de modèles depuis Ollama
         try:
             async with httpx.AsyncClient() as client:
@@ -1290,15 +1362,15 @@ async def get_stats():
                     models_count = 0
         except:
             models_count = 0
-        
+
         return {
             "success": True,
             "stats": {
                 "models_count": models_count,
                 "total_conversations": stats.get("total_requests", 0),
                 "success_rate": stats.get("success_rate", 0),
-                "avg_response_time": stats.get("average_processing_time", 0.0)
-            }
+                "avg_response_time": stats.get("average_processing_time", 0.0),
+            },
         }
     except Exception as e:
         return {
@@ -1307,13 +1379,16 @@ async def get_stats():
                 "models_count": 0,
                 "total_conversations": 0,
                 "success_rate": 100,
-                "avg_response_time": 0.0
+                "avg_response_time": 0.0,
             },
-            "error": str(e)
+            "error": str(e),
         }
-        
+
+
 @app.get("/api/session-context/{session_id}")
-async def get_session_context(request: Request, session_id: str, user: Dict = Depends(require_auth)):
+async def get_session_context(
+    request: Request, session_id: str, user: Dict = Depends(require_auth)
+):
     """Get conversation context (PROTÉGÉ)"""
     try:
         context = core.memory.get_context(session_id)
@@ -1321,8 +1396,11 @@ async def get_session_context(request: Request, session_id: str, user: Dict = De
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
 @app.delete("/api/session/{session_id}")
-async def delete_session(request: Request, session_id: str, user: Dict = Depends(require_auth)):
+async def delete_session(
+    request: Request, session_id: str, user: Dict = Depends(require_auth)
+):
     """Delete session (PROTÉGÉ)"""
     try:
         core.memory.clear_session(session_id)
@@ -1330,68 +1408,71 @@ async def delete_session(request: Request, session_id: str, user: Dict = Depends
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
 # ============================================================================
 # 🔍 NOUVEAU MIDDLEWARE - REQUEST LOGGING
 # ============================================================================
+
 
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     """Log all requests with authentication info"""
     start_time = datetime.now()
-    
+
     # Get user if authenticated (with safety check)
-    user_info = 'anonymous'
+    user_info = "anonymous"
     try:
         user = get_current_user(request)
         if user:
-            user_info = user.get('username', 'unknown_authenticated')
+            user_info = user.get("username", "unknown_authenticated")
     except Exception:
-        pass # Ignore errors during user lookup from session
-    
+        pass  # Ignore errors during user lookup from session
+
     # Process request
     response = await call_next(request)
-    
+
     # Log
     duration = (datetime.now() - start_time).total_seconds()
-    
+
     # Skip logging for static files and health checks
-    if not request.url.path.startswith('/static') and request.url.path != '/health':
-        print(f"[{datetime.now().isoformat()}] {request.method} {request.url.path} "
-              f"- User: {user_info} - Status: {response.status_code} - Duration: {duration:.3f}s")
-    
+    if not request.url.path.startswith("/static") and request.url.path != "/health":
+        print(
+            f"[{datetime.now().isoformat()}] {request.method} {request.url.path} "
+            f"- User: {user_info} - Status: {response.status_code} - Duration: {duration:.3f}s"
+        )
+
     return response
+
 
 # ============================================================================
 # SERVICE MODE - FOR SYSTEMD
 # ============================================================================
 
+
 def run_service():
     """Run the backend service for systemd"""
     print("🚀 Starting LLMUI Backend Service v0.5.0...")
-    
+
     try:
-        uvicorn.run(
-            app,
-            host="0.0.0.0",
-            port=5000,
-            log_level="info",
-            access_log=True
-        )
+        uvicorn.run(app, host="0.0.0.0", port=5000, log_level="info", access_log=True)
     except KeyboardInterrupt:
         print("🛑 Service stopped by user")
     except Exception as e:
         print(f"❌ Service error: {e}")
         raise
 
+
 if __name__ == "__main__":
     # Check if running in service mode (no TTY)
     import sys
+
     if not sys.stdout.isatty():
         # Service mode - run indefinitely
         run_service()
     else:
         # Interactive mode - show banner and run
-        print("""
+        print(
+            """
     ┌─────────────────────────────────────────┐
     │   LLMUI Core Backend v0.5.0 - FastAPI   │
     │   Author: François Chalut               │
@@ -1414,11 +1495,7 @@ if __name__ == "__main__":
     Default credentials:
     - Username: francois / Password: Francois2025!
     - Username: demo / Password: demo123
-    """)
-        
-        uvicorn.run(
-            app,
-            host="0.0.0.0",
-            port=5000,
-            log_level="info"
+    """
         )
+
+        uvicorn.run(app, host="0.0.0.0", port=5000, log_level="info")

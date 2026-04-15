@@ -1,147 +1,147 @@
-# 🎯 Three Ways to Install LLMUI Core v0.5.0
+# 🎯 安装 LLMUI Core v0.5.0 的三种方式
 
-LLMUI Core offers **3 installation methods** to suit all comfort levels and needs.
+LLMUI Core 提供 **3 种安装方式**，适配不同熟练度和需求场景。
 
 ---
 
-## 🤖 Method 1: Andy (Automatic) - Recommended
+## 🤖 方式 1：Andy（自动化）- 推荐
 
-**For**: New users, quick installations, production
+**适合人群**：新用户、快速安装、生产环境
 
-### Files
-- `andy_setup.sh` - Interactive menu
-- `andy_installer.py` - Automatic installation
-- `andy_deploy_source.py` - Source deployment
-- `andy_start_services.py` - Service management
+### 文件
+- `andy_setup.sh` - 交互式菜单
+- `andy_installer.py` - 自动安装
+- `andy_deploy_source.py` - 源码部署
+- `andy_start_services.py` - 服务管理
 
-### Features
-✅ **100% Automatic** - Installation in 3 commands  
-✅ **Intelligent detection** - Identifies apt/dnf/yum automatically  
-✅ **Error handling** - Fixes problems automatically  
-✅ **Traceability** - SQLite database with complete history  
-✅ **Interactive menu** - Modular options (install, verify, logs)  
-✅ **Multi-OS** - Debian, Ubuntu, Rocky, RHEL  
+### 特性
+✅ **100% 自动化** - 3 条命令完成安装  
+✅ **智能检测** - 自动识别 apt/dnf/yum  
+✅ **错误处理** - 自动修复常见问题  
+✅ **可追溯性** - 使用 SQLite 数据库记录完整历史  
+✅ **交互式菜单** - 模块化选项（安装、验证、日志）  
+✅ **多系统支持** - Debian、Ubuntu、Rocky、RHEL  
 
-### Complete Installation
+### 完整安装
 ```bash
-# Option A: Interactive menu (recommended for beginners)
+# 方案 A：交互式菜单（推荐新手）
 sudo bash andy_setup.sh
-# → Choose [1] Complete Installation
+# → 选择 [1] Complete Installation
 
-# Option B: Command line (for scripts)
-sudo python3 andy_installer.py      # Step 1: System base
-sudo python3 andy_deploy_source.py  # Step 2: Source files
-sudo python3 andy_start_services.py # Step 3: Services
+# 方案 B：命令行（适合脚本）
+sudo python3 andy_installer.py      # 第 1 步：系统基础
+sudo python3 andy_deploy_source.py  # 第 2 步：源码文件
+sudo python3 andy_start_services.py # 第 3 步：服务
 ```
 
-### Duration
-- **Total**: 15-30 minutes (depending on connection)
-- **Interaction**: 2 minutes (username + password)
-- **Rest**: 100% automatic
+### 耗时
+- **总计**：15-30 分钟（取决于网络）
+- **人工交互**：2 分钟（用户名 + 密码）
+- **其余流程**：100% 自动
 
-### Advantages
-- 🚀 Fastest
-- 🧠 Smartest
-- 🔒 Most secure (traceability database)
-- 📊 Detailed report at the end
-- 🛡️ Automatic backup before modifications
+### 优势
+- 🚀 最快
+- 🧠 最智能
+- 🔒 最安全（可追溯数据库）
+- 📊 结束后有详细报告
+- 🛡️ 修改前自动备份
 
-### Documentation
-- `README_ANDY.md` - Complete Andy documentation
-- `ANDY_INTERACTIVE.md` - Interactive menu guide
+### 文档
+- `README_ANDY.md` - Andy 完整文档
+- `ANDY_INTERACTIVE.md` - 交互式菜单指南
 
 ---
 
-## 📚 Method 2: Interactive Guided - For the Cautious
+## 📚 方式 2：交互式引导 - 适合谨慎用户
 
-**For**: Those who want to understand each step, learning, total control
+**适合人群**：希望理解每一步、用于学习、需要完全控制的人
 
-### Files
-- `scripts/install_interactive.sh` - **Step-by-step guided installation**
-- `scripts/install.sh` - Classic installation
-- `scripts/install_backend.py` - Python backend
+### 文件
+- `scripts/install_interactive.sh` - **分步引导安装**
+- `scripts/install.sh` - 经典安装脚本
+- `scripts/install_backend.py` - Python 后端安装
 
-### Features
-✅ **Detailed explanations** at each step  
-✅ **Confirmation** before each action  
-✅ **Ability to skip** steps  
-✅ **Educational** - Perfect for learning  
-✅ **Flexibility** - Customize installation  
+### 特性
+✅ 每一步都有**详细说明**  
+✅ 每个动作前都有**确认提示**  
+✅ 可**跳过**部分步骤  
+✅ **教学友好** - 非常适合学习  
+✅ **灵活性高** - 可自定义安装过程  
 
-### Guided Installation
+### 引导安装
 ```bash
-# Launch interactive assistant
+# 启动交互式助手
 sudo bash scripts/install_interactive.sh
 
-# The assistant will guide you through:
-# 1. Prerequisites verification
-# 2. Dependencies installation (with confirmation)
-# 3. Ollama + models configuration (with explanations)
-# 4. Systemd services configuration (step by step)
-# 5. Nginx configuration (with options)
-# 6. Firewall configuration (with choices)
-# 7. Final verification (with tests)
+# 助手会引导你完成：
+# 1. 前置条件检查
+# 2. 依赖安装（含确认）
+# 3. Ollama + 模型配置（含说明）
+# 4. Systemd 服务配置（逐步）
+# 5. Nginx 配置（带选项）
+# 6. 防火墙配置（可选择）
+# 7. 最终验证（带测试）
 ```
 
-### Interaction Example
+### 交互示例
 ```
 ┌─────────────────────────────────────────────┐
 │ Step 2/7: Dependencies Installation        │
 └─────────────────────────────────────────────┘
 
-This step will install:
+此步骤将安装：
   • Python 3.8+ and pip
-  • Nginx for reverse proxy
-  • SQLite3 for database
-  • Compilation tools
+  • 用于反向代理的 Nginx
+  • 用于数据库的 SQLite3
+  • 编译工具
 
-Do you want to continue? [Y/n]: Y
-Install development tools too? [Y/n]: Y
+是否继续？ [Y/n]: Y
+是否同时安装开发工具？ [Y/n]: Y
 ```
 
-### Duration
-- **Total**: 20-40 minutes
-- **Interaction**: 10-15 minutes (choices and confirmations)
-- **Waiting**: 10-25 minutes
+### 耗时
+- **总计**：20-40 分钟
+- **人工交互**：10-15 分钟（选择与确认）
+- **等待时间**：10-25 分钟
 
-### Advantages
-- 📖 Educational - You understand what's happening
-- 🎛️ Control - Choice at each step
-- ✋ Pause - Take time to read
-- 📝 Transparency - No hidden actions
-- 🎓 Perfect for learning Linux/DevOps
+### 优势
+- 📖 教学性强 - 你会清楚每一步在做什么
+- 🎛️ 可控性强 - 每一步都可选择
+- ✋ 可暂停 - 可慢慢阅读
+- 📝 透明 - 无隐藏操作
+- 🎓 非常适合学习 Linux/DevOps
 
-### For Whom?
-- First steps with Linux
-- Administrators wanting to understand architecture
-- Custom installations
-- Learning environments
+### 适合谁？
+- Linux 初学者
+- 希望理解架构的管理员
+- 需要自定义安装的人
+- 学习/培训环境
 
 ---
 
-## ⚙️ Method 3: Manual - For Experts
+## ⚙️ 方式 3：手动安装 - 适合专家
 
-**For**: Experienced DevOps, special environments, maximum customization
+**适合人群**：有经验的 DevOps、特殊环境、追求极致定制
 
-### Documentation
-- `INSTALL.md` - Complete manual installation guide
+### 文档
+- `INSTALL.md` - 完整手动安装指南
 
-### Features
-✅ **Absolute control** - Every command is documented  
-✅ **Customization** - Adapt everything to your needs  
-✅ **Understanding** - Total system mastery  
-✅ **Flexibility** - For non-standard environments  
+### 特性
+✅ **绝对控制** - 每条命令都有文档说明  
+✅ **高度定制** - 可按需调整所有内容  
+✅ **深入理解** - 全面掌握系统  
+✅ **灵活适配** - 面向非标准环境  
 
-### Manual Installation
-Follow `INSTALL.md` section "Manual installation", which details:
+### 手动安装
+请参考 `INSTALL.md` 中的 "Manual installation" 章节，内容包括：
 
-1. **System preparation**
+1. **系统准备**
    ```bash
    sudo apt update && sudo apt upgrade -y
    sudo apt install python3-pip python3-venv nginx...
    ```
 
-2. **Ollama installation**
+2. **安装 Ollama**
    ```bash
    curl -fsSL https://ollama.com/install.sh | sh
    ollama pull phi3:3.8b
@@ -149,204 +149,204 @@ Follow `INSTALL.md` section "Manual installation", which details:
    ollama pull granite4:micro-h
    ```
 
-3. **User configuration**
+3. **用户配置**
    ```bash
    sudo useradd -r -s /bin/bash -d /opt/llmui-core -m llmui
    sudo mkdir -p /opt/llmui-core/{logs,data,backups}...
    ```
 
-4. **Python environment**
+4. **Python 环境**
    ```bash
    sudo su - llmui -c "python3 -m venv venv"
    sudo su - llmui -c "venv/bin/pip install -r requirements.txt"
    ```
 
-5. **Systemd services**
-   - Manual creation of .service files
-   - Fine parameter configuration
+5. **Systemd 服务**
+   - 手动创建 `.service` 文件
+   - 精细化参数配置
 
-6. **Nginx configuration**
-   - Complete reverse proxy customization
-   - Advanced SSL configuration
+6. **Nginx 配置**
+   - 完整自定义反向代理
+   - 高级 SSL 配置
 
-7. **Firewall and security**
-   - Manual UFW/firewalld configuration
-   - Custom rules
+7. **防火墙与安全**
+   - 手动配置 UFW/firewalld
+   - 自定义规则
 
-### Duration
-- **Total**: 30-60 minutes
-- **Required experience**: Advanced Linux
-- **Documentation**: 20-30 detailed pages
+### 耗时
+- **总计**：30-60 分钟
+- **经验要求**：高级 Linux 能力
+- **文档规模**：20-30 页详细说明
 
-### Advantages
-- 🎯 Maximum precision
-- 🛠️ Unlimited customization
-- 🔬 Deep understanding
-- 🗝️ Non-standard environments
-- 📚 Complete documentation
+### 优势
+- 🎯 精度最高
+- 🛠️ 定制空间无限
+- 🔬 理解最深入
+- 🗝️ 适合非标准环境
+- 📚 文档最完整
 
-### For Whom?
-- Senior DevOps
-- Critical production environments
-- Custom architectures
-- Integration with existing infrastructure
+### 适合谁？
+- 资深 DevOps
+- 关键生产环境
+- 自定义架构场景
+- 需对接现有基础设施的场景
 
 ---
 
-## 📊 Comparison Table
+## 📊 对比表
 
-| Criteria | Andy (Auto) | Interactive | Manual |
+| 指标 | Andy（自动） | 交互式 | 手动 |
 |---------|-------------|-------------|--------|
-| **Total time** | 15-30 min | 20-40 min | 30-60 min |
-| **Interaction** | 2 min | 10-15 min | Continuous |
-| **Required level** | Beginner | Intermediate | Expert |
-| **Learning** | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| **Customization** | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Automation** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐ |
-| **Traceability** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| **Error handling** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| **总耗时** | 15-30 分钟 | 20-40 分钟 | 30-60 分钟 |
+| **人工交互** | 2 分钟 | 10-15 分钟 | 持续进行 |
+| **所需水平** | 新手 | 中级 | 专家 |
+| **学习价值** | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| **可定制性** | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| **自动化程度** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐ |
+| **可追溯性** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| **错误处理** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
 
 ---
 
-## 🎯 Which Method to Choose?
+## 🎯 如何选择？
 
-### Are you new to LLMUI Core?
-→ **Andy (Method 1)** - Installation in 3 clicks
+### 你是 LLMUI Core 新手？
+→ **Andy（方式 1）** - 3 次点击完成安装
 
-### Want to learn how it works?
-→ **Interactive (Method 2)** - Guided step by step
+### 想学习系统如何工作？
+→ **交互式（方式 2）** - 分步引导
 
-### Are you a senior DevOps with specific needs?
-→ **Manual (Method 3)** - Total control
+### 你是有特定需求的资深 DevOps？
+→ **手动（方式 3）** - 完全控制
 
-### Installing on multiple servers?
-→ **Andy (Method 1)** - Automation and standardization
+### 需要在多台服务器部署？
+→ **Andy（方式 1）** - 自动化 + 标准化
 
-### Learning/training environment?
-→ **Interactive (Method 2)** - Educational and flexible
+### 学习/培训环境？
+→ **交互式（方式 2）** - 教学友好且灵活
 
-### Critical production with special architecture?
-→ **Manual (Method 3)** - Maximum customization
+### 关键生产环境且架构特殊？
+→ **手动（方式 3）** - 最大化定制能力
 
 ---
 
-## 🔄 Combining Methods
+## 🔄 组合使用方式
 
-You can **combine** methods:
+你可以**组合**不同安装方式：
 
-### Example 1: Andy for base, manual for customization
+### 示例 1：用 Andy 打基础，再手动定制
 ```bash
-# 1. Quick installation with Andy
+# 1. 用 Andy 快速安装
 sudo python3 andy_installer.py
 
-# 2. Manual customization
+# 2. 手动定制
 sudo nano /opt/llmui-core/config.yaml
 sudo systemctl restart llmui-backend
 ```
 
-### Example 2: Interactive to learn, Andy to reproduce
+### 示例 2：先交互式学习，再用 Andy 复用
 ```bash
-# 1. First time: Interactive to understand
+# 1. 首次：交互式安装以理解流程
 sudo bash scripts/install_interactive.sh
 
-# 2. Following servers: Andy for speed
+# 2. 后续服务器：Andy 快速部署
 sudo bash andy_setup.sh
 ```
 
 ---
 
-## 📖 Documentation by Method
+## 📖 按方式查看文档
 
 ### Andy
-- `README.md` section "Installation with Andy"
-- `QUICKSTART.md` - Quick start
-- `README_ANDY.md` - Complete documentation
-- `ANDY_INTERACTIVE.md` - Menu guide
+- `README.md` 中的 "Installation with Andy" 章节
+- `QUICKSTART.md` - 快速开始
+- `README_ANDY.md` - 完整文档
+- `ANDY_INTERACTIVE.md` - 菜单指南
 
-### Interactive
-- `INSTALL.md` - Step reference
-- `scripts/install_interactive.sh` - The script itself (commented)
+### 交互式
+- `INSTALL.md` - 步骤参考
+- `scripts/install_interactive.sh` - 脚本本体（含注释）
 
-### Manual
-- `INSTALL.md` section "Manual installation"
-- `docs/ARCHITECTURE.md` - Technical architecture
-- `docs/CONFIGURATION.md` - Advanced configuration
+### 手动
+- `INSTALL.md` 中的 "Manual installation" 章节
+- `docs/ARCHITECTURE.md` - 技术架构
+- `docs/CONFIGURATION.md` - 高级配置
 
 ---
 
-## 🆘 Support by Method
+## 🆘 按方式排障
 
-### Problem with Andy?
+### Andy 有问题？
 ```bash
-# Check logs
+# 查看日志
 less /tmp/andy_install.log
 
-# SQLite database
+# 查看 SQLite 数据库
 sqlite3 /tmp/andy_installation.db
 SELECT * FROM commands WHERE status='failed';
 ```
 
-### Problem with Interactive?
+### 交互式有问题？
 ```bash
-# Restart problematic step
+# 重新执行出问题的步骤
 sudo bash scripts/install_interactive.sh
-# Choose to skip successful steps
+# 选择跳过已成功步骤
 ```
 
-### Problem with Manual?
+### 手动方式有问题？
 ```bash
-# Check INSTALL.md section "Troubleshooting"
-# Check system logs
+# 查看 INSTALL.md 的 "Troubleshooting" 章节
+# 查看系统日志
 sudo journalctl -xe
 ```
 
 ---
 
-## ✅ Post-Installation Verification
+## ✅ 安装后验证
 
-Whatever method chosen, verify installation:
+无论使用哪种方式，都建议执行以下验证：
 
 ```bash
-# Services active?
+# 服务是否运行？
 sudo systemctl status llmui-backend llmui-proxy nginx
 
-# HTTP test
+# HTTP 测试
 curl -I http://localhost/
 
-# API test
+# API 测试
 curl http://localhost:5000/api/health
 
-# Ollama models
+# Ollama 模型检查
 ollama list
 ```
 
-Or with Andy:
+或者使用 Andy：
 ```bash
 sudo bash andy_setup.sh
-# Choose [5] Verify installation
+# 选择 [5] Verify installation
 ```
 
 ---
 
-## 💡 Final Advice
+## 💡 最后建议
 
-**For 90% of cases**: Use **Andy** (Method 1)
-- Fastest installation
-- Automatic error handling
-- Complete traceability
-- Production-ready
+**90% 的场景**：使用 **Andy**（方式 1）
+- 安装最快
+- 自动处理错误
+- 完整可追溯
+- 可直接用于生产
 
-**To learn**: Use **Interactive** (Method 2)
-- Understand each step
-- Choose your options
-- Perfect training
+**用于学习**：使用 **交互式**（方式 2）
+- 理解每个步骤
+- 按需选择选项
+- 非常适合培训
 
-**For expert**: Use **Manual** (Method 3)
-- Total control
-- Maximum customization
-- Special environments
+**专家场景**：使用 **手动**（方式 3）
+- 完全控制
+- 最大化定制
+- 适配特殊环境
 
 ---
 
 **Francois Chalut**  
-*Three methods, one goal: Digital sovereignty* 🇨🇦
+*三种方式，一个目标：数字主权* 🇨🇦

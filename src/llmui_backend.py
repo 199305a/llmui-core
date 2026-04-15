@@ -99,8 +99,10 @@ LOG_DIR = os.getenv("LLMUI_LOG_DIR", "/var/log/llmui")
 # Ollama configuration
 OLLAMA_URLS = ["http://localhost:11434"]
 OLLAMA_API_BASE = OLLAMA_URLS[0]  # Use first URL as base
-DEFAULT_WORKER_MODELS = ["granite3.1:2b", "phi3:3.8b", "qwen2.5:3b"]
-DEFAULT_MERGER_MODEL = "mistral:7b"
+# Defaults must match models actually pulled by Andy (and typical local installs)
+# to avoid Ollama 404 "model not found" during consensus.
+DEFAULT_WORKER_MODELS = ["gemma2:2b", "phi3:3.8b", "qwen2.5:3b"]
+DEFAULT_MERGER_MODEL = "granite4:micro-h"
 DEFAULT_TIMEOUT_LEVEL = TimeoutLevel.MEDIUM
 
 # CONFIG SESSION
@@ -1235,6 +1237,7 @@ async def simple_generate(request: Request, req: SimpleGenerateRequest, user: Di
 async def consensus_generate(request: Request, req: ConsensusGenerateRequest, user: Dict = Depends(require_auth)):
     """Consensus generation endpoint (PROTÉGÉ)"""
     try:
+        print(f"[CONSENSUS] worker_models={req.worker_models} merger_model={req.merger_model} timeout_level={req.timeout_level} lang={req.language} session_id={req.session_id}")
         result = await core.generate_consensus(
             req.prompt,
             req.worker_models,

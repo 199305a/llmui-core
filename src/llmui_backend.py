@@ -349,6 +349,18 @@ def require_auth(request: Request) -> Dict:
     """Dependency to require authentication"""
     user = get_current_user(request)
     if not user:
+        # Debug auth issues (LAN access, cookie not sent, wrong host, etc.)
+        try:
+            client = getattr(request, "client", None)
+            client_host = getattr(client, "host", "unknown")
+            cookie_hdr = request.headers.get("cookie", "")
+            print(
+                f"[AUTH] 401 Not authenticated | path={request.url.path} "
+                f"client={client_host} host={request.headers.get('host','')} "
+                f"has_cookie={'yes' if cookie_hdr else 'no'}"
+            )
+        except Exception:
+            pass
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Not authenticated"

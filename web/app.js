@@ -263,30 +263,40 @@ class LLMUIApp {
         }
         
         try {
+            const payload = {
+                worker_models: selectedWorkers,
+                merger_model: merger,
+                prompt: fullPrompt,
+                session_id: this.sessionId,
+                timeout_level: this.currentTimeoutLevel,
+                language: this.i18n.currentLang
+            };
+            console.log('[consensus] payload:', payload);
+
             const response = await fetch('/api/consensus-generate', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 credentials: 'same-origin',
-                body: JSON.stringify({
-                    worker_models: selectedWorkers,
-                    merger_model: merger,
-                    prompt: fullPrompt,
-                    session_id: this.sessionId,
-                    timeout_level: this.currentTimeoutLevel,
-                    language: this.i18n.currentLang
-                })
+                body: JSON.stringify(payload)
             });
-            
-            if (!response.ok) {
-                let detail = response.statusText || '';
+
+            const raw = await response.text();
+            console.log('[consensus] status:', response.status);
+            console.log('[consensus] raw response:', (raw || '').slice(0, 1000));
+
+            let data = {};
+            if (raw) {
                 try {
-                    const errBody = await response.json();
-                    if (errBody.detail) detail = typeof errBody.detail === 'string' ? errBody.detail : JSON.stringify(errBody.detail);
-                } catch (_) { /* ignore */ }
-                throw new Error('HTTP ' + response.status + (detail ? ': ' + detail : ''));
+                    data = JSON.parse(raw);
+                } catch (e) {
+                    throw new Error(`Réponse non JSON: ${e.message}. Raw: ${(raw || '').slice(0, 300)}`);
+                }
             }
-            
-            const data = await response.json();
+
+            if (!response.ok) {
+                const detail = data?.detail || data?.error || response.statusText || '';
+                throw new Error('HTTP ' + response.status + (detail ? ': ' + (typeof detail === 'string' ? detail : JSON.stringify(detail)) : ''));
+            }
             
             if (data.success) {
                 this.updateConsensusMessage(messageDiv, data);
@@ -296,11 +306,11 @@ class LLMUIApp {
             }
             
         } catch (error) {
-            console.error('Error in sendConsensus:', error);
-            this.updateMessage(messageDiv, '❌ Erreur: ' + error.message, 'consensus');
-            const note = error.message && error.message.length < 120
-                ? error.message
-                : 'Erreur consensus / réseau';
+            console.error('[consensus] Error:', error);
+            console.error('[consensus] Stack:', error?.stack);
+            const errMsg = error?.message || String(error);
+            this.updateMessage(messageDiv, '❌ Erreur: ' + errMsg, 'consensus');
+            const note = errMsg.length < 140 ? errMsg : 'Erreur consensus / réseau';
             showNotification(note, 'error');
             
         } finally {

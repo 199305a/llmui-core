@@ -15,7 +15,7 @@ cp config.yaml config.yaml.example
 echo "✅ 已创建 config.yaml.example"
 
 # 1.2 Corriger les modèles dans config.yaml
-sed -i 's/- "gemma2:2b"/- "granite3.1:2b"/' config.yaml
+sed -i 's/- "gemma2:2b"/- "qwen2.5:3b"/' config.yaml
 sed -i 's/- "qwen2.5:4b"/- "qwen2.5:3b"/' config.yaml
 sed -i 's/merger_model: "qwen2.5:8b"/merger_model: "mistral:7b"/' config.yaml
 sed -i 's/simple_model: "qwen2.5:8b"/simple_model: "qwen2.5:3b"/' config.yaml

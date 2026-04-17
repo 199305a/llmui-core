@@ -481,7 +481,7 @@ fi
 # Test 8.2: Modèles requis
 test_start "Vérification des modèles requis"
 if command -v ollama &> /dev/null; then
-    REQUIRED_MODELS=("granite3.1:2b" "phi3:3.8b" "mistral:7b" "qwen2.5:3b")
+    REQUIRED_MODELS=("qwen2.5:3b" "phi3:3.8b" "mistral:7b" "qwen2.5:3b")
     ALL_PRESENT=true
     for model in "${REQUIRED_MODELS[@]}"; do
         if ! ollama list 2>/dev/null | grep -q "$model"; then

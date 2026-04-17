@@ -146,6 +146,7 @@ class LLMUIApp {
             const response = await fetch('/api/simple-generate', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
+                credentials: 'include',
                 body: JSON.stringify({
                     model: model,
                     prompt: fullPrompt,
@@ -276,7 +277,7 @@ class LLMUIApp {
             const response = await fetch('/api/consensus-generate', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                credentials: 'same-origin',
+                credentials: 'include',
                 body: JSON.stringify(payload)
             });
 
@@ -435,9 +436,12 @@ class LLMUIApp {
     async loadModels() {
         try {
             console.log('Chargement des modèles...');
-            const response = await fetch('/api/models');
+            const response = await fetch('/api/models', { credentials: 'include' });
             
             if (!response.ok) {
+                if (response.status === 401) {
+                    throw new Error('HTTP 401: session expirée ou non authentifié — reconnectez-vous');
+                }
                 throw new Error('HTTP ' + response.status);
             }
             
@@ -472,7 +476,11 @@ class LLMUIApp {
             }
         } catch (error) {
             console.error('Error loading models:', error);
-            showNotification('⚠️ Impossible de charger les modèles', 'error');
+            const hint = error && error.message ? error.message : '';
+            showNotification(
+                '⚠️ Impossible de charger les modèles' + (hint ? ' — ' + hint : ''),
+                'error'
+            );
             
             // Fallback: essayer de continuer sans modèles
             this.availableModels = [];
@@ -482,7 +490,7 @@ class LLMUIApp {
     
     async loadTimeoutLevels() {
         try {
-            const response = await fetch('/api/timeout-levels');
+            const response = await fetch('/api/timeout-levels', { credentials: 'include' });
             
             if (!response.ok) {
                 console.warn('API timeout-levels non disponible, utilisation des valeurs par défaut');
@@ -517,7 +525,8 @@ class LLMUIApp {
             }, 3000);
 
             const response = await fetch('/api/stats', {
-                signal: controller.signal
+                signal: controller.signal,
+                credentials: 'include',
             });
 
             clearTimeout(timeoutId);

@@ -35,6 +35,7 @@ import sqlite3
 import hashlib
 import secrets
 import binascii
+import re
 from datetime import datetime
 from typing import List, Dict, Optional, Any
 from dataclasses import dataclass, field
@@ -102,6 +103,14 @@ LOG_DIR = os.getenv("LLMUI_LOG_DIR", "/var/log/llmui")
 # Ollama configuration
 OLLAMA_URLS = ["http://localhost:11434"]
 OLLAMA_API_BASE = OLLAMA_URLS[0]  # Use first URL as base
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama").strip().lower()
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "").strip().rstrip("/")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
+OPENAI_MODELS = [
+    m.strip()
+    for m in os.getenv("OPENAI_MODELS", "").split(",")
+    if m and m.strip()
+]
 # Defaults must match models actually pulled by Andy (and typical local installs)
 # to avoid Ollama 404 "model not found" during consensus.
 DEFAULT_WORKER_MODELS = ["gemma2:2b", "phi3:3.8b", "qwen2.5:3b"]
@@ -116,6 +125,42 @@ SECRET_KEY = os.getenv("SESSION_SECRET_KEY", secrets.token_hex(32))
 # ============================================================================
 
 
+def _normalize_language(language: Optional[str]) -> str:
+    """Normalize incoming language values to fr/en/zh."""
+    if not language:
+        return "en"
+
+    lang = language.strip().lower().replace("_", "-")
+    if lang in {"fr", "fr-fr", "fr-ca"}:
+        return "fr"
+    if lang in {"zh", "zh-cn", "zh-hans", "cn", "zh-tw", "zh-hk"}:
+        return "zh"
+    return "en"
+
+
+def _looks_like_chinese(text: str) -> bool:
+    """Best-effort detection for Chinese prompts."""
+    if not text:
+        return False
+    return bool(re.search(r"[\u4e00-\u9fff]", text))
+
+
+def _resolve_response_language(requested_language: Optional[str], prompt: str) -> str:
+    """
+    Resolve final response language.
+    Priority:
+    1) Explicit language parameter (fr/en/zh variants)
+    2) Auto-detect Chinese from prompt
+    3) Fallback to English
+    """
+    normalized = _normalize_language(requested_language)
+    if normalized != "en":
+        return normalized
+    if _looks_like_chinese(prompt):
+        return "zh"
+    return "en"
+
+
 def get_system_metadata(language: str = "en") -> str:
     """
     Génère les métadonnées système à injecter au début du prompt.
@@ -127,6 +172,8 @@ def get_system_metadata(language: str = "en") -> str:
 
     if language == "fr":
         date_format = now.strftime("%A %d %B %Y à %H:%M:%S %Z")
+    elif language == "zh":
+        date_format = now.strftime("%Y年%m月%d日 %H:%M:%S %Z")
     else:
         date_format = now.strftime("%A %B %d, %Y at %I:%M:%S %p %Z")
 
@@ -152,6 +199,14 @@ VOUS DEVEZ IMPÉRATIVEMENT RÉPONDRE EN FRANÇAIS.
 Cette instruction est PRIORITAIRE et NON-NÉGOCIABLE.
 Toute votre réponse doit être entièrement en français, sans exception.
 Si le prompt contient du contenu dans une autre langue, traduisez-le mentalement mais répondez UNIQUEMENT en français.
+
+"""
+    elif language == "zh":
+        directive = """⚠️ 强制语言指令 ⚠️
+你必须完整使用中文回答。
+该指令具有最高优先级，不能被覆盖。
+你的整段输出必须是中文，不允许夹杂英文句子。
+如果提示词包含其他语言，请先内部理解，再仅用中文作答。
 
 """
     else:
@@ -961,6 +1016,22 @@ def _debug_parse_ollama_generate_response(
     return result
 
 
+def _debug_log_openai_chat_request(
+    phase: str,
+    openai_base: str,
+    model: str,
+    timeout_seconds: float,
+    prompt_preview: str,
+) -> None:
+    """Debug logging for OpenAI-compatible /chat/completions requests."""
+    print("==== OPENAI-COMPAT REQUEST ====")
+    print("PHASE:", phase)
+    print("URL:", f"{openai_base}/chat/completions")
+    print("MODEL:", model)
+    print("TIMEOUT (s):", timeout_seconds)
+    print("PROMPT PREVIEW:", (prompt_preview or "")[:200])
+
+
 # ============================================================================
 # CORE LLMUI CLASS
 # ============================================================================
@@ -1000,6 +1071,34 @@ class LLMUICore:
             print(f"Error fetching models: {e}")
             return []
 
+    async def _get_ollama_installed_names(self) -> set:
+        """Noms exacts des modèles présents dans Ollama (api/tags)."""
+        models = await self.get_models()
+        return {m.name for m in models if getattr(m, "name", None)}
+
+    async def _validate_ollama_models_exist(self, names: List[str]) -> Optional[str]:
+        """
+        Vérifie que chaque nom est installé dans Ollama.
+        Retourne None si OK, sinon un message d'erreur explicite.
+        Si la liste des modèles installés est vide (Ollama down), on ne bloque pas.
+        """
+        wanted = [n for n in names if n]
+        if not wanted:
+            return None
+        installed = await self._get_ollama_installed_names()
+        if not installed:
+            return None
+        missing = [n for n in wanted if n not in installed]
+        if not missing:
+            return None
+        sample = ", ".join(sorted(installed)[:15])
+        more = "" if len(installed) <= 15 else f" (+{len(installed) - 15} autres)"
+        return (
+            f"Modèle(s) absent(s) dans Ollama: {', '.join(missing)}. "
+            f"Exécutez p.ex. `ollama pull <nom>` ou choisissez parmi: {sample}{more}. "
+            f"(Le backend n'invente pas les noms : ils viennent du corps de requête API ou des valeurs par défaut du serveur.)"
+        )
+
     async def generate_simple(
         self,
         model: str,
@@ -1012,8 +1111,10 @@ class LLMUICore:
         start_time = datetime.now()
 
         try:
+            resolved_language = _resolve_response_language(language, prompt)
+
             # Enrichir le prompt avec métadonnées et directive de langue
-            enriched_prompt = enrich_prompt(prompt, language)
+            enriched_prompt = enrich_prompt(prompt, resolved_language)
 
             # Get context if session exists
             context = ""
@@ -1026,8 +1127,13 @@ class LLMUICore:
             timeout_ms = TIMEOUT_CONFIG[timeout_level]["simple"]
             timeout_seconds = timeout_ms / 1000.0
 
+            err = await self._validate_ollama_models_exist([model])
+            if err:
+                print(f"❌ {err}")
+                return {"success": False, "error": err, "response": ""}
+
             print(
-                f"🔥 Génération simple avec {model} (timeout: {timeout_seconds}s, langue: {language})"
+                f"🔥 Génération simple avec {model} (timeout: {timeout_seconds}s, langue: {resolved_language})"
             )
 
             _debug_log_ollama_generate_request(
@@ -1101,8 +1207,10 @@ class LLMUICore:
         start_time = datetime.now()
 
         try:
+            resolved_language = _resolve_response_language(language, prompt)
+
             # Enrichir le prompt
-            enriched_prompt = enrich_prompt(prompt, language)
+            enriched_prompt = enrich_prompt(prompt, resolved_language)
 
             # Get context if session exists
             context = ""
@@ -1116,8 +1224,15 @@ class LLMUICore:
             timeout_seconds = timeout_ms / 1000.0
 
             print(
-                f"🔥 Génération consensus avec {len(worker_models)} workers (timeout: {timeout_seconds}s, langue: {language})"
+                f"🔥 Génération consensus avec {len(worker_models)} workers (timeout: {timeout_seconds}s, langue: {resolved_language})"
             )
+
+            err = await self._validate_ollama_models_exist(
+                list(worker_models) + [merger_model]
+            )
+            if err:
+                print(f"❌ {err}")
+                return {"success": False, "error": err, "response": ""}
 
             # Phase 1: Worker responses
             worker_responses = []
@@ -1173,9 +1288,9 @@ Responses:
                 merger_prompt += f"\nModel {i} ({wr['model']}):\n{wr['response']}\n"
 
             # Assurer que la directive de langue est également dans le prompt du Merger
-            language_directive = get_language_directive(language)
+            language_directive = get_language_directive(resolved_language)
             merger_prompt += f"\n{language_directive}"
-            merger_prompt += f"\nProvide a synthesized response that combines the best insights from all models. RESPOND IN {language.upper()}."
+            merger_prompt += "\nProvide a synthesized response that combines the best insights from all models."
 
             # Note: Le timeout du merger est le timeout global divisé par 2, ce qui est une heuristique.
             merger_timeout = timeout_seconds / 2
